@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" version="2.0">
+<channel>
+<title><![CDATA[ The Unofficial Leader ]]></title>
+<description><![CDATA[ I write to connect the dots across leadership, power, culture, and human dynamics so we can better understand what's happening beneath the surface and choose our next move. Helping unofficial leaders see clearly and move wisely. ]]></description>
+<link>https://theunofficialleader.substack.com</link>
+<lastBuildDate>Wed, 06 May 2026 20:06:16 GMT</lastBuildDate>
+<atom:link href="https://theunofficialleader.substack.com/feed" rel="self" type="application/rss+xml"/>
+<copyright><![CDATA[ Ian Cowpar ]]></copyright>
+<language><![CDATA[ en ]]></language>
+
+<item>
+<title><![CDATA[ Before the Next Reduction ]]></title>
+<description><![CDATA[ Why your organization's actual operating system is about to break, and why you need to map it now. ]]></description>
+<link>https://theunofficialleader.substack.com/p/before-the-next-reduction</link>
+<pubDate>Fri, 01 May 2026 12:18:54 GMT</pubDate>
+<content:encoded><![CDATA[ <p>Three weeks into my time at my last company, they did a 13% reduction in force. I was new enough to the organization and the industry that I was still in the disorientation phase, still learning where the bathrooms were, still trying to place names and faces. I was lost. And I was watching someone who'd been there for over a decade seem just as lost as I was.</p><p>The moment I remember is a Sr. Director walking around, seemingly thinking out loud, asking who do I talk to about getting a KB article published?</p><p>He needed to get something out, some documentation about a product. The kind of work that should be routine, but the person, or the team, or whatever structure had always handled it was gone. He was walking the floor, basically asking the air, and you could hear the frustration underneath the question. He wasn't angry, at least not at people. It was frustration at the fact that after over a decade at the company, the answer to a basic operational question wasn't knowable from the org chart, and he had to rely on whoever he ran into to actually know.</p><p>The org chart didn't help him, and it was never designed to.</p><p>Eventually, his problem was solved. Someone knew someone. The network intelligence layer still had a path through, but it required luck and proximity. A Sr. Director's execution speed should not depend on walking past the right person in the hallway.</p><p>That's the moment I started thinking about how organizations actually work.</p><p>Here's what a RIF does, if you're paying attention. It makes the invisible operating system suddenly, catastrophically visible through its absence.</p><p>Most of the time, the organization runs on two systems at once. The formal one is documented. Org chart -> Reporting structure -> Titles -> Responsibilities. Whose name is on what. The informal one is not documented. It's the trust layer, made up of who translates between functions when they're supposed to be siloed. It's who knows where things actually live, the people others go to when they need a real answer. It's the person who's been quietly holding five loosely related responsibilities because they're the translator and no one else can quite do it.</p><p>These two systems are always misaligned, and that's normal. The misalignment doesn't usually matter because the informal system is absorbing the gap. Information moves because it always has. Decisions happen because someone knows someone, and the work gets done because the operating system, unwritten and unmapped, is quietly carrying execution.</p><p>Then a reduction happens. Twenty-three hundred people leave, and just like that, the gaps become sudden and real. A Sr. Director can't get a KB article published. A critical translator between product and engineering is gone. The person who knew how to move ideas through the organization, the person whose trust opened doors, isn't coming back. The informal operating system has a hole in it now, and the formal structure can't fill it.</p><p>Organizations experience this as a slowdown. Decisions that should take a week now take three. Adoption of new systems stalls, execution speed drops, and people feel it as friction. Leadership reads it as a culture problem, thinking they need better communication, more engagement, and thinking they need to rebuild morale.</p><p>What they're actually experiencing is an operating system that's broken.</p><p>I've been thinking a lot lately about the era we're entering, and there's a real pattern forming. Companies invest heavily in AI, hoping it's going to solve efficiency problems. But what happens when the efficiency doesn't materialize as expected, when the return on the investment hasn't hit yet, the capital is burning, and stakeholders want answers. Companies make cuts. Then they double down on AI again. Then they cut again. This cycle is becoming normal. This is happening across not just the technology sector, but at companies like Nike.</p><p>What this means is that RIFs are becoming normal, not a singular event, but a recurring pressure and escape valve. Every twelve to eighteen months, companies are going to face another round of reductions, not because they're failed organizations, but because they're in a holding pattern, waiting for AI to deliver the value everyone promised. In the meantime, they're managing burn.</p><p>If that's the reality, then every organization needs to think very carefully about what happens to execution when the informal operating system keeps getting fractured.</p><p>Here's the thing I don't think is being considered: You can't solve this by hiring back. You can't rebuild the operating system by restructuring, and you can't fix it with a better org chart or better communication software. The informal operating system is built on relationships and trust and proximity and knowledge that lives in people. When those people leave, the system breaks, and it's not obviously broken on paper. It's only broken when a Sr. Director can't find anyone who knows how to publish a KB article.</p><p>But in a compressed organization, with fewer people, moving faster, trying to do more with less, that kind of breakdown isn't an edge case, it's a constant state. Execution becomes dependent on luck and proximity. The right person is not there, the trusted translator is gone, the person who knew how information actually moved through the system is not coming back. And nobody built a map of where that person was carrying work.</p><p>This is not a sustainable way to operate. Especially not in the next phase, where reductions are going to happen faster and more frequently.</p><p>Here's what I mean by building the map. It's not complicated in concept, it's impossible in execution, which is why I suspect nobody's actually done it.</p><p>You map the informal operating system. You identify the trust-carriers, understand where work actually flows, see who translates between functions. You know who knows what, you understand the relationships that make execution possible, and you build visibility into the operating system instead of pretending the org chart is telling you anything meaningful.</p><p>Once you have that map, everything changes.</p><p>First, you can actually protect the operating system during a reduction. You don't just cut headcount, you understand what work is trapped in people and you either distribute it before the people leave or you protect the people who are carrying it, or you plan for the execution hit. You're not surprised, and so you're not walking around asking who to talk to about a KB article.</p><p>Second, you understand how to distribute ideas. Every organization complains that adoption is slow, that change doesn't stick, and that people resist. What they're usually experiencing is that ideas are moving through a fragmented operating system. They're moving through the formal channels (which are inefficient) instead of through the trust network (which is fast). If you have a map, you know where the adoption leverage is. You know which trust-carriers can move an idea. You know where to create redundancy so the idea moves even if one person leaves.</p><p>Third, you can anticipate where execution will break. When a new system gets implemented, or a process changes, or a strategic shift happens, you can predict where it will stick and where it will move forward. Not from the org chart, from the operating system. You'll know that the shift will move fast through engineering if the right translator is involved. You'll know adoption will stall in support because there's no trust bridge between support and product. You can design around those gaps before the change happens.</p><p>Fourth, and maybe most important, you can understand who your high-trust individuals are. The people who hold disproportionate influence. The people who, if they believe in something, everyone around them moves with them. In a compressed organization, you don't have time for slow adoption. You need those people. You need to know who they are, and you need to make sure they're not just holding a job title in your org chart. You need to make sure they're actually carrying the operating system work that makes the organization functional.</p><p>This is not soft stuff, it's operational necessity. This is about whether your organization can move when it needs to move.</p><p>I think a lot about that Sr. Director, still frustrated, finally finding whoever it is that publishes KB articles. And I think about the organizations coming into the next wave of reductions without any idea where the actual work is moving. Without visibility into the operating system, because they don't have the map.</p><p>They're going to be slower. They're going to lose people, not because they made bad cuts, but because the remaining people can't get the things done that they need to get done. They're going to struggle with adoption because they're trying to move ideas through a fragmented system, and they're going to keep getting surprised when execution drops after a RIF.</p><p>The organizations that figure out how to see and map the operating system first are going to have an advantage that's not obvious from the outside. They'll move faster, they'll adopt change more quickly, and they'll protect what matters during reductions because they actually know what matters. They'll bounce back from RIFs instead of limping forward. They'll understand where the leverage is, they'll know who the trust-carriers are, and they'll know where to go when they need something to actually happen.</p><p>This is not a vanity metric or insight. This is not a nice-to-have. In the era we're entering, where reductions are recurring and compression is constant, understanding your operating system is not optional. It's the difference between an organization that can move and an organization that's stuck.</p><p>The choice is whether you're going to see it and build the map, or whether you're going to keep being surprised when a Sr. Director walks around asking who to talk to about getting something published.</p> ]]></content:encoded>
+</item>
+
+<item>
+<title><![CDATA[ Acknowledge the hard, then let's get moving ]]></title>
+<description><![CDATA[ Some days are hard, and this is one of them ]]></description>
+<link>https://theunofficialleader.substack.com/p/acknowledge-the-hard-then-lets-get</link>
+<pubDate>Thu, 30 Apr 2026 19:25:14 GMT</pubDate>
+<content:encoded><![CDATA[ <p>Today is a hard day for 600 of my former colleagues. I'm thinking about all of you.</p><p>It's supposed to be hard. This isn't supposed to feel good.</p><p>But I'm excited about what's next, even though I don't know what that is yet.</p><p>If you want to reach out, I'm here.</p> ]]></content:encoded>
+</item>
+
+<item>
+<title><![CDATA[ Our Ian? ]]></title>
+<description><![CDATA[ When the signal and pattern don't match ]]></description>
+<link>https://theunofficialleader.substack.com/p/our-ian</link>
+<pubDate>Tue, 28 Apr 2026 16:22:45 GMT</pubDate>
+<content:encoded><![CDATA[ <p>In 2006, I was at what was, at the time, NewRiver, working on fulfillment of regulatory documents. Burning CDs, building html front-ends, version control, compliance windows.</p><p>A role opened up on our data production team. The job was monitoring 24/7 production runs, troubleshooting jobs that broke at 3am, keeping the machinery moving. The CTO was asking around for someone to fill it. My GM put my name forward.</p><p>The CTO's response was: "Our Ian?"</p><p>It wasn't dismissive. It was genuine surprise. A small beat of recalibration. Because on the surface, I didn't match the pattern. I wasn't on the production team. I wasn't a known quantity in that lane. The technical background was there underneath, but it wasn't the signal the role was producing for him.</p><p>I ended up taking it, and it worked. That job pulled me into the business analyst path. Enterprise implementation came after. Digital onboarding after that. Almost everything I have built professionally since traces back to a role I almost wasn't considered for, because the surface signal didn't match.</p><p>I think about the GM's part of that story more than the CTO's. She had information the CTO couldn't have generated on his own. Signal from a different vantage point. Closer signal. Lived signal. She had access to a layer of information that didn't run cleanly through the formal system and without her, I don't get the job. Without the job, my career probably looks very different.</p><p>Career paths are getting less linear, which is to say they're getting very non-linear, and the frameworks we use to identify future leaders were mostly built when they were more laddered than they are now. That's a quiet problem with loud consequences. It changes who we see, who we develop, and who we miss.</p><p>The thing I notice is the lateral mover. The translator who has lived in three functions and finally understands why each one mistrusts the others. The person whose recognition pattern looks like noise inside any single team but coherence when you zoom out across the whole org. The unofficial leader whose value compounds quietly in trust long before it ever compounds in title.</p><p>These people exist in every company I have worked in. They are not edge cases, they are increasingly becoming the rule. The product manager who came from services. The strategy hire who started in support. The operator who held three loosely related roles and is suddenly the most useful person in the room.</p><p>If you are building a model of leadership signal trained primarily on people who took the linear path, those folks don't fail the model because they aren't leaders. They fail it because their pattern doesn't look like the pattern, and the model wasn't shown enough of their kind early enough to learn what they look like.</p><p>That is what was happening in the Broadridge story. The CTO had a model in his head of what kind of person took that role. I didn't fit it. The GM had different signal. She had access to a layer of information that didn't run through the formal system. The org chart didn't surface me. She did.</p><p>I have been working on something for a while now that sits in this space. It is unfinished, on purpose, because the right shape of it is still emerging. The premise is simple. Most career mapping tools assume someone already knows where they are going and just need help getting there. Most succession tools assume the org already knows what kind of leader it needs and just needs help finding them. Both are useful, yet both are incomplete.</p><p>The richer picture sits at the intersection of two signal sources. What past leaders in an org actually looked like, and where current people are intentionally trying to go. The first one is mature, getting more sophisticated, and increasingly automated. The second one is harder to build, because it's story-based and it depends on people sharing the actual shape of their non-linear paths. Where the lateral move came from, what skill gap they had to close, who advocated for them when the surface signal didn't match the role. What it felt like to be the "Our Ian?" in someone else's calibration meeting.</p><p>That second signal source is the one I find harder to stop thinking about. Recognition data is a strong signal. Performance data is a strong signal. Neither of them quite tells you that the GM saw something the CTO couldn't. Neither of them captures the moment when someone's career pivots not because they were the obvious match but because someone with a different vantage point named them.</p><p>Most of the leaders I have learned the most from didn't look like the pattern when they were earlier in their arcs. Most of the careers I find genuinely interesting bent at least once in a direction the org chart didn't predict. I don't think that gets rarer from here. I think it gets more common. The orgs that figure out how to surface those signals on purpose will end up with leadership benches that look very different from the ones predicted by their current models.</p><p>I don't have a clean answer yet for what that looks like at scale. I am still building toward it. But I keep going back to that GM, who put a name forward into a room where the name didn't match the pattern, and got it right.</p><p>Algorithms may eventually do some version of what she did, but the question I find more interesting is what we lose if we forget she was the signal.</p> ]]></content:encoded>
+</item>
+
+<item>
+<title><![CDATA[ Reading Before Moving, or how I approach the first 90 days ]]></title>
+<description><![CDATA[ The pull starts before you've finished unpacking your laptop. ]]></description>
+<link>https://theunofficialleader.substack.com/p/reading-before-moving-or-how-i-approach</link>
+<pubDate>Sat, 25 Apr 2026 13:11:34 GMT</pubDate>
+<content:encoded><![CDATA[ Full text in original feed. Key thesis: every PM is handed one artifact (the backlog) and ignores another (the network beneath the org chart, "Network Intelligence Layer"). Days 1-30 read the backlog forensically. Days 31-60 map the network through observation. Days 61-90 introduce shared language. "The backlog tells you what the company is building. The network tells you what it is becoming. Read both before you move." ]]></content:encoded>
+</item>
+
+<item>
+<title><![CDATA[ Listening is no longer the hard part ]]></title>
+<description><![CDATA[ The distance between signal and action is where organizations actually lose people ]]></description>
+<link>https://theunofficialleader.substack.com/p/listening-is-no-longer-the-hard-part</link>
+<pubDate>Thu, 23 Apr 2026 22:32:02 GMT</pubDate>
+<content:encoded><![CDATA[ Key thesis: organizations are better at listening than ever, but worse at routing. Story of colleague who left quietly, signals existed but never closed the loop in time (ERG sponsor restructuring). "It's not a listening problem. It's a routing problem." Introduces the concept of measuring signal-to-action latency: recognition latency, time between signal detected and action taken. The Network Intelligence Layer is the missing routing infrastructure. "The next generation of employee experience tools won't be differentiated by how well they listen, they'll be differentiated by how quickly they can get the right signal to the right person before the moment passes." ]]></content:encoded>
+</item>
+
+<item>
+<title><![CDATA[ The little cloud that could (block out the sun) ]]></title>
+<description><![CDATA[ A small bit of noise only matters if you're too far from the signal. ]]></description>
+<link>https://theunofficialleader.substack.com/p/the-little-cloud-that-could-block</link>
+<pubDate>Wed, 22 Apr 2026 23:25:10 GMT</pubDate>
+<content:encoded><![CDATA[ Lying by pool at Disney just after layoff. Tiny cloud blocks Florida sun. Distance is the force multiplier: the further a decision-maker sits from the work, the smaller a voice needs to be to eclipse customer signal. Internal voices are clouds. Customer friction is the sun. "Compression is the only real defense against distortion. Move closer to the source, and the weather stops running the day." ]]></content:encoded>
+</item>
+
+<item>
+<title><![CDATA[ It's the unfinished work that will drive you mad ]]></title>
+<description><![CDATA[ What I didn't expect to feel ]]></description>
+<link>https://theunofficialleader.substack.com/p/its-the-unfinished-work-that-will</link>
+<pubDate>Fri, 17 Apr 2026 01:38:26 GMT</pubDate>
+<content:encoded><![CDATA[ TTRE explainer. 8:30am Friday support case. Customer can't approve timecards, payroll due Monday. Six hours to reach the engineer. He resolved it in four. "The four hours are not the problem... It's the six hours before the work began that's the problem." Built a TTRE dashboard - Time to Right Expert. Reassignment count metric. AI's highest-leverage CSM moment is triage architecture, not replacement. "Customers don't lose confidence when problems take time to fix. They lose confidence in the silence before anyone is working on it." Closes: "I'm thinking forward right now, about what it will look like to walk into a new role with this problem already mapped." ]]></content:encoded>
+</item>
+
+<item>
+<title><![CDATA[ What I Built When I Could Finally Build ]]></title>
+<description><![CDATA[ On Zero-Translation Building, and the problems you've been quietly ignoring ]]></description>
+<link>https://theunofficialleader.substack.com/p/what-i-built-when-i-could-finally</link>
+<pubDate>Fri, 03 Apr 2026 02:31:04 GMT</pubDate>
+<content:encoded><![CDATA[ The three-week dashboard story. Defect health, security tracker, sprint health email, upgrade digest, migration UI prototype. Built with Claude Code. "Zero-Translation Building is what happens when the distance between what you think and what you can make collapses." The uncomfortable part: realizing which problems you'd been letting slide because the cost of solving them felt too high. Sharing in the open: someone's first question was "can I replicate this?" - the leadership signal. "The translation layer wasn't just slowing those people down. It was defining the ceiling of what they thought was theirs to solve." ]]></content:encoded>
+</item>
+
+<item>
+<title><![CDATA[ The AI ROI is trapped in your legacy systems ]]></title>
+<link>https://theunofficialleader.substack.com/p/the-ai-roi-is-trapped-in-your-legacy</link>
+<pubDate>Mon, 09 Mar 2026 12:03:41 GMT</pubDate>
+<content:encoded><![CDATA[ Introduces "Network Intelligence Layer" by name. The org chart shows authority. The network shows how things actually get done and where information flows. AI works best inside networks. The AI ROI is trapped because companies layer AI on top of legacy systems instead of replacing them. Apple removing the headphone jack analogy. ]]></content:encoded>
+</item>
+
+<item>
+<title><![CDATA[ ERGs are not a cost center ]]></title>
+<description><![CDATA[ They're your Network Intelligence Layer ]]></description>
+<link>https://theunofficialleader.substack.com/p/ergs-are-not-a-cost-center</link>
+<pubDate>Fri, 20 Feb 2026 02:49:45 GMT</pubDate>
+<content:encoded><![CDATA[ ERGs as concentrated signal networks. Edge users. The Network Intelligence Layer absorbs ambiguity early. AI opportunity: ERGs as literacy accelerators, ethical sounding boards, structured insight synthesis hubs, rapid experiment pods. ]]></content:encoded>
+</item>
+
+<item>
+<title><![CDATA[ Same Behavior. Different Judgment. ]]></title>
+<link>https://theunofficialleader.substack.com/p/same-behavior-different-judgment</link>
+<pubDate>Fri, 23 Jan 2026 19:15:36 GMT</pubDate>
+<content:encoded><![CDATA[ Fast Company piece on women being slower to adopt AI. Fire Up Focus. Competence penalty. Different domain, same double standard. ]]></content:encoded>
+</item>
+
+<item>
+<title><![CDATA[ Clear for Takeoff ]]></title>
+<link>https://theunofficialleader.substack.com/p/clear-for-takeoff</link>
+<pubDate>Tue, 09 Dec 2025 16:00:04 GMT</pubDate>
+<content:encoded><![CDATA[ MA Conference for Women. Women leaving early due to caregiving. Ambition isn't the barrier, space is. Allies as accelerators. Clear the runway. ]]></content:encoded>
+</item>
+
+<item>
+<title><![CDATA[ Why Momentum is sort of a Myth ]]></title>
+<link>https://theunofficialleader.substack.com/p/why-momentum-is-sort-of-a-myth</link>
+<pubDate>Sun, 16 Nov 2025 12:55:29 GMT</pubDate>
+<content:encoded><![CDATA[ Speed without direction. Real momentum is alignment and trust, not velocity. ]]></content:encoded>
+</item>
+
+<item>
+<title><![CDATA[ Start Here ]]></title>
+<description><![CDATA[ For people leading without permission ]]></description>
+<link>https://theunofficialleader.substack.com/p/start-here</link>
+<pubDate>Mon, 10 Nov 2025 14:15:40 GMT</pubDate>
+<content:encoded><![CDATA[ The manifesto/intro. "Reflection that slows the scroll." For people who lead from the middle, shape culture without a title. Not about authority. About agency. ]]></content:encoded>
+</item>
+
+<item>
+<title><![CDATA[ The Year I Finally Kept a Promise to Myself ]]></title>
+<link>https://theunofficialleader.substack.com/p/the-year-i-finally-kept-a-promise</link>
+<pubDate>Thu, 06 Nov 2025 15:09:41 GMT</pubDate>
+<content:encoded><![CDATA[ Personal weight loss reflection. Self-trust as foundation of leadership. ]]></content:encoded>
+</item>
+
+<item>
+<title><![CDATA[ AI Didn't Take Those Jobs - Systems Did ]]></title>
+<link>https://theunofficialleader.substack.com/p/ai-didnt-take-those-jobs-systems</link>
+<pubDate>Tue, 28 Oct 2025 14:54:09 GMT</pubDate>
+<content:encoded><![CDATA[ Amazon 14k layoffs. AI as scapegoat. Real risk is exclusion, not automation. ]]></content:encoded>
+</item>
+
+<item>
+<title><![CDATA[ The AI Gap No One's Talking About ]]></title>
+<link>https://theunofficialleader.substack.com/p/the-ai-gap-no-ones-talking-about</link>
+<pubDate>Mon, 20 Oct 2025 21:04:47 GMT</pubDate>
+<content:encoded><![CDATA[ Legacy teams left out of AI training. Belonging gap. ]]></content:encoded>
+</item>
+
+<item>
+<title><![CDATA[ The Recognition Latency Problem ]]></title>
+<link>https://theunofficialleader.substack.com/p/the-recognition-latency-problem</link>
+<pubDate>Wed, 10 Sep 2025 11:55:23 GMT</pubDate>
+<content:encoded><![CDATA[ Time to Recognize (TTR). Recognition has a shelf life. Freshness over frequency. ]]></content:encoded>
+</item>
+
+<item>
+<title><![CDATA[ The Quiet Cost of AI Collaboration ]]></title>
+<link>https://theunofficialleader.substack.com/p/the-quiet-cost-of-ai-collaboration</link>
+<pubDate>Thu, 04 Sep 2025 12:30:39 GMT</pubDate>
+<content:encoded><![CDATA[ Invisible Input concept. AI tooling reduces psychological safety. Surveillance vs experimentation. ]]></content:encoded>
+</item>
+
+<item>
+<title><![CDATA[ Start With the Nail, Not the Hammer ]]></title>
+<link>https://theunofficialleader.substack.com/p/start-with-the-nail-not-the-hammer</link>
+<pubDate>Tue, 26 Aug 2025 20:15:15 GMT</pubDate>
+<content:encoded><![CDATA[ AI as tool, not strategy. Identify the problem first. Leadership without title. ]]></content:encoded>
+</item>
+
+</channel>
+</rss>
