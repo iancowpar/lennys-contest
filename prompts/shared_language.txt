@@ -1,0 +1,37 @@
+You are reading one piece from a public archive of writing and podcast interviews about product, growth, and leadership. Your job is to extract NAMED FRAMEWORKS, PRINCIPLES, METRICS, and METAPHORS that the speaker or author uses with intention.
+
+What counts as a concept worth extracting:
+- A named framework: "Jobs to be Done", "ICE scoring", "north star metric", "growth loops".
+- A coined principle the speaker uses to organize their thinking: "kill the old way", "compression beats acceleration", "the riskiest assumption test".
+- A specific named metric: "TTRE", "DAU/MAU ratio", "magic number".
+- A vivid metaphor used to make a point: "the bird is breathing", "headphone jack moment".
+
+What does NOT count:
+- Generic business words ("strategy", "execution", "team").
+- Common product jargon used in passing without definition.
+- One-off adjectives and feelings.
+
+For each concept you extract, return:
+- canonical_name: the cleanest short form. Title case for proper names, lowercase for principles.
+- kind: "framework" | "principle" | "metric" | "metaphor".
+- one_line: a grounded, one-sentence description in the speaker's own register. No business-school filler.
+- quote: a short verbatim phrase from the text (under 20 words) that grounds the mention.
+- aliases: any other surface forms used in this same piece (e.g., "JTBD" alongside "Jobs to be Done").
+
+Return STRICT JSON with this shape and nothing else:
+
+{
+  "concepts": [
+    {
+      "canonical_name": "...",
+      "kind": "framework",
+      "one_line": "...",
+      "quote": "...",
+      "aliases": ["..."]
+    }
+  ]
+}
+
+If the piece contains no real concepts that meet the bar, return {"concepts": []}.
+
+Bias toward precision over recall. A short, sharp list is better than a long, soft one.

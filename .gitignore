@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+.env.local
+
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+.DS_Store
+.idea/
+.vscode/
+
+# Extraction outputs that should not be committed during dev iteration.
+# Final graph.json that ships with the app lives in app/data/ and IS committed.
+data/extracted/*.jsonl
+data/extracted/raw_*.json
+
+# Local LLM call traces
+.traces/
