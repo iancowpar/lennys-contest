@@ -47,18 +47,25 @@ function edgeOptions(edge) {
 
 function renderGraph(graph) {
   const container = document.getElementById("graph");
+
+  if (network) {
+    network.destroy();
+    network = null;
+  }
+
   const data = {
     nodes: new vis.DataSet(graph.nodes.map(nodeOptions)),
     edges: new vis.DataSet(graph.edges.map(edgeOptions)),
   };
   const options = {
     physics: {
-      stabilization: { iterations: 200 },
+      stabilization: { enabled: false },
       barnesHut: { gravitationalConstant: -8000, springLength: 140 },
     },
     interaction: { hover: true, tooltipDelay: 200 },
   };
   network = new vis.Network(container, data, options);
+  network.fit();
   network.on("click", (params) => {
     if (params.nodes.length) {
       const node = data.nodes.get(params.nodes[0]);
@@ -131,7 +138,14 @@ function escapeHtml(value) {
 }
 
 async function init() {
-  const res = await fetch("/api/graph");
+  let res;
+  try {
+    res = await fetch("/api/graph");
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  } catch (err) {
+    document.getElementById("graph").innerHTML = `<p style="color:#f87171;padding:20px">Failed to load graph: ${err.message}</p>`;
+    return;
+  }
   fullGraph = await res.json();
   document.getElementById("meta").textContent = `${fullGraph.nodes.length} nodes, ${fullGraph.edges.length} edges. Source: ${fullGraph.source}.`;
 
