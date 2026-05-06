@@ -85,6 +85,329 @@
       "meta": {}
     },
     {
+      "id": "lazar-jovanovic",
+      "label": "The rise of the professional vibe coder",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-02-08",
+        "tags": [
+          "ai",
+          "engineering",
+          "career"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:lazar-jovanovic",
+      "label": "Lazar Jovanovic",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "simon-willison",
+      "label": "An AI state of the union: passed the inflection point",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-04-02",
+        "tags": [
+          "ai",
+          "engineering"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:simon-willison",
+      "label": "Simon Willison",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "marc-andreessen",
+      "label": "The real AI boom hasn't even started yet",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-01-29",
+        "tags": [
+          "ai",
+          "startups",
+          "leadership"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:marc-andreessen",
+      "label": "Marc Andreessen",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "zevi-arnovitz",
+      "label": "The non-technical PM's guide to building with Cursor",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-01-18",
+        "tags": [
+          "ai",
+          "product-management"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:zevi-arnovitz",
+      "label": "Zevi Arnovitz",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "hamel-husain--shreya-shankar",
+      "label": "Why AI evals are the hottest new skill for product builders",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-09-25",
+        "tags": [
+          "ai",
+          "analytics"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:hamel-husain-shreya-shankar",
+      "label": "Hamel Husain & Shreya Shankar",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "brendan-foody",
+      "label": "Why experts writing AI evals is creating the fastest-growing companies",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-09-18",
+        "tags": [
+          "ai",
+          "strategy"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:brendan-foody",
+      "label": "Brendan Foody",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "aishwarya--kiriti",
+      "label": "Building an actionable feedback loop for AI products",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-01-11",
+        "tags": [
+          "ai",
+          "design",
+          "engineering"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:aishwarya-naresh-reganti-kiriti-badam",
+      "label": "Aishwarya Naresh Reganti & Kiriti Badam",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "chip-huyen",
+      "label": "AI Engineering 101",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-10-23",
+        "tags": [
+          "ai",
+          "engineering",
+          "analytics"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:chip-huyen",
+      "label": "Chip Huyen",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "howie-liu",
+      "label": "How we restructured Airtable's entire org for AI",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-08-31",
+        "tags": [
+          "ai",
+          "leadership",
+          "strategy"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:howie-liu",
+      "label": "Howie Liu",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "elena-verna-40",
+      "label": "Growth loops, the PMF treadmill, and the rise of the vibe coder",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-12-18",
+        "tags": [
+          "growth",
+          "pricing",
+          "strategy"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:elena-verna",
+      "label": "Elena Verna",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "albert-cheng",
+      "label": "How to find hidden growth opportunities in your product",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-10-05",
+        "tags": [
+          "growth",
+          "analytics"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:albert-cheng",
+      "label": "Albert Cheng",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "scott-wu",
+      "label": "How Devin replaces your junior engineers with AI interns",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-09-08",
+        "tags": [
+          "ai",
+          "engineering",
+          "startups"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:scott-wu",
+      "label": "Scott Wu",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "asha-sharma",
+      "label": "Products as organisms, the death of org charts",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-08-28",
+        "tags": [
+          "ai",
+          "leadership"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:asha-sharma",
+      "label": "Asha Sharma",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "dr-fei-fei-li",
+      "label": "The Godmother of AI on jobs, robots, and world models",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-11-16",
+        "tags": [
+          "ai",
+          "strategy",
+          "career"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:dr-fei-fei-li",
+      "label": "Dr. Fei-Fei Li",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "beyond-vibe-checks",
+      "label": "Beyond vibe checks: A PM's complete guide to evals",
+      "kind": "artifact",
+      "meta": {
+        "type": "newsletter",
+        "date": "2025-04-08",
+        "tags": [
+          "ai",
+          "engineering",
+          "analytics"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:lenny-rachitsky",
+      "label": "Lenny Rachitsky",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "duolingo-growth",
+      "label": "How Duolingo reignited user growth",
+      "kind": "artifact",
+      "meta": {
+        "type": "newsletter",
+        "date": "2023-02-28",
+        "tags": [
+          "growth",
+          "analytics"
+        ],
+        "source_url": null
+      }
+    },
+    {
       "id": "concept:research-preview",
       "label": "Research preview",
       "kind": "concept",
@@ -110,18 +433,46 @@
       "kind": "concept",
       "meta": {
         "kind": "framework",
-        "one_line": "A written list of who the team's users are and what tradeoffs the team will make, so people can decide without escalation.",
+        "one_line": "A written list of who the team's users are and what tradeoffs the team will make, so people decide without escalation.",
         "aliases": []
       }
     },
     {
-      "id": "concept:ai-first",
-      "label": "AI-first",
+      "id": "concept:ai-native",
+      "label": "AI-native",
       "kind": "concept",
       "meta": {
         "kind": "principle",
-        "one_line": "Hire and operate as if AI is the default tool, not the optional one. Companies will shed staff and rehire AI-first.",
-        "aliases": []
+        "one_line": "Building products from a starting assumption that AI is the default substrate, not a feature on top.",
+        "aliases": [
+          "AI-first"
+        ]
+      }
+    },
+    {
+      "id": "concept:evals",
+      "label": "Evals",
+      "kind": "concept",
+      "meta": {
+        "kind": "framework",
+        "one_line": "Structured tests of an AI system's behavior on specific tasks. The PRD of the AI era.",
+        "aliases": [
+          "AI evals",
+          "evaluations"
+        ]
+      }
+    },
+    {
+      "id": "concept:agentic",
+      "label": "Agentic",
+      "kind": "concept",
+      "meta": {
+        "kind": "principle",
+        "one_line": "AI that takes actions in the world, not just answers questions. Trades off control for capability.",
+        "aliases": [
+          "agentic loop",
+          "agentic systems"
+        ]
       }
     },
     {
@@ -150,7 +501,7 @@
       "kind": "concept",
       "meta": {
         "kind": "principle",
-        "one_line": "In a world where capability gets commoditized, the durable advantage is whether you can reach people at all.",
+        "one_line": "Where capability gets commoditized, the durable advantage is whether you can reach people at all.",
         "aliases": []
       }
     },
@@ -165,8 +516,282 @@
       }
     },
     {
-      "id": "person:lenny-rachitsky",
-      "label": "Lenny Rachitsky",
+      "id": "concept:feedback-loop",
+      "label": "Feedback loop",
+      "kind": "concept",
+      "meta": {
+        "kind": "framework",
+        "one_line": "An automated or semi-automated cycle where outputs are evaluated and fed back into the system to improve it.",
+        "aliases": [
+          "actionable feedback loop"
+        ]
+      }
+    },
+    {
+      "id": "concept:moat",
+      "label": "Moat",
+      "kind": "concept",
+      "meta": {
+        "kind": "principle",
+        "one_line": "A durable barrier to competition. In AI, software is no longer the moat; distribution and stickiness are.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:software-not-a-moat",
+      "label": "Software is not a moat",
+      "kind": "concept",
+      "meta": {
+        "kind": "principle",
+        "one_line": "A lesson Snap learned 15 years ago that everyone is rediscovering today with AI. Capability gets copied; distribution does not.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:crucible-moment",
+      "label": "Crucible moment",
+      "kind": "concept",
+      "meta": {
+        "kind": "metaphor",
+        "one_line": "A defining year where strategic bets harden under pressure. Spiegel's framing for the AI inflection point.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:vibe-coding",
+      "label": "Vibe coding",
+      "kind": "concept",
+      "meta": {
+        "kind": "principle",
+        "one_line": "Building software by describing intent to AI without reviewing code, going on the vibes.",
+        "aliases": [
+          "vibe coder",
+          "vibe-coded"
+        ]
+      }
+    },
+    {
+      "id": "concept:building-in-public",
+      "label": "Building in public",
+      "kind": "concept",
+      "meta": {
+        "kind": "principle",
+        "one_line": "Showing the work as you go, not just the polished output. The path from amateur to hireable in the vibe-coder economy.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:harm-no-one-rule",
+      "label": "Harm-no-one rule",
+      "kind": "concept",
+      "meta": {
+        "kind": "principle",
+        "one_line": "Vibe code freely when the only person hurt by bugs is you. Take a step back the moment your code touches anyone else.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:ai-boom-hasnt-started",
+      "label": "The real AI boom hasn't started",
+      "kind": "concept",
+      "meta": {
+        "kind": "principle",
+        "one_line": "We are still in the pre-deployment phase. The economic transformation comes when the tools reach every workflow, not when they get demoed.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:vibe-check",
+      "label": "Vibe check",
+      "kind": "concept",
+      "meta": {
+        "kind": "principle",
+        "one_line": "Informal qualitative judgment of an AI output. Useful early, dangerous as the only signal at scale.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:eval-is-the-prd",
+      "label": "Eval is the PRD",
+      "kind": "concept",
+      "meta": {
+        "kind": "principle",
+        "one_line": "If the model is the product, the eval is the product requirement document. It defines what good looks like.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:era-of-evals",
+      "label": "Era of evals",
+      "kind": "concept",
+      "meta": {
+        "kind": "principle",
+        "one_line": "The shift from prompt-engineering as the core skill to evaluation-engineering. Every customer is asking for evals.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:agency-control-tradeoff",
+      "label": "Agency-control tradeoff",
+      "kind": "concept",
+      "meta": {
+        "kind": "framework",
+        "one_line": "Every time you hand decision-making to an agentic system, you relinquish control. Build for that explicitly.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:vibes-before-evals",
+      "label": "Vibes before evals",
+      "kind": "concept",
+      "meta": {
+        "kind": "principle",
+        "one_line": "For a novel form factor, start with vibes to find product shape; only then build evals to lock in quality.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:growth-loops",
+      "label": "Growth loops",
+      "kind": "concept",
+      "meta": {
+        "kind": "framework",
+        "one_line": "Self-reinforcing cycles where output of one cycle becomes the input of the next. Stand up multiple, do not over-optimize one.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:north-star-metric",
+      "label": "North star metric",
+      "kind": "concept",
+      "meta": {
+        "kind": "framework",
+        "one_line": "The single number that reflects the value the product is delivering. Drives prioritization across teams.",
+        "aliases": [
+          "north star",
+          "north star problem"
+        ]
+      }
+    },
+    {
+      "id": "concept:product-market-fit",
+      "label": "Product-market fit",
+      "kind": "concept",
+      "meta": {
+        "kind": "framework",
+        "one_line": "The condition where a product satisfies a market. In the AI era, it is no longer a destination but a treadmill.",
+        "aliases": [
+          "PMF"
+        ]
+      }
+    },
+    {
+      "id": "concept:pmf-treadmill",
+      "label": "PMF treadmill",
+      "kind": "concept",
+      "meta": {
+        "kind": "metaphor",
+        "one_line": "Product-market fit is no longer something you achieve and scale. In AI, you have to recapture it every three months.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:adjacent-user-theory",
+      "label": "Adjacent user theory",
+      "kind": "concept",
+      "meta": {
+        "kind": "framework",
+        "one_line": "Bangaly Kaba's framework for finding growth: target users who sit just outside your core, with overlapping but not identical needs.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:growth-model",
+      "label": "Growth model",
+      "kind": "concept",
+      "meta": {
+        "kind": "framework",
+        "one_line": "A quantitative representation of how a product grows. Surfaces the highest-leverage levers for retention and acquisition.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:stickiness-over-moats",
+      "label": "Stickiness over moats",
+      "kind": "concept",
+      "meta": {
+        "kind": "principle",
+        "one_line": "In AI, durable advantage looks less like a moat and more like switching cost and habituation.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:north-star-problem",
+      "label": "North star problem",
+      "kind": "concept",
+      "meta": {
+        "kind": "framework",
+        "one_line": "A single research problem worth committing a decade to. The forcing function that aligns a long career.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "person:hamel-husain",
+      "label": "Hamel Husain",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "person:shreya-shankar",
+      "label": "Shreya Shankar",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "person:andrej-karpathy",
+      "label": "Andrej Karpathy",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "person:michael-truell",
+      "label": "Michael Truell",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "person:bangaly-kaba",
+      "label": "Bangaly Kaba",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "person:sarah-guo",
+      "label": "Sarah Guo",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "person:jorge-mazal",
+      "label": "Jorge Mazal",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "person:aman-khan",
+      "label": "Aman Khan",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "person:andrew-ng",
+      "label": "Andrew Ng",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "person:replit",
+      "label": "Replit",
       "kind": "person",
       "meta": {}
     }
@@ -201,6 +826,118 @@
       "meta": {}
     },
     {
+      "source": "lazar-jovanovic",
+      "target": "person:lazar-jovanovic",
+      "kind": "authored_by",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "simon-willison",
+      "target": "person:simon-willison",
+      "kind": "authored_by",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "marc-andreessen",
+      "target": "person:marc-andreessen",
+      "kind": "authored_by",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "zevi-arnovitz",
+      "target": "person:zevi-arnovitz",
+      "kind": "authored_by",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "hamel-husain--shreya-shankar",
+      "target": "person:hamel-husain-shreya-shankar",
+      "kind": "authored_by",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "brendan-foody",
+      "target": "person:brendan-foody",
+      "kind": "authored_by",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "aishwarya--kiriti",
+      "target": "person:aishwarya-naresh-reganti-kiriti-badam",
+      "kind": "authored_by",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "chip-huyen",
+      "target": "person:chip-huyen",
+      "kind": "authored_by",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "howie-liu",
+      "target": "person:howie-liu",
+      "kind": "authored_by",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "elena-verna-40",
+      "target": "person:elena-verna",
+      "kind": "authored_by",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "albert-cheng",
+      "target": "person:albert-cheng",
+      "kind": "authored_by",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "scott-wu",
+      "target": "person:scott-wu",
+      "kind": "authored_by",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "asha-sharma",
+      "target": "person:asha-sharma",
+      "kind": "authored_by",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "dr-fei-fei-li",
+      "target": "person:dr-fei-fei-li",
+      "kind": "authored_by",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "beyond-vibe-checks",
+      "target": "person:lenny-rachitsky",
+      "kind": "authored_by",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "duolingo-growth",
+      "target": "person:lenny-rachitsky",
+      "kind": "authored_by",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
       "source": "concept:research-preview",
       "target": "cat-wu",
       "kind": "appears_in",
@@ -228,16 +965,34 @@
       }
     },
     {
-      "source": "concept:ai-first",
+      "source": "concept:ai-native",
       "target": "cat-wu",
       "kind": "appears_in",
       "weight": 1.0,
       "meta": {
-        "quote": "ship something almost all in research preview"
+        "quote": "extremely important for building AI-native products is iterating so quickly"
       }
     },
     {
-      "source": "concept:ai-first",
+      "source": "concept:evals",
+      "target": "cat-wu",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "evals is this underappreciated thing that more PMs, more engineers should be working on"
+      }
+    },
+    {
+      "source": "concept:agentic",
+      "target": "cat-wu",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "with these agentic tools, not just Claude Code"
+      }
+    },
+    {
+      "source": "concept:ai-native",
       "target": "nikhyl-singhal-2",
       "kind": "appears_in",
       "weight": 1.0,
@@ -264,7 +1019,7 @@
       }
     },
     {
-      "source": "concept:ai-first",
+      "source": "concept:ai-native",
       "target": "amol-avasare",
       "kind": "appears_in",
       "weight": 1.0,
@@ -291,30 +1046,534 @@
       }
     },
     {
+      "source": "concept:feedback-loop",
+      "target": "amol-avasare",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "this is a feedback loop that will accelerate us further and further"
+      }
+    },
+    {
+      "source": "concept:agentic",
+      "target": "amol-avasare",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "agentic coding's a great example. It didn't exist a year and a half ago"
+      }
+    },
+    {
+      "source": "concept:moat",
+      "target": "evan-spiegel",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "software is not a moat, which is something that everyone is discovering today with AI"
+      }
+    },
+    {
       "source": "concept:distribution-as-moat",
       "target": "evan-spiegel",
       "kind": "appears_in",
       "weight": 1.0,
       "meta": {
-        "quote": "why distribution has become the most important moat"
+        "quote": "distribution is where it ends up being, what ends up being the new moat"
       }
     },
     {
-      "source": "concept:ai-first",
+      "source": "concept:software-not-a-moat",
+      "target": "evan-spiegel",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "software is not a moat, which is something that everyone is discovering today with AI"
+      }
+    },
+    {
+      "source": "concept:crucible-moment",
+      "target": "evan-spiegel",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "you described this coming year as the crucible moment"
+      }
+    },
+    {
+      "source": "concept:vibe-coding",
+      "target": "lazar-jovanovic",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "I'm the first official vibe coding engineer at Lovable"
+      }
+    },
+    {
+      "source": "concept:building-in-public",
+      "target": "lazar-jovanovic",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "it became a job by building in public"
+      }
+    },
+    {
+      "source": "concept:vibe-coding",
+      "target": "simon-willison",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "Andrej Karpathy's original definition of vibe coding"
+      }
+    },
+    {
+      "source": "concept:harm-no-one-rule",
+      "target": "simon-willison",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "if you're vibe coding something for yourself where the only person who gets hurt is you, go wild"
+      }
+    },
+    {
+      "source": "concept:vibe-coding",
+      "target": "marc-andreessen",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "he loves vibe coding. He's on Replit all of the time doing vibe coding"
+      }
+    },
+    {
+      "source": "concept:moat",
+      "target": "marc-andreessen",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "where moats exist in AI"
+      }
+    },
+    {
+      "source": "concept:ai-boom-hasnt-started",
+      "target": "marc-andreessen",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "the real AI boom hasn't even started yet"
+      }
+    },
+    {
+      "source": "concept:vibe-coding",
+      "target": "zevi-arnovitz",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "the most hands-on vibe coding PM I know"
+      }
+    },
+    {
+      "source": "concept:evals",
+      "target": "hamel-husain--shreya-shankar",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "evals are becoming the most important new skill for product builders"
+      }
+    },
+    {
+      "source": "concept:vibe-check",
+      "target": "hamel-husain--shreya-shankar",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "vibe checks are good and you should do vibe checks initially, but it can become very unmanageable very fast"
+      }
+    },
+    {
+      "source": "concept:evals",
+      "target": "brendan-foody",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "we are entering the era of evals"
+      }
+    },
+    {
+      "source": "concept:eval-is-the-prd",
+      "target": "brendan-foody",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "if the model is the product, then the eval is the product requirement document"
+      }
+    },
+    {
+      "source": "concept:era-of-evals",
+      "target": "brendan-foody",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "we are entering the era of evals"
+      }
+    },
+    {
+      "source": "concept:evals",
+      "target": "aishwarya--kiriti",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "PMs should be writing evals, they're the new PRDs"
+      }
+    },
+    {
+      "source": "concept:feedback-loop",
+      "target": "aishwarya--kiriti",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "owning the same feedback loop in a way"
+      }
+    },
+    {
+      "source": "concept:agentic",
+      "target": "aishwarya--kiriti",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "every time you hand over decision-making capabilities to agentic systems"
+      }
+    },
+    {
+      "source": "concept:agency-control-tradeoff",
+      "target": "aishwarya--kiriti",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "the agency control trade-off"
+      }
+    },
+    {
+      "source": "concept:evals",
+      "target": "chip-huyen",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "the goal of eval is to guide the product development"
+      }
+    },
+    {
+      "source": "concept:vibe-coding",
+      "target": "chip-huyen",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "every time you open up one of these vibe coding tools where you could just describe anything you want"
+      }
+    },
+    {
+      "source": "concept:vibe-check",
+      "target": "chip-huyen",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "good enough that you can vibe check it"
+      }
+    },
+    {
+      "source": "concept:evals",
+      "target": "howie-liu",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "the power of getting good at evals"
+      }
+    },
+    {
+      "source": "concept:ai-native",
+      "target": "howie-liu",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "in this AI-native world, clearly, you should be able to generate those apps agentically"
+      }
+    },
+    {
+      "source": "concept:agentic",
+      "target": "howie-liu",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "Cursor did a great job of being an early pioneer of this more agentic way"
+      }
+    },
+    {
+      "source": "concept:vibes-before-evals",
+      "target": "howie-liu",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "for a completely novel product experience or form factor, you should actually not start with evals and you should start with vibes"
+      }
+    },
+    {
+      "source": "concept:vibe-coding",
+      "target": "elena-verna-40",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "everybody and their mother is starting a vibe coding business nowadays"
+      }
+    },
+    {
+      "source": "concept:growth-loops",
+      "target": "elena-verna-40",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "stand up new growth loops one after another"
+      }
+    },
+    {
+      "source": "concept:north-star-metric",
+      "target": "elena-verna-40",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "our North Star is just to get as much usage as possible"
+      }
+    },
+    {
+      "source": "concept:product-market-fit",
+      "target": "elena-verna-40",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "every three months, I feel like we have to recapture our product-market fit"
+      }
+    },
+    {
+      "source": "concept:pmf-treadmill",
+      "target": "elena-verna-40",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "every AI company is on this product-market fit treadmill"
+      }
+    },
+    {
+      "source": "concept:adjacent-user-theory",
+      "target": "elena-verna-40",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "Bangaly wrote a really wonderful article on adjacent user theory"
+      }
+    },
+    {
+      "source": "concept:growth-model",
+      "target": "albert-cheng",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "with growth, you have a growth model, you have metrics, you have experiments"
+      }
+    },
+    {
+      "source": "concept:north-star-metric",
+      "target": "albert-cheng",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "we keep the customer at the North Star of it"
+      }
+    },
+    {
+      "source": "concept:moat",
+      "target": "scott-wu",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "I think it's often less about moats and more about stickiness"
+      }
+    },
+    {
+      "source": "concept:stickiness-over-moats",
+      "target": "scott-wu",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "I think it's often less about moats and more about stickiness"
+      }
+    },
+    {
+      "source": "concept:agentic",
+      "target": "scott-wu",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "an agentic loop to really do better on that"
+      }
+    },
+    {
+      "source": "concept:feedback-loop",
+      "target": "scott-wu",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "code has this whole automated feedback loop"
+      }
+    },
+    {
+      "source": "concept:moat",
+      "target": "asha-sharma",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "their big moat is the data that they capture"
+      }
+    },
+    {
+      "source": "concept:north-star-metric",
+      "target": "asha-sharma",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "what is the north star metric is something that we do"
+      }
+    },
+    {
+      "source": "concept:north-star-metric",
+      "target": "dr-fei-fei-li",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "AI is my north star, is my field's north star"
+      }
+    },
+    {
+      "source": "concept:north-star-problem",
+      "target": "dr-fei-fei-li",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "very committed to a north star problem"
+      }
+    },
+    {
+      "source": "concept:evals",
+      "target": "beyond-vibe-checks",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "the ability to write great evals isn't just important, it's rapidly becoming the defining skill for AI PMs"
+      }
+    },
+    {
+      "source": "concept:vibe-check",
+      "target": "beyond-vibe-checks",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "you shouldn't let an AI product launch without passing thoughtful, intentional evals"
+      }
+    },
+    {
+      "source": "concept:growth-model",
+      "target": "duolingo-growth",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "rooted in an innovative growth model"
+      }
+    },
+    {
+      "source": "concept:north-star-metric",
+      "target": "duolingo-growth",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "use Duolingo's data to find a North Star metric"
+      }
+    },
+    {
+      "source": "concept:agentic",
+      "target": "concept:ai-native",
+      "kind": "shared_language",
+      "weight": 3.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:agentic",
+      "target": "concept:evals",
+      "kind": "shared_language",
+      "weight": 3.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:agentic",
       "target": "concept:evergreen-launch-room",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:ai-first",
+      "source": "concept:agentic",
       "target": "concept:research-preview",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:ai-first",
+      "source": "concept:agentic",
+      "target": "concept:team-principles",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:ai-native",
+      "target": "concept:evals",
+      "kind": "shared_language",
+      "weight": 2.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:ai-native",
+      "target": "concept:evergreen-launch-room",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:ai-native",
+      "target": "concept:research-preview",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:ai-native",
+      "target": "concept:team-principles",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:evals",
+      "target": "concept:evergreen-launch-room",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:evals",
+      "target": "concept:research-preview",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:evals",
       "target": "concept:team-principles",
       "kind": "shared_language",
       "weight": 1.0,
@@ -342,14 +1601,14 @@
       "meta": {}
     },
     {
-      "source": "concept:ai-first",
+      "source": "concept:ai-native",
       "target": "concept:pm-slop-cannon",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:ai-first",
+      "source": "concept:ai-native",
       "target": "concept:the-builders",
       "kind": "shared_language",
       "weight": 1.0,
@@ -363,14 +1622,42 @@
       "meta": {}
     },
     {
-      "source": "concept:ai-first",
+      "source": "concept:agentic",
       "target": "concept:distribution-as-moat",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:ai-first",
+      "source": "concept:agentic",
+      "target": "concept:feedback-loop",
+      "kind": "shared_language",
+      "weight": 3.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:agentic",
+      "target": "concept:throw-it-out",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:ai-native",
+      "target": "concept:distribution-as-moat",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:ai-native",
+      "target": "concept:feedback-loop",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:ai-native",
       "target": "concept:throw-it-out",
       "kind": "shared_language",
       "weight": 1.0,
@@ -378,7 +1665,350 @@
     },
     {
       "source": "concept:distribution-as-moat",
+      "target": "concept:feedback-loop",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:distribution-as-moat",
       "target": "concept:throw-it-out",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:feedback-loop",
+      "target": "concept:throw-it-out",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:crucible-moment",
+      "target": "concept:distribution-as-moat",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:crucible-moment",
+      "target": "concept:moat",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:crucible-moment",
+      "target": "concept:software-not-a-moat",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:distribution-as-moat",
+      "target": "concept:moat",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:distribution-as-moat",
+      "target": "concept:software-not-a-moat",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:moat",
+      "target": "concept:software-not-a-moat",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:building-in-public",
+      "target": "concept:vibe-coding",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:harm-no-one-rule",
+      "target": "concept:vibe-coding",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:ai-boom-hasnt-started",
+      "target": "concept:moat",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:ai-boom-hasnt-started",
+      "target": "concept:vibe-coding",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:moat",
+      "target": "concept:vibe-coding",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:evals",
+      "target": "concept:vibe-check",
+      "kind": "shared_language",
+      "weight": 3.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:era-of-evals",
+      "target": "concept:eval-is-the-prd",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:era-of-evals",
+      "target": "concept:evals",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:eval-is-the-prd",
+      "target": "concept:evals",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:agency-control-tradeoff",
+      "target": "concept:agentic",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:agency-control-tradeoff",
+      "target": "concept:evals",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:agency-control-tradeoff",
+      "target": "concept:feedback-loop",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:evals",
+      "target": "concept:feedback-loop",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:evals",
+      "target": "concept:vibe-coding",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:vibe-check",
+      "target": "concept:vibe-coding",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:agentic",
+      "target": "concept:vibes-before-evals",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:ai-native",
+      "target": "concept:vibes-before-evals",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:evals",
+      "target": "concept:vibes-before-evals",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:adjacent-user-theory",
+      "target": "concept:growth-loops",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:adjacent-user-theory",
+      "target": "concept:north-star-metric",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:adjacent-user-theory",
+      "target": "concept:pmf-treadmill",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:adjacent-user-theory",
+      "target": "concept:product-market-fit",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:adjacent-user-theory",
+      "target": "concept:vibe-coding",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:growth-loops",
+      "target": "concept:north-star-metric",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:growth-loops",
+      "target": "concept:pmf-treadmill",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:growth-loops",
+      "target": "concept:product-market-fit",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:growth-loops",
+      "target": "concept:vibe-coding",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:north-star-metric",
+      "target": "concept:pmf-treadmill",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:north-star-metric",
+      "target": "concept:product-market-fit",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:north-star-metric",
+      "target": "concept:vibe-coding",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:pmf-treadmill",
+      "target": "concept:product-market-fit",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:pmf-treadmill",
+      "target": "concept:vibe-coding",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:product-market-fit",
+      "target": "concept:vibe-coding",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:growth-model",
+      "target": "concept:north-star-metric",
+      "kind": "shared_language",
+      "weight": 2.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:agentic",
+      "target": "concept:moat",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:agentic",
+      "target": "concept:stickiness-over-moats",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:feedback-loop",
+      "target": "concept:moat",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:feedback-loop",
+      "target": "concept:stickiness-over-moats",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:moat",
+      "target": "concept:stickiness-over-moats",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:moat",
+      "target": "concept:north-star-metric",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:north-star-metric",
+      "target": "concept:north-star-problem",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
@@ -395,6 +2025,116 @@
     },
     {
       "source": "person:lenny-rachitsky",
+      "target": "person:hamel-husain",
+      "kind": "trust",
+      "weight": 1.0,
+      "meta": {
+        "artifact_id": "hamel-husain--shreya-shankar",
+        "quote": "Hamel and Shreya have played a major role in shifting evals from being an obscure, mysterious subject."
+      }
+    },
+    {
+      "source": "person:lenny-rachitsky",
+      "target": "person:shreya-shankar",
+      "kind": "trust",
+      "weight": 1.0,
+      "meta": {
+        "artifact_id": "hamel-husain--shreya-shankar",
+        "quote": "Hamel and Shreya have played a major role in shifting evals from being an obscure, mysterious subject."
+      }
+    },
+    {
+      "source": "person:lenny-rachitsky",
+      "target": "person:zevi-arnovitz",
+      "kind": "trust",
+      "weight": 1.0,
+      "meta": {
+        "artifact_id": "zevi-arnovitz",
+        "quote": "Zevi is the most hands-on vibe coding PM I know, and I've personally learned so much from him."
+      }
+    },
+    {
+      "source": "person:elena-verna",
+      "target": "person:lazar-jovanovic",
+      "kind": "trust",
+      "weight": 1.0,
+      "meta": {
+        "artifact_id": "elena-verna-40",
+        "quote": "my full-time vibe coder, his name is Lazar... he was very early on in the vibe coding wave."
+      }
+    },
+    {
+      "source": "person:simon-willison",
+      "target": "person:andrej-karpathy",
+      "kind": "trust",
+      "weight": 1.0,
+      "meta": {
+        "artifact_id": "simon-willison",
+        "quote": "I like Andrej Karpathy's original definition of vibe coding."
+      }
+    },
+    {
+      "source": "person:howie-liu",
+      "target": "person:michael-truell",
+      "kind": "trust",
+      "weight": 1.0,
+      "meta": {
+        "artifact_id": "howie-liu",
+        "quote": "Cursor did a great job of being an early pioneer of this more agentic way of leveraging the models."
+      }
+    },
+    {
+      "source": "person:elena-verna",
+      "target": "person:bangaly-kaba",
+      "kind": "trust",
+      "weight": 1.0,
+      "meta": {
+        "artifact_id": "elena-verna-40",
+        "quote": "Bangaly wrote a really wonderful article on adjacent user theory."
+      }
+    },
+    {
+      "source": "person:brendan-foody",
+      "target": "person:sarah-guo",
+      "kind": "trust",
+      "weight": 1.0,
+      "meta": {
+        "artifact_id": "brendan-foody",
+        "quote": "Sarah tweeted, evals equals your new marketing."
+      }
+    },
+    {
+      "source": "person:albert-cheng",
+      "target": "person:jorge-mazal",
+      "kind": "trust",
+      "weight": 1.0,
+      "meta": {
+        "artifact_id": "albert-cheng",
+        "quote": "he wrote that very, very popular article about the growth model and how current user retention rate was the biggest thing."
+      }
+    },
+    {
+      "source": "person:lenny-rachitsky",
+      "target": "person:aman-khan",
+      "kind": "trust",
+      "weight": 1.0,
+      "meta": {
+        "artifact_id": "beyond-vibe-checks",
+        "quote": "Aman Khan runs a popular course on evals developed with Andrew Ng."
+      }
+    },
+    {
+      "source": "person:aman-khan",
+      "target": "person:andrew-ng",
+      "kind": "trust",
+      "weight": 1.0,
+      "meta": {
+        "artifact_id": "beyond-vibe-checks",
+        "quote": "Aman Khan runs a popular course on evals developed with Andrew Ng."
+      }
+    },
+    {
+      "source": "person:lenny-rachitsky",
       "target": "person:amol-avasare",
       "kind": "trust",
       "weight": 1.0,
@@ -402,8 +2142,18 @@
         "artifact_id": "amol-avasare",
         "quote": "Amol leads growth at Anthropic during the fastest run in software history."
       }
+    },
+    {
+      "source": "person:marc-andreessen",
+      "target": "person:replit",
+      "kind": "trust",
+      "weight": 1.0,
+      "meta": {
+        "artifact_id": "marc-andreessen",
+        "quote": "he discovered Replit about three months ago, and discovered Vibe coding, and is completely obsessed."
+      }
     }
   ],
-  "generated_at": "2026-05-06T20:26:47.304105+00:00",
-  "source": "seed:starter-pack-sample"
+  "generated_at": "2026-05-06T21:08:06.881699+00:00",
+  "source": "seed:starter-pack-curated-20"
 }
