@@ -365,7 +365,160 @@ footer {
   .lookup-grid {
     grid-template-columns: 1fr;
   }
+  .briefing-grid {
+    grid-template-columns: 1fr;
+  }
   .takes {
     grid-template-columns: 1fr;
   }
+  .priority-lanes {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* -- Briefing surface --------------------------------------------------- */
+
+#briefing-surface {
+  padding: 32px;
+  height: calc(100vh - 180px);
+  overflow-y: auto;
+  min-height: 500px;
+}
+
+.briefing-grid {
+  display: grid;
+  grid-template-columns: 420px 1fr;
+  gap: 32px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.priorities {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.priority {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px 18px;
+}
+
+.priority-header {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.priority-header h4 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.priority-index {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 22px;
+  height: 22px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #0e1116;
+  font-size: 12px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.priority-evidence {
+  margin: 0 0 14px;
+  padding: 8px 12px;
+  border-left: 2px solid var(--concept);
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.priority-lanes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.lane h5 {
+  margin: 0 0 8px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.lane-empty {
+  font-size: 13px;
+  margin: 0;
+}
+
+.evidence {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+}
+
+.evidence:last-child {
+  margin-bottom: 0;
+}
+
+.evidence-agree {
+  border-left: 3px solid var(--person);
+}
+
+.evidence-push {
+  border-left: 3px solid #f87171;
+}
+
+.evidence header {
+  margin-bottom: 2px;
+}
+
+.evidence header strong {
+  font-size: 13px;
+}
+
+.evidence blockquote {
+  margin: 6px 0;
+  padding: 6px 10px;
+  border-left: 2px solid var(--accent);
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.evidence-why {
+  margin: 6px 0 0;
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--fg);
+}
+
+.questions {
+  list-style: decimal inside;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.questions li {
+  padding-left: 4px;
 }

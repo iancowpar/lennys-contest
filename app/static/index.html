@@ -16,6 +16,7 @@
   <nav id="surfaces">
     <button data-surface="atlas" class="active">Atlas</button>
     <button data-surface="lookup">Lookup</button>
+    <button data-surface="briefing">Briefing</button>
   </nav>
 
   <section id="atlas-surface" class="surface active">
@@ -57,12 +58,37 @@
     </div>
   </section>
 
+  <section id="briefing-surface" class="surface">
+    <div class="briefing-grid">
+      <form id="briefing-form" class="lookup-form" autocomplete="off">
+        <label for="artifact">Paste an external artifact</label>
+        <textarea
+          id="artifact"
+          name="artifact"
+          rows="14"
+          placeholder="A CPO offsite talk transcript, a PM job description, a board update, a Substack post. Anything an outsider said or wrote that you want to read against the corpus."
+          maxlength="16000"
+          required
+        ></textarea>
+        <div class="lookup-form-row">
+          <button type="submit" id="briefing-submit">Read it</button>
+          <span id="briefing-status" class="muted"></span>
+        </div>
+      </form>
+
+      <div id="briefing-response" class="lookup-response" aria-live="polite">
+        <p class="placeholder">Paste a real artifact and we will read it against the graph. Stated priorities, where the corpus agrees, where it pushes back, and the questions you would ask.</p>
+      </div>
+    </div>
+  </section>
+
   <footer>
     <span id="meta"></span>
   </footer>
 
   <script src="/graph.js"></script>
   <script src="/lookup.js"></script>
+  <script src="/briefing.js"></script>
   <script src="/main.js"></script>
 </body>
 </html>

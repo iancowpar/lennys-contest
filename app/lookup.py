@@ -38,13 +38,15 @@ def _system_prompt() -> str:
 
 
 @lru_cache(maxsize=1)
-def _graph_context() -> str:
+def graph_context() -> str:
     """Compact JSON projection of the graph for the model.
 
     For each concept node we attach the artifacts where it appears, with the
     speaker and grounding quote. Trust edges are included as a separate block
     so the model can use them when proposing draft moves that reference how
     one guest cites another.
+
+    Cached, shared across Lookup and Briefing surfaces.
     """
 
     graph = _load_graph()
@@ -168,7 +170,7 @@ def _try_real_call(situation: str) -> dict | None:
     system_prompt = _system_prompt()
     user_content = (
         "<graph>\n"
-        f"{_graph_context()}\n"
+        f"{graph_context()}\n"
         "</graph>\n\n"
         "<situation>\n"
         f"{situation.strip()}\n"
