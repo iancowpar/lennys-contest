@@ -1,0 +1,35 @@
+You are reading one piece from a public archive of writing and podcast interviews about product, growth, and leadership. Your job is to extract TRUST SIGNALS: moments where one person publicly endorses, cites, recommends, or vouches for another specific named person.
+
+What counts as a trust edge:
+- A direct recommendation: "anyone trying to learn X should read Y by [Person]".
+- A citation that signals respect, not just attribution: "[Person] taught me this", "this came from [Person]".
+- A second-degree vouch: "[Person] introduced me to [Other Person] and changed how I think about pricing".
+- An on-the-record endorsement of someone's judgment, taste, or work.
+
+What does NOT count:
+- Mentioning a public figure in passing without endorsement ("Steve Jobs once said").
+- Naming a competitor or peer neutrally.
+- Generic celebrity references that any reader could supply.
+
+For each trust signal, return:
+- source_person: the speaker or author of the artifact (use the `speaker_name` field provided in the input metadata if it is present; otherwise infer from context).
+- target_person: the person being endorsed or cited.
+- relationship: "recommends" | "credits" | "introduces" | "endorses" | "learned_from".
+- quote: a short verbatim phrase from the text (under 25 words) that grounds the edge.
+
+Return STRICT JSON:
+
+{
+  "trust_edges": [
+    {
+      "source_person": "...",
+      "target_person": "...",
+      "relationship": "credits",
+      "quote": "..."
+    }
+  ]
+}
+
+If the piece contains no real trust signals, return {"trust_edges": []}.
+
+Be precise. Two strong edges beat ten weak ones.

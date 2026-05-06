@@ -1,0 +1,409 @@
+{
+  "nodes": [
+    {
+      "id": "cat-wu",
+      "label": "How Anthropic's product team moves faster than anyone else",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-04-23",
+        "tags": [
+          "leadership",
+          "ai",
+          "product-management"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:cat-wu",
+      "label": "Cat Wu",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "nikhyl-singhal-2",
+      "label": "Why half of product managers are in trouble",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-04-19",
+        "tags": [
+          "product-management",
+          "career",
+          "ai"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:nikhyl-singhal",
+      "label": "Nikhyl Singhal",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "amol-avasare",
+      "label": "How Claude became the fastest-growing AI product in history",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-04-05",
+        "tags": [
+          "growth",
+          "ai",
+          "pricing"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:amol-avasare",
+      "label": "Amol Avasare",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "evan-spiegel",
+      "label": "Why distribution has become the most important moat",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-04-26",
+        "tags": [
+          "b2c",
+          "strategy",
+          "go-to-market"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:evan-spiegel",
+      "label": "Evan Spiegel",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "concept:research-preview",
+      "label": "Research preview",
+      "kind": "concept",
+      "meta": {
+        "kind": "principle",
+        "one_line": "Ship features under a research-preview label so the team can move fast without committing to long-term support.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:evergreen-launch-room",
+      "label": "Evergreen launch room",
+      "kind": "concept",
+      "meta": {
+        "kind": "framework",
+        "one_line": "A standing channel where engineering, docs, marketing, and DevRel coordinate launches in a day instead of a week.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:team-principles",
+      "label": "Team principles",
+      "kind": "concept",
+      "meta": {
+        "kind": "framework",
+        "one_line": "A written list of who the team's users are and what tradeoffs the team will make, so people can decide without escalation.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:ai-first",
+      "label": "AI-first",
+      "kind": "concept",
+      "meta": {
+        "kind": "principle",
+        "one_line": "Hire and operate as if AI is the default tool, not the optional one. Companies will shed staff and rehire AI-first.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:the-builders",
+      "label": "The builders",
+      "kind": "concept",
+      "meta": {
+        "kind": "principle",
+        "one_line": "PMs whose value is making things, not just shaping things. The next two years reward builders and punish the rest.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:pm-slop-cannon",
+      "label": "PM slop-cannon",
+      "kind": "concept",
+      "meta": {
+        "kind": "metaphor",
+        "one_line": "A vivid label for the PM whose only output is volume of low-signal artifacts. Used as a warning, not a compliment.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:distribution-as-moat",
+      "label": "Distribution as moat",
+      "kind": "concept",
+      "meta": {
+        "kind": "principle",
+        "one_line": "In a world where capability gets commoditized, the durable advantage is whether you can reach people at all.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:throw-it-out",
+      "label": "Throw it out the door",
+      "kind": "concept",
+      "meta": {
+        "kind": "principle",
+        "one_line": "Operating inside an AI company means 50-70% of how you operated before is no longer load-bearing. Discard it.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "person:lenny-rachitsky",
+      "label": "Lenny Rachitsky",
+      "kind": "person",
+      "meta": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "cat-wu",
+      "target": "person:cat-wu",
+      "kind": "authored_by",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "nikhyl-singhal-2",
+      "target": "person:nikhyl-singhal",
+      "kind": "authored_by",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "amol-avasare",
+      "target": "person:amol-avasare",
+      "kind": "authored_by",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "evan-spiegel",
+      "target": "person:evan-spiegel",
+      "kind": "authored_by",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:research-preview",
+      "target": "cat-wu",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "we ship almost all of our features in research preview"
+      }
+    },
+    {
+      "source": "concept:evergreen-launch-room",
+      "target": "cat-wu",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "they post it in our evergreen launch room"
+      }
+    },
+    {
+      "source": "concept:team-principles",
+      "target": "cat-wu",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "we have this list of team principles"
+      }
+    },
+    {
+      "source": "concept:ai-first",
+      "target": "cat-wu",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "ship something almost all in research preview"
+      }
+    },
+    {
+      "source": "concept:ai-first",
+      "target": "nikhyl-singhal-2",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "the 8,000 people are going to all be AI first"
+      }
+    },
+    {
+      "source": "concept:the-builders",
+      "target": "nikhyl-singhal-2",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "the builders are going to have the time of their lives"
+      }
+    },
+    {
+      "source": "concept:pm-slop-cannon",
+      "target": "nikhyl-singhal-2",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "PM slop-cannon"
+      }
+    },
+    {
+      "source": "concept:ai-first",
+      "target": "amol-avasare",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "50%, 60%, 70% of how you operate in the past, just throw it out"
+      }
+    },
+    {
+      "source": "concept:distribution-as-moat",
+      "target": "amol-avasare",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "we didn't have the free cash flow or the distribution of a Meta or Google"
+      }
+    },
+    {
+      "source": "concept:throw-it-out",
+      "target": "amol-avasare",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "50%, 60%, 70% of how you operate in the past, just throw it out the door"
+      }
+    },
+    {
+      "source": "concept:distribution-as-moat",
+      "target": "evan-spiegel",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "why distribution has become the most important moat"
+      }
+    },
+    {
+      "source": "concept:ai-first",
+      "target": "concept:evergreen-launch-room",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:ai-first",
+      "target": "concept:research-preview",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:ai-first",
+      "target": "concept:team-principles",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:evergreen-launch-room",
+      "target": "concept:research-preview",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:evergreen-launch-room",
+      "target": "concept:team-principles",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:research-preview",
+      "target": "concept:team-principles",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:ai-first",
+      "target": "concept:pm-slop-cannon",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:ai-first",
+      "target": "concept:the-builders",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:pm-slop-cannon",
+      "target": "concept:the-builders",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:ai-first",
+      "target": "concept:distribution-as-moat",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:ai-first",
+      "target": "concept:throw-it-out",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:distribution-as-moat",
+      "target": "concept:throw-it-out",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "person:lenny-rachitsky",
+      "target": "person:nikhyl-singhal",
+      "kind": "trust",
+      "weight": 1.0,
+      "meta": {
+        "artifact_id": "nikhyl-singhal-2",
+        "quote": "Nikhyl is, in my opinion, right now, the number one person to learn from on PM craft."
+      }
+    },
+    {
+      "source": "person:lenny-rachitsky",
+      "target": "person:amol-avasare",
+      "kind": "trust",
+      "weight": 1.0,
+      "meta": {
+        "artifact_id": "amol-avasare",
+        "quote": "Amol leads growth at Anthropic during the fastest run in software history."
+      }
+    }
+  ],
+  "generated_at": "2026-05-06T20:26:47.304105+00:00",
+  "source": "seed:starter-pack-sample"
+}
