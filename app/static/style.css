@@ -326,7 +326,13 @@ footer {
   justify-content: space-between;
   align-items: baseline;
   gap: 8px;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
+}
+
+.take .take-source {
+  margin: 0 0 10px;
+  font-size: 12px;
+  line-height: 1.4;
 }
 
 .take .position {

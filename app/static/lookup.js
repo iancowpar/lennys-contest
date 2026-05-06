@@ -38,11 +38,13 @@
   }
 
   function renderTake(t) {
+    const artifactTitle = t.artifact_id ? nodeLabel(t.artifact_id) : "";
+    const showSource = artifactTitle && artifactTitle !== t.artifact_id;
     return `<article class="take">
       <header>
         <strong>${escapeHtml(t.speaker || "")}</strong>
-        <span class="muted">${escapeHtml(t.artifact_id || "")}</span>
       </header>
+      ${showSource ? `<p class="take-source muted">${escapeHtml(artifactTitle)}</p>` : ""}
       <p class="position">${escapeHtml(t.position || "")}</p>
       ${t.quote ? `<blockquote>${escapeHtml(t.quote)}</blockquote>` : ""}
     </article>`;
