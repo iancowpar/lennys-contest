@@ -147,6 +147,8 @@ async function init() {
     return;
   }
   fullGraph = await res.json();
+  // Expose for lookup.js to resolve concept ids to labels without a refetch.
+  window.fullGraph = fullGraph;
   document.getElementById("meta").textContent = `${fullGraph.nodes.length} nodes, ${fullGraph.edges.length} edges. Source: ${fullGraph.source}.`;
 
   applyFilter("shared_language");
@@ -159,5 +161,11 @@ async function init() {
     });
   });
 }
+
+// Expose a re-fit hook so main.js can ask the graph to recompute its frame
+// when the Atlas surface becomes visible again after being hidden.
+window.btoFitGraph = function () {
+  if (network) network.fit();
+};
 
 init();

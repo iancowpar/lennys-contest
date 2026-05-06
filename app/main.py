@@ -2,11 +2,14 @@
 
 Serves a single static SPA at "/" plus a small JSON API:
 
-  GET /api/graph                 -> the full pre-built NIL graph
-  GET /api/graph/by-edge/{kind}  -> filtered to one NIL dimension
+  GET  /api/graph                 -> the full pre-built NIL graph
+  GET  /api/graph/by-edge/{kind}  -> filtered to one NIL dimension
+  POST /api/lookup                -> situation in, structured read out
 
 The graph itself is generated offline by `python -m extraction.run` and shipped
-as app/data/graph.json. The runtime never calls an LLM.
+as app/data/graph.json. The Atlas surface never calls an LLM at runtime; the
+Lookup surface calls Claude when ANTHROPIC_API_KEY is set, and falls back to a
+deterministic stub otherwise.
 """
 
 from __future__ import annotations
@@ -17,11 +20,18 @@ from pathlib import Path
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import JSONResponse
 from fastapi.staticfiles import StaticFiles
+from pydantic import BaseModel, Field
+
+from .lookup import lookup as run_lookup
 
 APP_DIR = Path(__file__).resolve().parent
 GRAPH_PATH = APP_DIR / "data" / "graph.json"
 
 app = FastAPI(title="Beneath the Org Chart")
+
+
+class LookupRequest(BaseModel):
+    situation: str = Field(min_length=1, max_length=4000)
 
 
 def _load_graph() -> dict:
@@ -53,6 +63,11 @@ def get_graph_by_edge(kind: str) -> JSONResponse:
             "source": graph.get("source"),
         }
     )
+
+
+@app.post("/api/lookup")
+def post_lookup(req: LookupRequest) -> JSONResponse:
+    return JSONResponse(run_lookup(req.situation))
 
 
 # Mount the SPA last so API routes win.

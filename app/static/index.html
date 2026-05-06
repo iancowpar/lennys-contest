@@ -13,23 +13,56 @@
     <p class="subtitle">A public demo of the Network Intelligence Layer, built on Lenny's open archive.</p>
   </header>
 
-  <nav id="filters">
-    <button data-edge="shared_language" class="active">Shared language</button>
-    <button data-edge="trust">Trust</button>
-    <button data-edge="all">All</button>
+  <nav id="surfaces">
+    <button data-surface="atlas" class="active">Atlas</button>
+    <button data-surface="lookup">Lookup</button>
   </nav>
 
-  <main>
-    <div id="graph" aria-label="Network graph"></div>
-    <aside id="detail" aria-live="polite">
-      <p class="placeholder">Click a node to see how it shows up in the archive.</p>
-    </aside>
-  </main>
+  <section id="atlas-surface" class="surface active">
+    <nav id="filters">
+      <button data-edge="shared_language" class="active">Shared language</button>
+      <button data-edge="trust">Trust</button>
+      <button data-edge="all">All</button>
+    </nav>
+
+    <main>
+      <div id="graph" aria-label="Network graph"></div>
+      <aside id="detail" aria-live="polite">
+        <p class="placeholder">Click a node to see how it shows up in the archive.</p>
+      </aside>
+    </main>
+  </section>
+
+  <section id="lookup-surface" class="surface">
+    <div class="lookup-grid">
+      <form id="lookup-form" class="lookup-form" autocomplete="off">
+        <label for="situation">Describe the situation</label>
+        <textarea
+          id="situation"
+          name="situation"
+          rows="6"
+          placeholder="e.g. We are six weeks from launch on an AI feature and the team can't agree whether to ship behind a research-preview label or wait for the eval suite to mature. I am the PM."
+          maxlength="4000"
+          required
+        ></textarea>
+        <div class="lookup-form-row">
+          <button type="submit" id="lookup-submit">Read it</button>
+          <span id="lookup-status" class="muted"></span>
+        </div>
+      </form>
+
+      <div id="lookup-response" class="lookup-response" aria-live="polite">
+        <p class="placeholder">Paste a real situation and we will read it against the graph. Two contrasting takes, the political-capital tradeoff, and a draft move you can paste into a doc.</p>
+      </div>
+    </div>
+  </section>
 
   <footer>
     <span id="meta"></span>
   </footer>
 
   <script src="/graph.js"></script>
+  <script src="/lookup.js"></script>
+  <script src="/main.js"></script>
 </body>
 </html>
