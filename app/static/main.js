@@ -29,4 +29,31 @@
   buttons.forEach((b) => {
     b.addEventListener("click", () => show(b.dataset.surface));
   });
+
+  // Sample-artifact buttons. Fetch the bundled sample text and drop it into
+  // the matching textarea so first-time visitors do not have to paste 16KB
+  // of content to try the surface.
+  document.querySelectorAll(".sample-btn").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      const sample = btn.dataset.sample;
+      const targetId = btn.dataset.target;
+      const target = document.getElementById(targetId);
+      if (!sample || !target) return;
+      const original = btn.textContent;
+      btn.disabled = true;
+      btn.textContent = "Loading sample...";
+      try {
+        const res = await fetch(sample);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        target.value = (await res.text()).trim();
+        target.focus();
+      } catch (err) {
+        btn.textContent = `Sample failed: ${err.message}`;
+        setTimeout(() => { btn.textContent = original; btn.disabled = false; }, 3000);
+        return;
+      }
+      btn.textContent = original;
+      btn.disabled = false;
+    });
+  });
 })();
