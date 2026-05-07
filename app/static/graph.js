@@ -16,20 +16,37 @@ const EDGE_LABELS = {
   appears_in: "Appears in",
 };
 
+const ARTIFACT_LABEL_MAX = 48;
+
+function truncate(text, max) {
+  if (!text || text.length <= max) return text;
+  return text.slice(0, max - 1).trimEnd() + "…";
+}
+
 let fullGraph = null;
 let network = null;
 
 function nodeOptions(node) {
-  return {
+  // Concept boxes get dark text on orange. Artifact and person dots have
+  // labels rendered outside the dot on the dark canvas, so they need light
+  // text or they vanish.
+  const fontColor = node.kind === "concept" ? "#0e1116" : "#e6edf3";
+  const displayLabel = node.kind === "artifact" ? truncate(node.label, ARTIFACT_LABEL_MAX) : node.label;
+  const opts = {
     id: node.id,
-    label: node.label,
+    label: displayLabel,
     group: node.kind,
     color: { background: COLORS[node.kind] || "#aaa", border: "#1a1a1a" },
-    font: { color: "#0e1116", size: 13 },
+    font: { color: fontColor, size: 13 },
     shape: node.kind === "concept" ? "box" : "dot",
     meta: node.meta || {},
     kind: node.kind,
   };
+  if (displayLabel !== node.label) {
+    // Hover tooltip shows the full title when we had to truncate.
+    opts.title = node.label;
+  }
+  return opts;
 }
 
 function edgeOptions(edge) {
