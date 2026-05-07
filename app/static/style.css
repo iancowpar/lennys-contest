@@ -431,6 +431,43 @@ footer {
   border-color: var(--accent);
 }
 
+.sample-chips-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 10px;
+}
+
+.sample-chips-label {
+  font-size: 11px;
+  color: var(--muted);
+  white-space: nowrap;
+  margin-right: 2px;
+}
+
+.sample-chip {
+  background: transparent !important;
+  color: var(--muted) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 999px !important;
+  padding: 4px 12px !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.sample-chip:hover:not(:disabled) {
+  color: var(--fg) !important;
+  border-color: var(--accent) !important;
+}
+
+.sample-chip:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 .muted {
   color: var(--muted);
   font-size: 12px;

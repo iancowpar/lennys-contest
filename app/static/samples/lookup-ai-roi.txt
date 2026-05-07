@@ -1,0 +1,5 @@
+Six months ago my company rolled out an AI writing and synthesis tool to our product and engineering teams. Adoption looks decent on paper — about 65% of the team uses it at least a few times a week. But when leadership asks for the business case to expand the rollout company-wide, I'm struggling.
+
+Velocity hasn't obviously changed. Output quality is roughly the same. People say it helps them personally, but when I ask how, the answers are vague: "it saves me time drafting" or "I use it to think out loud." Nobody can point to a shipped outcome they attribute to the tool.
+
+Here's what I think might be happening: we layered the AI on top of our existing workflows instead of replacing anything. People use it to do the old thing a bit faster, not to do something new. But I can't prove that. And I've been asked to write the expansion business case by end of quarter. I don't want to write a case built on usage metrics that don't actually mean anything. But I also don't want to kill momentum by being the person who says "we don't have proof yet." I am the PM leading this internally.
