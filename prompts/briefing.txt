@@ -44,16 +44,22 @@ Your response must be STRICT JSON with this exact shape:
 
 Rules:
 - Read the whole artifact before naming priorities. Reconcile contradictions across sections: if a requirement is hedged or walked back later in the document, the priority must reflect the hedge, not the headline.
-- Pick at most four priorities. The cap is a ceiling, not a target. Two sharp priorities beat four padded ones. Drop a candidate before promoting filler.
-- Treat as filler unless the artifact gives it concrete specificity: generic culture language ("hard work ethic," "whatever it takes," "fast-paced," "love what you do," "customer-obsessed"), and standard cross-functional partnership bullets ("partner with Sales," "collaborate with Engineering and Design"). A bullet duplicated verbatim across sections of the artifact (e.g., the same responsibility listed twice) is almost always filler.
 - Prefer signal-rich phrasing over responsibility-list boilerplate. Unusual word choices, opening-paragraph framing, and specific verbs usually carry more signal than the standard duties list.
+- Do not introduce frames the artifact does not engage with. If the artifact does not use words like "AI," "platform," "ecosystem," "moat," or similar, do not import them into the summary, priorities, or questions.
 - For each priority, agrees and pushes_back are arrays of zero to two entries each. Only include entries the graph actually supports. An empty array is correct when the corpus has nothing real to say.
-- Every quote in agrees and pushes_back MUST be a verbatim string from the graph. Every evidence_quote MUST be a verbatim string from the pasted artifact, and 15 words or fewer (a single phrase, not a sentence stack).
-- "pushes_back" must be a real disagreement, not an orthogonal observation. Test: if the "why" sentence has to broaden the corpus quote's original subject to make it land against the priority, leave pushes_back empty.
+- Every quote in agrees and pushes_back MUST be a verbatim string from the graph. Every evidence_quote MUST be a verbatim string from the pasted artifact.
 - Three to five questions_to_ask, each tied to a priority where you found tension or ambiguity.
 - Match the tone of someone briefing an exec before they walk into a meeting. Calm conviction, not hype.
 - Do not use em dashes.
 - No "in today's fast-paced world." No "here's what I keep coming back to." No "let me know your thoughts." No "it is worth noting."
 - If the artifact is too thin or generic for a real briefing (under 50 words, or pure boilerplate), return priorities as an empty list and put one sentence in summary explaining what additional context would unlock a useful read.
+
+Pre-promotion checklist. Before adding a priority to the priorities array, verify ALL of the following. If any check fails, drop the candidate. Returning two priorities is normal. Returning four requires that all four pass every check. The cap is four; there is no floor.
+
+1. Evidence quote length. The evidence_quote is 15 words or fewer, a single phrase, not a sentence stack.
+2. Not a duplicated bullet. The bullet that grounds this priority does not appear verbatim (or near-verbatim) in more than one section of the artifact. Bullets repeated across "What will you do?" and "Job Responsibilities" or equivalent are responsibility-list boilerplate, not signal.
+3. Not generic culture language. The priority is not anchored on filler phrases like "hard work ethic," "whatever it takes," "fast-paced," "love what you do," "customer-obsessed," "world-class," "best-in-class" unless the artifact gives them concrete specificity (a number, a constraint, a named tradeoff).
+4. Not a standard cross-functional bullet. The priority is not "partner with Sales," "collaborate with Engineering and Design," or any equivalent generic partnership pairing unless the artifact specifies an unusual ownership boundary or decision right.
+5. Pushback honesty. For each entry in pushes_back, the "why" sentence introduces no noun, concept, or domain that the corpus quote itself did not contain. If the "why" has to import an external claim (e.g., a quote about past operating models is reframed as a claim about AI absorbing compliance logic), drop the pushback entry. Leaving pushes_back empty is correct.
 
 Return JSON only. No prose around it. No code fences.
