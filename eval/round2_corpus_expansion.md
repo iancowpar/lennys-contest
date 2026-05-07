@@ -1,6 +1,4 @@
-# Round 2 corpus expansion - review before commit
-
-Staged but **not committed**. Review the diff and decide whether to ship.
+# Round 2 corpus expansion - notes
 
 ## What changed
 
@@ -38,33 +36,6 @@ The existing graph attributes every quote to the artifact's primary `guest`, eve
 
 This matches the existing pattern in seed.py (e.g., the cat-wu artifact's intro quotes). If you care, the quick fix is per-quote speaker; the bigger fix is a `quoted_by` edge type.
 
-## Reversal
+## Iter-3 result
 
-If something feels off:
-
-```bash
-git checkout extraction/seed.py app/data/graph.json CLAUDE.md
-```
-
-That restores the 20-artifact graph with no other side effects. The eval harness, the prompt edits, and the LLM error surfacing all stay.
-
-## What I'd do next
-
-1. Spot-check 2-3 of the new entries by clicking through Atlas in the running app to confirm the nodes and edges render.
-2. Re-run the HiBob JD through the Briefing tab to see if the richer corpus + iter-3 prompt produce a sharper output. Predictions:
-   - `forget-the-skills-with-execs` (Jessica) likely shows up as agree on any "leadership/influence" priority.
-   - `pirates-and-romantics` (Lemkin) might pushback on a JD that asks for "process-rigor" PMs.
-   - `value-creation-vs-preservation` (Rabois) is a strong candidate for any JD that hedges on "experience required."
-3. If happy, commit `extraction/seed.py`, `app/data/graph.json`, and `CLAUDE.md` together. Suggested message:
-
-   ```
-   Expand graph from 20 to 28 artifacts; bias toward non-AI corners
-
-   Adds Eoghan McCabe (pricing), Jason Cohen (stalled growth), Grant Lee
-   (Gamma), Brian Halligan (HubSpot scaling), Keith Rabois (hiring),
-   Matt MacInnis (Rippling interview tactics), Jason Lemkin (SaaStr sales),
-   Jessica Fain (executive influence). 18 new concepts, 18 new mentions,
-   3 new trust edges. Source: seed:starter-pack-curated-28. Filling the
-   non-AI gap surfaced by the iter-2 HiBob brief, where the model imported
-   AI/moat frames the artifact never used.
-   ```
+The HiBob JD re-run after this expansion produced a 3-priority brief (down from 4), no AI/moat frame imports, and surfaced Jason Cohen's `onboarding-is-the-bet` as a real pushback on the 0→1 priority. That was the first time a Round 2 concept fired organically; it justified shipping the expansion.
