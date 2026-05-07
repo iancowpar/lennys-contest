@@ -1,1391 +1,6 @@
 {
   "nodes": [
     {
-      "id": "a-guide-to-ai-prototyping-for-product-managers",
-      "label": "A guide to AI prototyping for product managers",
-      "kind": "artifact",
-      "meta": {
-        "type": "newsletter",
-        "date": "2025-01-07",
-        "tags": [
-          "design",
-          "ai",
-          "engineering",
-          "leadership",
-          "newsletter",
-          "product-management"
-        ],
-        "source_url": "https://www.lennysnewsletter.com/p/a-guide-to-ai-prototyping-for-product-managers"
-      }
-    },
-    {
-      "id": "person:lenny-rachitsky",
-      "label": "Lenny Rachitsky",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "an-ai-glossary",
-      "label": "An AI glossary",
-      "kind": "artifact",
-      "meta": {
-        "type": "newsletter",
-        "date": "2025-06-24",
-        "tags": [
-          "ai",
-          "engineering",
-          "design",
-          "newsletter",
-          "b2b",
-          "b2c"
-        ],
-        "source_url": "https://www.lennysnewsletter.com/p/an-ai-glossary"
-      }
-    },
-    {
-      "id": "beyond-vibe-checks-a-pms-complete-guide-to-evals",
-      "label": "Beyond vibe checks: A PM\u2019s complete guide to evals",
-      "kind": "artifact",
-      "meta": {
-        "type": "newsletter",
-        "date": "2025-04-08",
-        "tags": [
-          "ai",
-          "design",
-          "engineering",
-          "leadership",
-          "organization",
-          "analytics"
-        ],
-        "source_url": "https://www.lennysnewsletter.com/p/beyond-vibe-checks-a-pms-complete-guide-to-evals"
-      }
-    },
-    {
-      "id": "essential-reading-for-product-builders-part-1",
-      "label": "Essential reading for product builders\u2014part 1",
-      "kind": "artifact",
-      "meta": {
-        "type": "newsletter",
-        "date": "2025-07-15",
-        "tags": [
-          "leadership",
-          "design",
-          "strategy",
-          "newsletter",
-          "startups",
-          "career"
-        ],
-        "source_url": "https://www.lennysnewsletter.com/p/essential-reading-for-product-builders-part-1"
-      }
-    },
-    {
-      "id": "everyone-should-be-using-claude-code-more",
-      "label": "Everyone should be using Claude Code more",
-      "kind": "artifact",
-      "meta": {
-        "type": "newsletter",
-        "date": "2025-10-14",
-        "tags": [
-          "ai",
-          "engineering",
-          "design",
-          "newsletter",
-          "career",
-          "leadership"
-        ],
-        "source_url": "https://www.lennysnewsletter.com/p/everyone-should-be-using-claude-code"
-      }
-    },
-    {
-      "id": "how-duolingo-reignited-user-growth",
-      "label": "How Duolingo reignited user growth",
-      "kind": "artifact",
-      "meta": {
-        "type": "newsletter",
-        "date": "2023-02-28",
-        "tags": [
-          "growth",
-          "leadership",
-          "design",
-          "newsletter",
-          "strategy",
-          "analytics"
-        ],
-        "source_url": "https://www.lennysnewsletter.com/p/how-duolingo-reignited-user-growth"
-      }
-    },
-    {
-      "id": "how-to-build-your-pm-second-brain-with-chatgpt",
-      "label": "How to build your PM second brain with ChatGPT",
-      "kind": "artifact",
-      "meta": {
-        "type": "newsletter",
-        "date": "2025-12-16",
-        "tags": [
-          "ai",
-          "design",
-          "product-management",
-          "newsletter",
-          "strategy",
-          "career"
-        ],
-        "source_url": "https://www.lennysnewsletter.com/p/how-to-build-your-pm-second-brain"
-      }
-    },
-    {
-      "id": "product-manager-is-an-unfair-role-so-work-unfairly",
-      "label": "Product manager is an unfair role. So work unfairly.",
-      "kind": "artifact",
-      "meta": {
-        "type": "newsletter",
-        "date": "2024-11-12",
-        "tags": [
-          "leadership",
-          "design",
-          "product-management",
-          "newsletter",
-          "organization",
-          "ai"
-        ],
-        "source_url": "https://www.lennysnewsletter.com/p/product-manager-is-an-unfair-role-so-work-unfairly"
-      }
-    },
-    {
-      "id": "state-of-the-product-job-market-in-2025",
-      "label": "State of the product job market in 2025",
-      "kind": "artifact",
-      "meta": {
-        "type": "newsletter",
-        "date": "2025-05-13",
-        "tags": [
-          "product-management",
-          "newsletter",
-          "ai",
-          "career",
-          "engineering",
-          "strategy"
-        ],
-        "source_url": "https://www.lennysnewsletter.com/p/state-of-the-product-job-market-in-2025"
-      }
-    },
-    {
-      "id": "what-people-are-vibe-coding-and-actually-using",
-      "label": "What people are vibe coding (and actually using)",
-      "kind": "artifact",
-      "meta": {
-        "type": "newsletter",
-        "date": "2025-07-08",
-        "tags": [
-          "design",
-          "ai",
-          "engineering",
-          "newsletter",
-          "b2c",
-          "career"
-        ],
-        "source_url": "https://www.lennysnewsletter.com/p/what-people-are-vibe-coding-and-actually-using"
-      }
-    },
-    {
-      "id": "aishwarya-naresh-reganti--kiriti-badam",
-      "label": "Aishwarya Naresh Reganti + Kiriti Badam",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2026-01-11",
-        "tags": [
-          "ai",
-          "design",
-          "leadership",
-          "podcast",
-          "engineering",
-          "go-to-market"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:aishwarya-naresh-reganti-kiriti-badam",
-      "label": "Aishwarya Naresh Reganti + Kiriti Badam",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "albert-cheng",
-      "label": "How to find hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2025-10-05",
-        "tags": [
-          "growth",
-          "analytics",
-          "design",
-          "b2c",
-          "leadership",
-          "product-management"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:albert-cheng",
-      "label": "Albert Cheng",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "alexander-embiricos",
-      "label": "The power user\u2019s guide to Codex: parallelizing workflows, planning techniques, advanced context engineering tips, automating code reviews, and more | Alexander Embiricos",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2026-01-12",
-        "tags": [
-          "engineering",
-          "design",
-          "ai",
-          "leadership",
-          "startups",
-          "organization"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:alexander-embiricos",
-      "label": "Alexander Embiricos",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "amol-avasare",
-      "label": "Anthropic\u2019s $1B to $19B growth run: how Claude became the fastest-growing AI product in history | Amol Avasare",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2026-04-05",
-        "tags": [
-          "growth",
-          "ai",
-          "leadership",
-          "pricing",
-          "design",
-          "career"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:amol-avasare",
-      "label": "Amol Avasare",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "asha-sharma",
-      "label": "How 80,000 companies build with AI: products as organisms, the death of org charts, and why agents will outnumber employees by 2026 | Asha Sharma (CVP of AI Platform at Microsoft)",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2025-08-28",
-        "tags": [
-          "ai",
-          "design",
-          "engineering",
-          "b2b",
-          "leadership",
-          "growth"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:asha-sharma",
-      "label": "Asha Sharma",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "ben-horowitz",
-      "label": "$46B of hard truths from Ben Horowitz: Why founders fail and why you need to run toward fear (a16z co-founder)",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2025-09-11",
-        "tags": [
-          "leadership",
-          "design",
-          "product-management",
-          "startups",
-          "engineering",
-          "career"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:ben-horowitz",
-      "label": "Ben Horowitz",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "boris-cherny",
-      "label": "Boris Cherny",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2026-02-19",
-        "tags": [
-          "engineering",
-          "design",
-          "ai",
-          "leadership",
-          "go-to-market",
-          "growth"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:boris-cherny",
-      "label": "Boris Cherny",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "brendan-foody",
-      "label": "Why experts writing AI evals is creating the fastest-growing companies in history | Brendan Foody (CEO of Mercor)",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2025-09-18",
-        "tags": [
-          "ai",
-          "design",
-          "strategy",
-          "pricing",
-          "career",
-          "startups"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:brendan-foody",
-      "label": "Brendan Foody",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "brian-halligan",
-      "label": "Sequoia CEO coach: Why it\u2019s never been easier to start a company, and never been harder to scale one | Brian Halligan (co-founder, HubSpot)",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2026-02-15",
-        "tags": [
-          "career",
-          "leadership",
-          "startups",
-          "design",
-          "engineering",
-          "b2b"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:brian-halligan",
-      "label": "Brian Halligan",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "cat-wu",
-      "label": "How Anthropic\u2019s product team moves faster than anyone else | Cat Wu (Head of Product, Claude Code)",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2026-04-23",
-        "tags": [
-          "leadership",
-          "ai",
-          "design",
-          "engineering",
-          "product-management",
-          "go-to-market"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:cat-wu",
-      "label": "Cat Wu",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "chip-huyen",
-      "label": "Al Engineering 101 with Chip Huyen (Nvidia, Stanford, Netflix)",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2025-10-23",
-        "tags": [
-          "ai",
-          "design",
-          "engineering",
-          "leadership",
-          "analytics",
-          "strategy"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:chip-huyen",
-      "label": "Chip Huyen",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "claire-vo-openclaw",
-      "label": "From skeptic to true believer: How OpenClaw changed my life | Claire Vo",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2026-03-29",
-        "tags": [
-          "ai",
-          "design",
-          "engineering",
-          "go-to-market",
-          "leadership",
-          "podcast"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:claire-vo",
-      "label": "Claire Vo",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "dhanji-r-prasanna",
-      "label": "How Block is becoming the most AI-native enterprise in the world | Dhanji R. Prasanna",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2025-10-26",
-        "tags": [
-          "leadership",
-          "design",
-          "engineering",
-          "ai",
-          "podcast",
-          "analytics"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:dhanji-r-prasanna",
-      "label": "Dhanji R. Prasanna",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "dr-becky-kennedy",
-      "label": "A child psychologist\u2019s guide to working with difficult adults | Dr. Becky Kennedy",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2026-02-01",
-        "tags": [
-          "design",
-          "leadership",
-          "newsletter",
-          "podcast",
-          "strategy"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:dr-becky-kennedy",
-      "label": "Dr. Becky Kennedy",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "dr-fei-fei-li",
-      "label": "The Godmother of AI on jobs, robots & why world models are next | Dr. Fei-Fei Li",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2025-11-16",
-        "tags": [
-          "ai",
-          "design",
-          "b2c",
-          "strategy",
-          "b2b",
-          "career"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:dr-fei-fei-li",
-      "label": "Dr. Fei Fei Li",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "edwin-chen",
-      "label": "The 100-person AI lab that became Anthropic and Google's secret weapon | Edwin Chen (Surge AI)",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2025-12-07",
-        "tags": [
-          "design",
-          "ai",
-          "pricing",
-          "engineering",
-          "startups",
-          "leadership"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:edwin-chen",
-      "label": "Edwin Chen",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "elena-verna-40",
-      "label": "Elena Verna 4.0",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2025-12-18",
-        "tags": [
-          "growth",
-          "design",
-          "pricing",
-          "strategy",
-          "b2b",
-          "b2c"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:elena-verna-4-0",
-      "label": "Elena Verna 4.0",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "eoghan-mccabe",
-      "label": "How Intercom rose from the ashes by betting everything on AI | Eoghan McCabe (founder and CEO)",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2025-08-21",
-        "tags": [
-          "ai",
-          "pricing",
-          "design",
-          "startups",
-          "b2b",
-          "growth"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:eoghan-mccabe",
-      "label": "Eoghan McCabe",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "ethan-smith",
-      "label": "The ultimate guide to AEO: How to get ChatGPT to recommend your product | Ethan Smith (Graphite)",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2025-09-14",
-        "tags": [
-          "ai",
-          "design",
-          "newsletter",
-          "go-to-market",
-          "podcast",
-          "startups"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:ethan-smith",
-      "label": "Ethan Smith",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "evan-spiegel",
-      "label": "Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2026-04-26",
-        "tags": [
-          "b2c",
-          "design",
-          "strategy",
-          "engineering",
-          "go-to-market",
-          "leadership"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:evan-spiegel",
-      "label": "Evan Spiegel",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "garrett-lord",
-      "label": "Inside the expert network training every frontier AI model | Garrett Lord (Handshake CEO)",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2025-08-24",
-        "tags": [
-          "ai",
-          "design",
-          "leadership",
-          "strategy",
-          "analytics",
-          "b2b"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:garrett-lord",
-      "label": "Garrett Lord",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "grant-lee",
-      "label": "\u201cDumbest idea I\u2019ve heard\u201d to $100M ARR: Inside the rise of Gamma | Grant Lee (CEO)",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2025-11-13",
-        "tags": [
-          "strategy",
-          "design",
-          "growth",
-          "startups",
-          "ai",
-          "go-to-market"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:grant-lee",
-      "label": "Grant Lee",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "hamel-husain--shreya-shankar",
-      "label": "Why AI evals are the hottest new skill for product builders | Hamel Husain & Shreya Shankar (creators of the #1 eval course)",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2025-09-25",
-        "tags": [
-          "ai",
-          "design",
-          "analytics",
-          "leadership",
-          "engineering",
-          "b2c"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:hamel-husain-shreya-shankar",
-      "label": "Hamel Husain & Shreya Shankar",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "howie-liu",
-      "label": "How we restructured Airtable\u2019s entire org for AI | Howie Liu (co-founder and CEO)",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2025-08-31",
-        "tags": [
-          "ai",
-          "design",
-          "strategy",
-          "leadership",
-          "engineering",
-          "podcast"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:howie-liu",
-      "label": "Howie Liu",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "jason-cohen",
-      "label": "5 questions to ask when your product stops growing | Jason Cohen (2x unicorn founder)",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2026-01-25",
-        "tags": [
-          "growth",
-          "strategy",
-          "startups",
-          "design",
-          "newsletter",
-          "pricing"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:jason-cohen",
-      "label": "Jason Cohen",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "jason-droege",
-      "label": "First interview with Scale AI\u2019s CEO: $14B Meta deal, what\u2019s working in enterprise AI, and what frontier labs are building next | Jason Droege",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2025-10-09",
-        "tags": [
-          "ai",
-          "career",
-          "design",
-          "startups",
-          "strategy",
-          "leadership"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:jason-droege",
-      "label": "Jason Droege",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "jason-m-lemkin",
-      "label": "We replaced our sales team with 20 AI agents\u2014here\u2019s what happened | Jason Lemkin (SaaStr)",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2026-01-01",
-        "tags": [
-          "b2b",
-          "startups",
-          "leadership",
-          "design",
-          "career",
-          "pricing"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:jason-m-lemkin",
-      "label": "Jason M Lemkin",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "jeanne-grosser",
-      "label": "What world-class GTM looks like in 2026 | Jeanne DeWitt Grosser (Vercel, Stripe, Google)",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2025-11-30",
-        "tags": [
-          "strategy",
-          "go-to-market",
-          "b2b",
-          "ai",
-          "design",
-          "leadership"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:jeanne-grosser",
-      "label": "Jeanne Grosser",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "jeetu-patel",
-      "label": "Jeetu Patel",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2026-02-26",
-        "tags": [
-          "ai",
-          "leadership",
-          "design",
-          "engineering",
-          "b2b",
-          "analytics"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:jeetu-patel",
-      "label": "Jeetu Patel",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "jen-abel",
-      "label": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2025-11-09",
-        "tags": [
-          "b2b",
-          "startups",
-          "strategy",
-          "design",
-          "leadership",
-          "podcast"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:jen-abel",
-      "label": "Jen Abel",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "jenny-wen",
-      "label": "Jenny Wen",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2026-03-01",
-        "tags": [
-          "design",
-          "ai",
-          "engineering",
-          "leadership",
-          "strategy",
-          "b2b"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:jenny-wen",
-      "label": "Jenny Wen",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "jessica-fain",
-      "label": "The art of influence: The single most important skill that AI can\u2019t replace | Jessica Fain (Webflow, ex-Slack)",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2026-03-22",
-        "tags": [
-          "leadership",
-          "design",
-          "product-management",
-          "career",
-          "organization",
-          "ai"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:jessica-fain",
-      "label": "Jessica Fain",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "keith-rabois",
-      "label": "Hard truths about building in the AI era | Keith Rabois (Khosla Ventures)",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2026-04-12",
-        "tags": [
-          "career",
-          "design",
-          "leadership",
-          "startups",
-          "engineering",
-          "strategy"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:keith-rabois",
-      "label": "Keith Rabois",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "lazar-jovanovic",
-      "label": "The rise of the professional vibe coder (a new AI-era job) | Lazar Jovanovic (Professional Vibe Coder)",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2026-02-08",
-        "tags": [
-          "design",
-          "engineering",
-          "ai",
-          "leadership",
-          "b2b",
-          "b2c"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:lazar-jovanovic",
-      "label": "Lazar Jovanovic",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "marc-andreessen",
-      "label": "Marc Andreessen: The real AI boom hasn\u2019t even started yet",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2026-01-29",
-        "tags": [
-          "ai",
-          "design",
-          "startups",
-          "engineering",
-          "growth",
-          "leadership"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:marc-andreessen",
-      "label": "Marc Andreessen",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "matt-macinnis",
-      "label": "10 contrarian leadership truths every leader needs to hear | Matt MacInnis (Rippling)",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2025-12-28",
-        "tags": [
-          "leadership",
-          "design",
-          "startups",
-          "strategy",
-          "career",
-          "growth"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:matt-macinnis",
-      "label": "Matt MacInnis",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "melanie-perkins",
-      "label": "The woman behind Canva shares how she built a $42B company from nothing | Melanie Perkins",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2025-11-02",
-        "tags": [
-          "design",
-          "strategy",
-          "startups",
-          "ai",
-          "leadership",
-          "organization"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:melanie-perkins",
-      "label": "Melanie Perkins",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "molly-graham",
-      "label": "The high-growth handbook: Molly Graham\u2019s frameworks for leading through chaos, change, and scale",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2026-01-04",
-        "tags": [
-          "design",
-          "startups",
-          "career",
-          "growth",
-          "leadership",
-          "pricing"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:molly-graham",
-      "label": "Molly Graham",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "nicole-forsgren",
-      "label": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2025-10-19",
-        "tags": [
-          "engineering",
-          "leadership",
-          "design",
-          "analytics",
-          "b2b",
-          "strategy"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:nicole-forsgren",
-      "label": "Nicole Forsgren",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "nikhyl-singhal-2",
-      "label": "Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2026-04-19",
-        "tags": [
-          "design",
-          "leadership",
-          "product-management",
-          "career",
-          "ai",
-          "b2c"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:nikhyl-singhal",
-      "label": "Nikhyl Singhal",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "rachel-lockett",
-      "label": "A guide to difficult conversations, building high-trust teams, and designing a life you love | Rachel Lockett",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2025-11-23",
-        "tags": [
-          "leadership",
-          "design",
-          "b2c",
-          "engineering",
-          "strategy",
-          "career"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:rachel-lockett",
-      "label": "Rachel Lockett",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "ravi-mehta",
-      "label": "The secret to better AI prototypes: Why Tinder\u2019s CPO starts with JSON, not design | Ravi Mehta (product advisor, previously EIR at Reforge)",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2025-09-29",
-        "tags": [
-          "leadership",
-          "startups",
-          "design",
-          "career",
-          "analytics",
-          "b2c"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:ravi-mehta",
-      "label": "Ravi Mehta",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "robby-stein",
-      "label": "Inside Google's AI turnaround: The rise of AI Mode, strategy behind AI Overviews, and their vision for AI-powered search | Robby Stein (VP of Product, Google Search)",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2025-10-10",
-        "tags": [
-          "ai",
-          "design",
-          "growth",
-          "b2c",
-          "go-to-market",
-          "strategy"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:robby-stein",
-      "label": "Robby Stein",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "sam-lessin",
-      "label": "How to show up in any room with a low heart rate: Silicon Valley\u2019s missing etiquette playbook | Sam Lessin",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2026-01-15",
-        "tags": [
-          "startups",
-          "design",
-          "podcast",
-          "b2c",
-          "ai",
-          "engineering"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:sam-lessin",
-      "label": "Sam Lessin",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "scott-wu",
-      "label": "How Devin replaces your junior engineers with infinite AI interns that never sleep | Scott Wu (Cognition CEO)",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2025-09-08",
-        "tags": [
-          "ai",
-          "design",
-          "engineering",
-          "leadership",
-          "go-to-market",
-          "startups"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:scott-wu",
-      "label": "Scott Wu",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "sherwin-wu-v2",
-      "label": "Sherwin Wu V2",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2026-02-12",
-        "tags": [
-          "engineering",
-          "ai",
-          "leadership",
-          "design",
-          "startups",
-          "analytics"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:sherwin-wu-v2",
-      "label": "Sherwin Wu V2",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "simon-willison",
-      "label": "An AI state of the union: We\u2019ve passed the inflection point, dark factories are coming, and automation timelines | Simon Willison",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2026-04-02",
-        "tags": [
-          "engineering",
-          "ai",
-          "design",
-          "analytics",
-          "b2b",
-          "career"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:simon-willison",
-      "label": "Simon Willison",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "stewart-butterfield",
-      "label": "Slack founder: Mental models for building products people love ft. Stewart Butterfield",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2025-11-20",
-        "tags": [
-          "design",
-          "b2b",
-          "b2c",
-          "leadership",
-          "startups",
-          "career"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:stewart-butterfield",
-      "label": "Stewart Butterfield",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "tomer-cohen",
-      "label": "Why LinkedIn is turning PMs into AI-powered \"full stack builders\u201d | Tomer Cohen (LinkedIn CPO)",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2025-12-04",
-        "tags": [
-          "design",
-          "leadership",
-          "ai",
-          "go-to-market",
-          "startups",
-          "b2c"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:tomer-cohen",
-      "label": "Tomer Cohen",
-      "kind": "person",
-      "meta": {}
-    },
-    {
-      "id": "zevi-arnovitz",
-      "label": "The non-technical PM\u2019s guide to building with Cursor | Zevi Arnovitz (Meta)",
-      "kind": "artifact",
-      "meta": {
-        "type": "podcast",
-        "date": "2026-01-18",
-        "tags": [
-          "ai",
-          "engineering",
-          "design",
-          "product-management",
-          "newsletter",
-          "podcast"
-        ],
-        "source_url": null
-      }
-    },
-    {
-      "id": "person:zevi-arnovitz",
-      "label": "Zevi Arnovitz",
-      "kind": "person",
-      "meta": {}
-    },
-    {
       "id": "concept:reflection",
       "label": "Reflection",
       "kind": "concept",
@@ -1458,6 +73,7 @@
         "kind": "framework",
         "one_line": "A post-training technique that trains a reward model on human preferences, then uses it to reinforce AI outputs humans would prefer.",
         "aliases": [
+          "RLHF",
           "reinforcement learning from human feedback",
           "reinforcement learning with human feedback"
         ]
@@ -1471,6 +87,12 @@
         "kind": "framework",
         "one_line": "A technique that retrieves relevant external data at run-time and injects it into the prompt so the model answers from current, task-specific context.",
         "aliases": [
+          "Data Preparation is Critical for RAG Quality",
+          "Hypothetical Questions for RAG Chunking",
+          "RAG",
+          "Retrieval-Augmented Generation",
+          "data preparation for RAG",
+          "hypothetical question generation",
           "retrieval-augmented generation"
         ]
       }
@@ -1483,20 +105,16 @@
         "kind": "metric",
         "one_line": "Structured benchmarks that run a model through predefined inputs and score outputs to measure whether the AI is doing what you want.",
         "aliases": [
+          "Return on Investment for Evals",
+          "collection, first-pass evaluation, iteration loop, production monitoring",
+          "era of evals",
+          "eval ROI",
+          "eval as product requirement document",
+          "eval formula",
+          "eval workflow",
           "evaluation",
-          "evaluations"
-        ]
-      }
-    },
-    {
-      "id": "concept:mcp",
-      "label": "MCP",
-      "kind": "concept",
-      "meta": {
-        "kind": "framework",
-        "one_line": "An open standard that lets AI models connect to and take actions through external tools like calendars, CRMs, and codebases without custom integration code.",
-        "aliases": [
-          "model context protocol"
+          "evaluations",
+          "four-part formula"
         ]
       }
     },
@@ -1551,7 +169,9 @@
       "meta": {
         "kind": "metaphor",
         "one_line": "Informal, gut-feel assessment of AI output quality that lacks rigor and measurability.",
-        "aliases": []
+        "aliases": [
+          "vibe check"
+        ]
       }
     },
     {
@@ -1564,18 +184,6 @@
         "aliases": [
           "LLM-based evals",
           "judge-LLM"
-        ]
-      }
-    },
-    {
-      "id": "concept:eval-formula",
-      "label": "eval formula",
-      "kind": "concept",
-      "meta": {
-        "kind": "framework",
-        "one_line": "A four-part structure for writing LLM evals: set the role, provide context, define the goal, and specify terminology and labels.",
-        "aliases": [
-          "four-part formula"
         ]
       }
     },
@@ -1612,18 +220,6 @@
       }
     },
     {
-      "id": "concept:eval-workflow",
-      "label": "eval workflow",
-      "kind": "concept",
-      "meta": {
-        "kind": "framework",
-        "one_line": "A four-phase iterative process\u2014collection, first-pass evaluation, iteration loop, and production monitoring\u2014for building and maintaining evals.",
-        "aliases": [
-          "collection, first-pass evaluation, iteration loop, production monitoring"
-        ]
-      }
-    },
-    {
       "id": "concept:few-shot-prompting",
       "label": "few-shot prompting",
       "kind": "concept",
@@ -1631,18 +227,6 @@
         "kind": "framework",
         "one_line": "Adding concrete examples of good and bad outputs inside an eval prompt to ground the judge-LLM's judgments.",
         "aliases": []
-      }
-    },
-    {
-      "id": "concept:reinforcement-learning-from-human-feedback",
-      "label": "reinforcement learning from human feedback",
-      "kind": "concept",
-      "meta": {
-        "kind": "framework",
-        "one_line": "Using human-labeled feedback to align an AI model's outputs with human preferences via prompt optimization or fine-tuning.",
-        "aliases": [
-          "RLHF"
-        ]
       }
     },
     {
@@ -2486,16 +1070,6 @@
       }
     },
     {
-      "id": "concept:capability-overhang",
-      "label": "capability overhang",
-      "kind": "concept",
-      "meta": {
-        "kind": "metaphor",
-        "one_line": "The gap between what an AI model can do and what users understand it can do, creating friction in product adoption.",
-        "aliases": []
-      }
-    },
-    {
       "id": "concept:right-friction",
       "label": "right friction",
       "kind": "concept",
@@ -3011,26 +1585,6 @@
       }
     },
     {
-      "id": "concept:era-of-evals",
-      "label": "era of evals",
-      "kind": "concept",
-      "meta": {
-        "kind": "principle",
-        "one_line": "A shift in AI development where the primary bottleneck is defining and measuring success for model capabilities through rigorous evaluation frameworks.",
-        "aliases": []
-      }
-    },
-    {
-      "id": "concept:eval-as-product-requirement-document",
-      "label": "eval as product requirement document",
-      "kind": "concept",
-      "meta": {
-        "kind": "metaphor",
-        "one_line": "Evals function like PRDs\u2014they define what success looks like for a model the way a PRD defines what success looks like for a product.",
-        "aliases": []
-      }
-    },
-    {
       "id": "concept:reinforcement-learning-from-ai-feedback",
       "label": "reinforcement learning from AI feedback",
       "kind": "concept",
@@ -3225,7 +1779,12 @@
       "meta": {
         "kind": "metric",
         "one_line": "AI Engine Optimization\u2014the practice of optimizing website content and structure to be found and ranked within AI search engines and large language models rather than traditional search.",
-        "aliases": []
+        "aliases": [
+          "AEO",
+          "Answer Engine Optimization",
+          "GEO",
+          "Generative Engine Optimization"
+        ]
       }
     },
     {
@@ -3366,54 +1925,6 @@
           "RLHF",
           "reinforcement learning with human feedback",
           "reward models"
-        ]
-      }
-    },
-    {
-      "id": "concept:return-on-investment-for-evals",
-      "label": "Return on Investment for Evals",
-      "kind": "concept",
-      "meta": {
-        "kind": "principle",
-        "one_line": "Whether to invest in evals depends on the cost of evaluation effort versus the performance gain and competitive importance; don't build perfect evals if you can launch new features instead.",
-        "aliases": [
-          "eval ROI"
-        ]
-      }
-    },
-    {
-      "id": "concept:retrieval-augmented-generation",
-      "label": "Retrieval-Augmented Generation",
-      "kind": "concept",
-      "meta": {
-        "kind": "framework",
-        "one_line": "RAG provides a model with relevant context retrieved from external documents so it can answer questions better, rather than relying only on its training data.",
-        "aliases": [
-          "RAG"
-        ]
-      }
-    },
-    {
-      "id": "concept:data-preparation-is-critical-for-rag-quality",
-      "label": "Data Preparation is Critical for RAG Quality",
-      "kind": "concept",
-      "meta": {
-        "kind": "principle",
-        "one_line": "The biggest performance gains in RAG systems come from thoughtful data chunking, adding metadata and contextual summaries, and rewriting documentation for AI comprehension\u2014not from optimizing vector databases.",
-        "aliases": [
-          "data preparation for RAG"
-        ]
-      }
-    },
-    {
-      "id": "concept:hypothetical-questions-for-rag-chunking",
-      "label": "Hypothetical Questions for RAG Chunking",
-      "kind": "concept",
-      "meta": {
-        "kind": "principle",
-        "one_line": "Generate plausible questions that each chunk of data could answer, so the retrieval system can match user queries to relevant chunks even when exact keywords don't align.",
-        "aliases": [
-          "hypothetical question generation"
         ]
       }
     },
@@ -3575,7 +2086,8 @@
         "kind": "framework",
         "one_line": "A set of formalized wrappers that expose enterprise tools and capabilities to LLMs so they can manipulate and interact with them.",
         "aliases": [
-          "MCP"
+          "MCP",
+          "model context protocol"
         ]
       }
     },
@@ -4366,20 +2878,6 @@
       }
     },
     {
-      "id": "concept:answer-engine-optimization",
-      "label": "Answer Engine Optimization",
-      "kind": "concept",
-      "meta": {
-        "kind": "framework",
-        "one_line": "Getting your product or content to show up in the answers that LLMs like ChatGPT return to users.",
-        "aliases": [
-          "AEO",
-          "GEO",
-          "Generative Engine Optimization"
-        ]
-      }
-    },
-    {
       "id": "concept:the-head-and-the-tail",
       "label": "the head and the tail",
       "kind": "concept",
@@ -4815,16 +3313,6 @@
       "meta": {
         "kind": "framework",
         "one_line": "A detailed log of all events and components in a single AI application interaction, including prompts, tool calls, and responses.",
-        "aliases": []
-      }
-    },
-    {
-      "id": "concept:vibe-check",
-      "label": "vibe check",
-      "kind": "concept",
-      "meta": {
-        "kind": "principle",
-        "one_line": "Informal evaluation based on gut feeling rather than systematic measurement, useful initially but unscalable as applications grow.",
         "aliases": []
       }
     },
@@ -5538,7 +4026,9 @@
       "meta": {
         "kind": "metric",
         "one_line": "The gap between what AI can technically do and what enterprises can actually adopt and deploy in practice.",
-        "aliases": []
+        "aliases": [
+          "capability overhang"
+        ]
       }
     },
     {
@@ -7772,6 +6262,1391 @@
       }
     },
     {
+      "id": "a-guide-to-ai-prototyping-for-product-managers",
+      "label": "A guide to AI prototyping for product managers",
+      "kind": "artifact",
+      "meta": {
+        "type": "newsletter",
+        "date": "2025-01-07",
+        "tags": [
+          "design",
+          "ai",
+          "engineering",
+          "leadership",
+          "newsletter",
+          "product-management"
+        ],
+        "source_url": "https://www.lennysnewsletter.com/p/a-guide-to-ai-prototyping-for-product-managers"
+      }
+    },
+    {
+      "id": "person:lenny-rachitsky",
+      "label": "Lenny Rachitsky",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "an-ai-glossary",
+      "label": "An AI glossary",
+      "kind": "artifact",
+      "meta": {
+        "type": "newsletter",
+        "date": "2025-06-24",
+        "tags": [
+          "ai",
+          "engineering",
+          "design",
+          "newsletter",
+          "b2b",
+          "b2c"
+        ],
+        "source_url": "https://www.lennysnewsletter.com/p/an-ai-glossary"
+      }
+    },
+    {
+      "id": "beyond-vibe-checks-a-pms-complete-guide-to-evals",
+      "label": "Beyond vibe checks: A PM\u2019s complete guide to evals",
+      "kind": "artifact",
+      "meta": {
+        "type": "newsletter",
+        "date": "2025-04-08",
+        "tags": [
+          "ai",
+          "design",
+          "engineering",
+          "leadership",
+          "organization",
+          "analytics"
+        ],
+        "source_url": "https://www.lennysnewsletter.com/p/beyond-vibe-checks-a-pms-complete-guide-to-evals"
+      }
+    },
+    {
+      "id": "essential-reading-for-product-builders-part-1",
+      "label": "Essential reading for product builders\u2014part 1",
+      "kind": "artifact",
+      "meta": {
+        "type": "newsletter",
+        "date": "2025-07-15",
+        "tags": [
+          "leadership",
+          "design",
+          "strategy",
+          "newsletter",
+          "startups",
+          "career"
+        ],
+        "source_url": "https://www.lennysnewsletter.com/p/essential-reading-for-product-builders-part-1"
+      }
+    },
+    {
+      "id": "everyone-should-be-using-claude-code-more",
+      "label": "Everyone should be using Claude Code more",
+      "kind": "artifact",
+      "meta": {
+        "type": "newsletter",
+        "date": "2025-10-14",
+        "tags": [
+          "ai",
+          "engineering",
+          "design",
+          "newsletter",
+          "career",
+          "leadership"
+        ],
+        "source_url": "https://www.lennysnewsletter.com/p/everyone-should-be-using-claude-code"
+      }
+    },
+    {
+      "id": "how-duolingo-reignited-user-growth",
+      "label": "How Duolingo reignited user growth",
+      "kind": "artifact",
+      "meta": {
+        "type": "newsletter",
+        "date": "2023-02-28",
+        "tags": [
+          "growth",
+          "leadership",
+          "design",
+          "newsletter",
+          "strategy",
+          "analytics"
+        ],
+        "source_url": "https://www.lennysnewsletter.com/p/how-duolingo-reignited-user-growth"
+      }
+    },
+    {
+      "id": "how-to-build-your-pm-second-brain-with-chatgpt",
+      "label": "How to build your PM second brain with ChatGPT",
+      "kind": "artifact",
+      "meta": {
+        "type": "newsletter",
+        "date": "2025-12-16",
+        "tags": [
+          "ai",
+          "design",
+          "product-management",
+          "newsletter",
+          "strategy",
+          "career"
+        ],
+        "source_url": "https://www.lennysnewsletter.com/p/how-to-build-your-pm-second-brain"
+      }
+    },
+    {
+      "id": "product-manager-is-an-unfair-role-so-work-unfairly",
+      "label": "Product manager is an unfair role. So work unfairly.",
+      "kind": "artifact",
+      "meta": {
+        "type": "newsletter",
+        "date": "2024-11-12",
+        "tags": [
+          "leadership",
+          "design",
+          "product-management",
+          "newsletter",
+          "organization",
+          "ai"
+        ],
+        "source_url": "https://www.lennysnewsletter.com/p/product-manager-is-an-unfair-role-so-work-unfairly"
+      }
+    },
+    {
+      "id": "state-of-the-product-job-market-in-2025",
+      "label": "State of the product job market in 2025",
+      "kind": "artifact",
+      "meta": {
+        "type": "newsletter",
+        "date": "2025-05-13",
+        "tags": [
+          "product-management",
+          "newsletter",
+          "ai",
+          "career",
+          "engineering",
+          "strategy"
+        ],
+        "source_url": "https://www.lennysnewsletter.com/p/state-of-the-product-job-market-in-2025"
+      }
+    },
+    {
+      "id": "what-people-are-vibe-coding-and-actually-using",
+      "label": "What people are vibe coding (and actually using)",
+      "kind": "artifact",
+      "meta": {
+        "type": "newsletter",
+        "date": "2025-07-08",
+        "tags": [
+          "design",
+          "ai",
+          "engineering",
+          "newsletter",
+          "b2c",
+          "career"
+        ],
+        "source_url": "https://www.lennysnewsletter.com/p/what-people-are-vibe-coding-and-actually-using"
+      }
+    },
+    {
+      "id": "aishwarya-naresh-reganti--kiriti-badam",
+      "label": "Aishwarya Naresh Reganti + Kiriti Badam",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-01-11",
+        "tags": [
+          "ai",
+          "design",
+          "leadership",
+          "podcast",
+          "engineering",
+          "go-to-market"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:aishwarya-naresh-reganti-kiriti-badam",
+      "label": "Aishwarya Naresh Reganti + Kiriti Badam",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "albert-cheng",
+      "label": "How to find hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-10-05",
+        "tags": [
+          "growth",
+          "analytics",
+          "design",
+          "b2c",
+          "leadership",
+          "product-management"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:albert-cheng",
+      "label": "Albert Cheng",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "alexander-embiricos",
+      "label": "The power user\u2019s guide to Codex: parallelizing workflows, planning techniques, advanced context engineering tips, automating code reviews, and more | Alexander Embiricos",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-01-12",
+        "tags": [
+          "engineering",
+          "design",
+          "ai",
+          "leadership",
+          "startups",
+          "organization"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:alexander-embiricos",
+      "label": "Alexander Embiricos",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "amol-avasare",
+      "label": "Anthropic\u2019s $1B to $19B growth run: how Claude became the fastest-growing AI product in history | Amol Avasare",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-04-05",
+        "tags": [
+          "growth",
+          "ai",
+          "leadership",
+          "pricing",
+          "design",
+          "career"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:amol-avasare",
+      "label": "Amol Avasare",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "asha-sharma",
+      "label": "How 80,000 companies build with AI: products as organisms, the death of org charts, and why agents will outnumber employees by 2026 | Asha Sharma (CVP of AI Platform at Microsoft)",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-08-28",
+        "tags": [
+          "ai",
+          "design",
+          "engineering",
+          "b2b",
+          "leadership",
+          "growth"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:asha-sharma",
+      "label": "Asha Sharma",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "ben-horowitz",
+      "label": "$46B of hard truths from Ben Horowitz: Why founders fail and why you need to run toward fear (a16z co-founder)",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-09-11",
+        "tags": [
+          "leadership",
+          "design",
+          "product-management",
+          "startups",
+          "engineering",
+          "career"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:ben-horowitz",
+      "label": "Ben Horowitz",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "boris-cherny",
+      "label": "Boris Cherny",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-02-19",
+        "tags": [
+          "engineering",
+          "design",
+          "ai",
+          "leadership",
+          "go-to-market",
+          "growth"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:boris-cherny",
+      "label": "Boris Cherny",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "brendan-foody",
+      "label": "Why experts writing AI evals is creating the fastest-growing companies in history | Brendan Foody (CEO of Mercor)",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-09-18",
+        "tags": [
+          "ai",
+          "design",
+          "strategy",
+          "pricing",
+          "career",
+          "startups"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:brendan-foody",
+      "label": "Brendan Foody",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "brian-halligan",
+      "label": "Sequoia CEO coach: Why it\u2019s never been easier to start a company, and never been harder to scale one | Brian Halligan (co-founder, HubSpot)",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-02-15",
+        "tags": [
+          "career",
+          "leadership",
+          "startups",
+          "design",
+          "engineering",
+          "b2b"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:brian-halligan",
+      "label": "Brian Halligan",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "cat-wu",
+      "label": "How Anthropic\u2019s product team moves faster than anyone else | Cat Wu (Head of Product, Claude Code)",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-04-23",
+        "tags": [
+          "leadership",
+          "ai",
+          "design",
+          "engineering",
+          "product-management",
+          "go-to-market"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:cat-wu",
+      "label": "Cat Wu",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "chip-huyen",
+      "label": "Al Engineering 101 with Chip Huyen (Nvidia, Stanford, Netflix)",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-10-23",
+        "tags": [
+          "ai",
+          "design",
+          "engineering",
+          "leadership",
+          "analytics",
+          "strategy"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:chip-huyen",
+      "label": "Chip Huyen",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "claire-vo-openclaw",
+      "label": "From skeptic to true believer: How OpenClaw changed my life | Claire Vo",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-03-29",
+        "tags": [
+          "ai",
+          "design",
+          "engineering",
+          "go-to-market",
+          "leadership",
+          "podcast"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:claire-vo",
+      "label": "Claire Vo",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "dhanji-r-prasanna",
+      "label": "How Block is becoming the most AI-native enterprise in the world | Dhanji R. Prasanna",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-10-26",
+        "tags": [
+          "leadership",
+          "design",
+          "engineering",
+          "ai",
+          "podcast",
+          "analytics"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:dhanji-r-prasanna",
+      "label": "Dhanji R. Prasanna",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "dr-becky-kennedy",
+      "label": "A child psychologist\u2019s guide to working with difficult adults | Dr. Becky Kennedy",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-02-01",
+        "tags": [
+          "design",
+          "leadership",
+          "newsletter",
+          "podcast",
+          "strategy"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:dr-becky-kennedy",
+      "label": "Dr. Becky Kennedy",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "dr-fei-fei-li",
+      "label": "The Godmother of AI on jobs, robots & why world models are next | Dr. Fei-Fei Li",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-11-16",
+        "tags": [
+          "ai",
+          "design",
+          "b2c",
+          "strategy",
+          "b2b",
+          "career"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:dr-fei-fei-li",
+      "label": "Dr. Fei Fei Li",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "edwin-chen",
+      "label": "The 100-person AI lab that became Anthropic and Google's secret weapon | Edwin Chen (Surge AI)",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-12-07",
+        "tags": [
+          "design",
+          "ai",
+          "pricing",
+          "engineering",
+          "startups",
+          "leadership"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:edwin-chen",
+      "label": "Edwin Chen",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "elena-verna-40",
+      "label": "Elena Verna 4.0",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-12-18",
+        "tags": [
+          "growth",
+          "design",
+          "pricing",
+          "strategy",
+          "b2b",
+          "b2c"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:elena-verna-4-0",
+      "label": "Elena Verna 4.0",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "eoghan-mccabe",
+      "label": "How Intercom rose from the ashes by betting everything on AI | Eoghan McCabe (founder and CEO)",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-08-21",
+        "tags": [
+          "ai",
+          "pricing",
+          "design",
+          "startups",
+          "b2b",
+          "growth"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:eoghan-mccabe",
+      "label": "Eoghan McCabe",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "ethan-smith",
+      "label": "The ultimate guide to AEO: How to get ChatGPT to recommend your product | Ethan Smith (Graphite)",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-09-14",
+        "tags": [
+          "ai",
+          "design",
+          "newsletter",
+          "go-to-market",
+          "podcast",
+          "startups"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:ethan-smith",
+      "label": "Ethan Smith",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "evan-spiegel",
+      "label": "Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-04-26",
+        "tags": [
+          "b2c",
+          "design",
+          "strategy",
+          "engineering",
+          "go-to-market",
+          "leadership"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:evan-spiegel",
+      "label": "Evan Spiegel",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "garrett-lord",
+      "label": "Inside the expert network training every frontier AI model | Garrett Lord (Handshake CEO)",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-08-24",
+        "tags": [
+          "ai",
+          "design",
+          "leadership",
+          "strategy",
+          "analytics",
+          "b2b"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:garrett-lord",
+      "label": "Garrett Lord",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "grant-lee",
+      "label": "\u201cDumbest idea I\u2019ve heard\u201d to $100M ARR: Inside the rise of Gamma | Grant Lee (CEO)",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-11-13",
+        "tags": [
+          "strategy",
+          "design",
+          "growth",
+          "startups",
+          "ai",
+          "go-to-market"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:grant-lee",
+      "label": "Grant Lee",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "hamel-husain--shreya-shankar",
+      "label": "Why AI evals are the hottest new skill for product builders | Hamel Husain & Shreya Shankar (creators of the #1 eval course)",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-09-25",
+        "tags": [
+          "ai",
+          "design",
+          "analytics",
+          "leadership",
+          "engineering",
+          "b2c"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:hamel-husain-shreya-shankar",
+      "label": "Hamel Husain & Shreya Shankar",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "howie-liu",
+      "label": "How we restructured Airtable\u2019s entire org for AI | Howie Liu (co-founder and CEO)",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-08-31",
+        "tags": [
+          "ai",
+          "design",
+          "strategy",
+          "leadership",
+          "engineering",
+          "podcast"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:howie-liu",
+      "label": "Howie Liu",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "jason-cohen",
+      "label": "5 questions to ask when your product stops growing | Jason Cohen (2x unicorn founder)",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-01-25",
+        "tags": [
+          "growth",
+          "strategy",
+          "startups",
+          "design",
+          "newsletter",
+          "pricing"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:jason-cohen",
+      "label": "Jason Cohen",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "jason-droege",
+      "label": "First interview with Scale AI\u2019s CEO: $14B Meta deal, what\u2019s working in enterprise AI, and what frontier labs are building next | Jason Droege",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-10-09",
+        "tags": [
+          "ai",
+          "career",
+          "design",
+          "startups",
+          "strategy",
+          "leadership"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:jason-droege",
+      "label": "Jason Droege",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "jason-m-lemkin",
+      "label": "We replaced our sales team with 20 AI agents\u2014here\u2019s what happened | Jason Lemkin (SaaStr)",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-01-01",
+        "tags": [
+          "b2b",
+          "startups",
+          "leadership",
+          "design",
+          "career",
+          "pricing"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:jason-m-lemkin",
+      "label": "Jason M Lemkin",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "jeanne-grosser",
+      "label": "What world-class GTM looks like in 2026 | Jeanne DeWitt Grosser (Vercel, Stripe, Google)",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-11-30",
+        "tags": [
+          "strategy",
+          "go-to-market",
+          "b2b",
+          "ai",
+          "design",
+          "leadership"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:jeanne-grosser",
+      "label": "Jeanne Grosser",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "jeetu-patel",
+      "label": "Jeetu Patel",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-02-26",
+        "tags": [
+          "ai",
+          "leadership",
+          "design",
+          "engineering",
+          "b2b",
+          "analytics"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:jeetu-patel",
+      "label": "Jeetu Patel",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "jen-abel",
+      "label": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-11-09",
+        "tags": [
+          "b2b",
+          "startups",
+          "strategy",
+          "design",
+          "leadership",
+          "podcast"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:jen-abel",
+      "label": "Jen Abel",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "jenny-wen",
+      "label": "Jenny Wen",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-03-01",
+        "tags": [
+          "design",
+          "ai",
+          "engineering",
+          "leadership",
+          "strategy",
+          "b2b"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:jenny-wen",
+      "label": "Jenny Wen",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "jessica-fain",
+      "label": "The art of influence: The single most important skill that AI can\u2019t replace | Jessica Fain (Webflow, ex-Slack)",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-03-22",
+        "tags": [
+          "leadership",
+          "design",
+          "product-management",
+          "career",
+          "organization",
+          "ai"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:jessica-fain",
+      "label": "Jessica Fain",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "keith-rabois",
+      "label": "Hard truths about building in the AI era | Keith Rabois (Khosla Ventures)",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-04-12",
+        "tags": [
+          "career",
+          "design",
+          "leadership",
+          "startups",
+          "engineering",
+          "strategy"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:keith-rabois",
+      "label": "Keith Rabois",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "lazar-jovanovic",
+      "label": "The rise of the professional vibe coder (a new AI-era job) | Lazar Jovanovic (Professional Vibe Coder)",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-02-08",
+        "tags": [
+          "design",
+          "engineering",
+          "ai",
+          "leadership",
+          "b2b",
+          "b2c"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:lazar-jovanovic",
+      "label": "Lazar Jovanovic",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "marc-andreessen",
+      "label": "Marc Andreessen: The real AI boom hasn\u2019t even started yet",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-01-29",
+        "tags": [
+          "ai",
+          "design",
+          "startups",
+          "engineering",
+          "growth",
+          "leadership"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:marc-andreessen",
+      "label": "Marc Andreessen",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "matt-macinnis",
+      "label": "10 contrarian leadership truths every leader needs to hear | Matt MacInnis (Rippling)",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-12-28",
+        "tags": [
+          "leadership",
+          "design",
+          "startups",
+          "strategy",
+          "career",
+          "growth"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:matt-macinnis",
+      "label": "Matt MacInnis",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "melanie-perkins",
+      "label": "The woman behind Canva shares how she built a $42B company from nothing | Melanie Perkins",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-11-02",
+        "tags": [
+          "design",
+          "strategy",
+          "startups",
+          "ai",
+          "leadership",
+          "organization"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:melanie-perkins",
+      "label": "Melanie Perkins",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "molly-graham",
+      "label": "The high-growth handbook: Molly Graham\u2019s frameworks for leading through chaos, change, and scale",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-01-04",
+        "tags": [
+          "design",
+          "startups",
+          "career",
+          "growth",
+          "leadership",
+          "pricing"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:molly-graham",
+      "label": "Molly Graham",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "nicole-forsgren",
+      "label": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-10-19",
+        "tags": [
+          "engineering",
+          "leadership",
+          "design",
+          "analytics",
+          "b2b",
+          "strategy"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:nicole-forsgren",
+      "label": "Nicole Forsgren",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "nikhyl-singhal-2",
+      "label": "Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-04-19",
+        "tags": [
+          "design",
+          "leadership",
+          "product-management",
+          "career",
+          "ai",
+          "b2c"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:nikhyl-singhal",
+      "label": "Nikhyl Singhal",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "rachel-lockett",
+      "label": "A guide to difficult conversations, building high-trust teams, and designing a life you love | Rachel Lockett",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-11-23",
+        "tags": [
+          "leadership",
+          "design",
+          "b2c",
+          "engineering",
+          "strategy",
+          "career"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:rachel-lockett",
+      "label": "Rachel Lockett",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "ravi-mehta",
+      "label": "The secret to better AI prototypes: Why Tinder\u2019s CPO starts with JSON, not design | Ravi Mehta (product advisor, previously EIR at Reforge)",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-09-29",
+        "tags": [
+          "leadership",
+          "startups",
+          "design",
+          "career",
+          "analytics",
+          "b2c"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:ravi-mehta",
+      "label": "Ravi Mehta",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "robby-stein",
+      "label": "Inside Google's AI turnaround: The rise of AI Mode, strategy behind AI Overviews, and their vision for AI-powered search | Robby Stein (VP of Product, Google Search)",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-10-10",
+        "tags": [
+          "ai",
+          "design",
+          "growth",
+          "b2c",
+          "go-to-market",
+          "strategy"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:robby-stein",
+      "label": "Robby Stein",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "sam-lessin",
+      "label": "How to show up in any room with a low heart rate: Silicon Valley\u2019s missing etiquette playbook | Sam Lessin",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-01-15",
+        "tags": [
+          "startups",
+          "design",
+          "podcast",
+          "b2c",
+          "ai",
+          "engineering"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:sam-lessin",
+      "label": "Sam Lessin",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "scott-wu",
+      "label": "How Devin replaces your junior engineers with infinite AI interns that never sleep | Scott Wu (Cognition CEO)",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-09-08",
+        "tags": [
+          "ai",
+          "design",
+          "engineering",
+          "leadership",
+          "go-to-market",
+          "startups"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:scott-wu",
+      "label": "Scott Wu",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "sherwin-wu-v2",
+      "label": "Sherwin Wu V2",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-02-12",
+        "tags": [
+          "engineering",
+          "ai",
+          "leadership",
+          "design",
+          "startups",
+          "analytics"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:sherwin-wu-v2",
+      "label": "Sherwin Wu V2",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "simon-willison",
+      "label": "An AI state of the union: We\u2019ve passed the inflection point, dark factories are coming, and automation timelines | Simon Willison",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-04-02",
+        "tags": [
+          "engineering",
+          "ai",
+          "design",
+          "analytics",
+          "b2b",
+          "career"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:simon-willison",
+      "label": "Simon Willison",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "stewart-butterfield",
+      "label": "Slack founder: Mental models for building products people love ft. Stewart Butterfield",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-11-20",
+        "tags": [
+          "design",
+          "b2b",
+          "b2c",
+          "leadership",
+          "startups",
+          "career"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:stewart-butterfield",
+      "label": "Stewart Butterfield",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "tomer-cohen",
+      "label": "Why LinkedIn is turning PMs into AI-powered \"full stack builders\u201d | Tomer Cohen (LinkedIn CPO)",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-12-04",
+        "tags": [
+          "design",
+          "leadership",
+          "ai",
+          "go-to-market",
+          "startups",
+          "b2c"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:tomer-cohen",
+      "label": "Tomer Cohen",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "zevi-arnovitz",
+      "label": "The non-technical PM\u2019s guide to building with Cursor | Zevi Arnovitz (Meta)",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-01-18",
+        "tags": [
+          "ai",
+          "engineering",
+          "design",
+          "product-management",
+          "newsletter",
+          "podcast"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:zevi-arnovitz",
+      "label": "Zevi Arnovitz",
+      "kind": "person",
+      "meta": {}
+    },
+    {
       "id": "person:colin-matthews",
       "label": "Colin Matthews",
       "kind": "person",
@@ -9121,7 +8996,7 @@
       }
     },
     {
-      "source": "concept:mcp",
+      "source": "concept:model-context-protocol",
       "target": "an-ai-glossary",
       "kind": "appears_in",
       "weight": 1.0,
@@ -9184,7 +9059,7 @@
       }
     },
     {
-      "source": "concept:eval-formula",
+      "source": "concept:evals",
       "target": "beyond-vibe-checks-a-pms-complete-guide-to-evals",
       "kind": "appears_in",
       "weight": 1.0,
@@ -9220,15 +9095,6 @@
       }
     },
     {
-      "source": "concept:eval-workflow",
-      "target": "beyond-vibe-checks-a-pms-complete-guide-to-evals",
-      "kind": "appears_in",
-      "weight": 1.0,
-      "meta": {
-        "quote": "Gathering data to evaluate, writing evals, analyzing the results, and integrating feedback...is an iterative workflow"
-      }
-    },
-    {
       "source": "concept:few-shot-prompting",
       "target": "beyond-vibe-checks-a-pms-complete-guide-to-evals",
       "kind": "appears_in",
@@ -9238,7 +9104,7 @@
       }
     },
     {
-      "source": "concept:reinforcement-learning-from-human-feedback",
+      "source": "concept:rlhf",
       "target": "beyond-vibe-checks-a-pms-complete-guide-to-evals",
       "kind": "appears_in",
       "weight": 1.0,
@@ -9931,7 +9797,7 @@
       }
     },
     {
-      "source": "concept:capability-overhang",
+      "source": "concept:capabilities-overhang",
       "target": "amol-avasare",
       "kind": "appears_in",
       "weight": 1.0,
@@ -10372,21 +10238,12 @@
       }
     },
     {
-      "source": "concept:era-of-evals",
+      "source": "concept:evals",
       "target": "brendan-foody",
       "kind": "appears_in",
       "weight": 1.0,
       "meta": {
         "quote": "We are entering the era of evals."
-      }
-    },
-    {
-      "source": "concept:eval-as-product-requirement-document",
-      "target": "brendan-foody",
-      "kind": "appears_in",
-      "weight": 1.0,
-      "meta": {
-        "quote": "If the model is the product, then the eval is the product requirement document."
       }
     },
     {
@@ -10678,7 +10535,7 @@
       }
     },
     {
-      "source": "concept:return-on-investment-for-evals",
+      "source": "concept:evals",
       "target": "chip-huyen",
       "kind": "appears_in",
       "weight": 1.0,
@@ -10687,30 +10544,12 @@
       }
     },
     {
-      "source": "concept:retrieval-augmented-generation",
+      "source": "concept:rag",
       "target": "chip-huyen",
       "kind": "appears_in",
       "weight": 1.0,
       "meta": {
         "quote": "RAG stands for Retrieval-Augmented Generation... the idea is just for a lot of questions, we need context to answer."
-      }
-    },
-    {
-      "source": "concept:data-preparation-is-critical-for-rag-quality",
-      "target": "chip-huyen",
-      "kind": "appears_in",
-      "weight": 1.0,
-      "meta": {
-        "quote": "The biggest performance, in their RAG solutions coming from better data preparations, not agonizing over what vector databases to use."
-      }
-    },
-    {
-      "source": "concept:hypothetical-questions-for-rag-chunking",
-      "target": "chip-huyen",
-      "kind": "appears_in",
-      "weight": 1.0,
-      "meta": {
-        "quote": "Some people use hypothetical questions... when I have a query, it's like okay, does it match any of the hypothetical questions?"
       }
     },
     {
@@ -11560,7 +11399,7 @@
       }
     },
     {
-      "source": "concept:answer-engine-optimization",
+      "source": "concept:aeo",
       "target": "ethan-smith",
       "kind": "appears_in",
       "weight": 1.0,
@@ -11983,7 +11822,7 @@
       }
     },
     {
-      "source": "concept:vibe-check",
+      "source": "concept:vibe-checks",
       "target": "hamel-husain--shreya-shankar",
       "kind": "appears_in",
       "weight": 1.0,
@@ -14569,7 +14408,7 @@
     },
     {
       "source": "concept:agent-spectrum",
-      "target": "concept:mcp",
+      "target": "concept:model-context-protocol",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
@@ -14625,7 +14464,7 @@
     },
     {
       "source": "concept:evals",
-      "target": "concept:mcp",
+      "target": "concept:model-context-protocol",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
@@ -14674,7 +14513,7 @@
     },
     {
       "source": "concept:gpt",
-      "target": "concept:mcp",
+      "target": "concept:model-context-protocol",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
@@ -14722,42 +14561,42 @@
       "meta": {}
     },
     {
-      "source": "concept:mcp",
+      "source": "concept:model-context-protocol",
       "target": "concept:next-token-prediction",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:mcp",
+      "source": "concept:model-context-protocol",
       "target": "concept:open-book-test",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:mcp",
+      "source": "concept:model-context-protocol",
       "target": "concept:rag",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:mcp",
+      "source": "concept:model-context-protocol",
       "target": "concept:rlhf",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:mcp",
+      "source": "concept:model-context-protocol",
       "target": "concept:transformer-architecture",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:mcp",
+      "source": "concept:model-context-protocol",
       "target": "concept:vibe-coding",
       "kind": "shared_language",
       "weight": 1.0,
@@ -14870,14 +14709,7 @@
     },
     {
       "source": "concept:driving-test-analogy",
-      "target": "concept:eval-formula",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:driving-test-analogy",
-      "target": "concept:eval-workflow",
+      "target": "concept:evals",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
@@ -14905,7 +14737,7 @@
     },
     {
       "source": "concept:driving-test-analogy",
-      "target": "concept:reinforcement-learning-from-human-feedback",
+      "target": "concept:rlhf",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
@@ -14925,91 +14757,35 @@
       "meta": {}
     },
     {
-      "source": "concept:eval-formula",
-      "target": "concept:eval-workflow",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:eval-formula",
+      "source": "concept:evals",
       "target": "concept:few-shot-prompting",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:eval-formula",
+      "source": "concept:evals",
       "target": "concept:hallucination-detection",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:eval-formula",
+      "source": "concept:evals",
       "target": "concept:llm-as-judge",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:eval-formula",
-      "target": "concept:reinforcement-learning-from-human-feedback",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:eval-formula",
+      "source": "concept:evals",
       "target": "concept:train-on-tracks-vs-driving-in-a-city",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:eval-formula",
-      "target": "concept:vibe-checks",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:eval-workflow",
-      "target": "concept:few-shot-prompting",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:eval-workflow",
-      "target": "concept:hallucination-detection",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:eval-workflow",
-      "target": "concept:llm-as-judge",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:eval-workflow",
-      "target": "concept:reinforcement-learning-from-human-feedback",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:eval-workflow",
-      "target": "concept:train-on-tracks-vs-driving-in-a-city",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:eval-workflow",
+      "source": "concept:evals",
       "target": "concept:vibe-checks",
       "kind": "shared_language",
       "weight": 1.0,
@@ -15031,7 +14807,7 @@
     },
     {
       "source": "concept:few-shot-prompting",
-      "target": "concept:reinforcement-learning-from-human-feedback",
+      "target": "concept:rlhf",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
@@ -15059,7 +14835,7 @@
     },
     {
       "source": "concept:hallucination-detection",
-      "target": "concept:reinforcement-learning-from-human-feedback",
+      "target": "concept:rlhf",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
@@ -15080,7 +14856,7 @@
     },
     {
       "source": "concept:llm-as-judge",
-      "target": "concept:reinforcement-learning-from-human-feedback",
+      "target": "concept:rlhf",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
@@ -15100,14 +14876,14 @@
       "meta": {}
     },
     {
-      "source": "concept:reinforcement-learning-from-human-feedback",
+      "source": "concept:rlhf",
       "target": "concept:train-on-tracks-vs-driving-in-a-city",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:reinforcement-learning-from-human-feedback",
+      "source": "concept:rlhf",
       "target": "concept:vibe-checks",
       "kind": "shared_language",
       "weight": 1.0,
@@ -17551,7 +17327,7 @@
     },
     {
       "source": "concept:ai-first-product",
-      "target": "concept:capability-overhang",
+      "target": "concept:capabilities-overhang",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
@@ -17606,49 +17382,49 @@
       "meta": {}
     },
     {
-      "source": "concept:capability-overhang",
+      "source": "concept:capabilities-overhang",
       "target": "concept:cash",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:capability-overhang",
+      "source": "concept:capabilities-overhang",
       "target": "concept:cold-start-problem",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:capability-overhang",
+      "source": "concept:capabilities-overhang",
       "target": "concept:larger-swings-versus-smaller-optimizations",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:capability-overhang",
+      "source": "concept:capabilities-overhang",
       "target": "concept:quality-drives-growth",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:capability-overhang",
+      "source": "concept:capabilities-overhang",
       "target": "concept:right-friction",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:capability-overhang",
+      "source": "concept:capabilities-overhang",
       "target": "concept:success-disasters",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:capability-overhang",
+      "source": "concept:capabilities-overhang",
       "target": "concept:the-exponential",
       "kind": "shared_language",
       "weight": 1.0,
@@ -19658,14 +19434,7 @@
     },
     {
       "source": "concept:aural-environment-machine",
-      "target": "concept:era-of-evals",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:aural-environment-machine",
-      "target": "concept:eval-as-product-requirement-document",
+      "target": "concept:evals",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
@@ -19707,14 +19476,7 @@
     },
     {
       "source": "concept:elastic-demand",
-      "target": "concept:era-of-evals",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:elastic-demand",
-      "target": "concept:eval-as-product-requirement-document",
+      "target": "concept:evals",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
@@ -19755,77 +19517,35 @@
       "meta": {}
     },
     {
-      "source": "concept:era-of-evals",
-      "target": "concept:eval-as-product-requirement-document",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:era-of-evals",
+      "source": "concept:evals",
       "target": "concept:labor-market-aggregation",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:era-of-evals",
+      "source": "concept:evals",
       "target": "concept:leading-indicators-in-fast-moving-markets",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:era-of-evals",
+      "source": "concept:evals",
       "target": "concept:net-retention-rate",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:era-of-evals",
+      "source": "concept:evals",
       "target": "concept:reinforcement-learning-from-ai-feedback",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:era-of-evals",
-      "target": "concept:top-10-effect",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:eval-as-product-requirement-document",
-      "target": "concept:labor-market-aggregation",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:eval-as-product-requirement-document",
-      "target": "concept:leading-indicators-in-fast-moving-markets",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:eval-as-product-requirement-document",
-      "target": "concept:net-retention-rate",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:eval-as-product-requirement-document",
-      "target": "concept:reinforcement-learning-from-ai-feedback",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:eval-as-product-requirement-document",
+      "source": "concept:evals",
       "target": "concept:top-10-effect",
       "kind": "shared_language",
       "weight": 1.0,
@@ -20687,14 +20407,7 @@
     },
     {
       "source": "concept:comparison-is-easier-than-scoring",
-      "target": "concept:data-preparation-is-critical-for-rag-quality",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:comparison-is-easier-than-scoring",
-      "target": "concept:hypothetical-questions-for-rag-chunking",
+      "target": "concept:rag",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
@@ -20722,14 +20435,7 @@
     },
     {
       "source": "concept:comparison-is-easier-than-scoring",
-      "target": "concept:retrieval-augmented-generation",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:comparison-is-easier-than-scoring",
-      "target": "concept:return-on-investment-for-evals",
+      "target": "concept:evals",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
@@ -20756,119 +20462,49 @@
       "meta": {}
     },
     {
-      "source": "concept:data-preparation-is-critical-for-rag-quality",
-      "target": "concept:hypothetical-questions-for-rag-chunking",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:data-preparation-is-critical-for-rag-quality",
+      "source": "concept:rag",
       "target": "concept:language-modeling-as-encoding-statistical-information",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:data-preparation-is-critical-for-rag-quality",
+      "source": "concept:rag",
       "target": "concept:pre-training-vs-post-training-distinction",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:data-preparation-is-critical-for-rag-quality",
+      "source": "concept:rag",
       "target": "concept:reinforcement-learning-from-feedback",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:data-preparation-is-critical-for-rag-quality",
-      "target": "concept:retrieval-augmented-generation",
+      "source": "concept:rag",
+      "target": "concept:evals",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:data-preparation-is-critical-for-rag-quality",
-      "target": "concept:return-on-investment-for-evals",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:data-preparation-is-critical-for-rag-quality",
+      "source": "concept:rag",
       "target": "concept:token-as-vocabulary-sweet-spot",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:data-preparation-is-critical-for-rag-quality",
+      "source": "concept:rag",
       "target": "concept:verifiable-rewards",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:data-preparation-is-critical-for-rag-quality",
-      "target": "concept:what-people-think-vs-what-actually-improves-ai-apps",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:hypothetical-questions-for-rag-chunking",
-      "target": "concept:language-modeling-as-encoding-statistical-information",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:hypothetical-questions-for-rag-chunking",
-      "target": "concept:pre-training-vs-post-training-distinction",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:hypothetical-questions-for-rag-chunking",
-      "target": "concept:reinforcement-learning-from-feedback",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:hypothetical-questions-for-rag-chunking",
-      "target": "concept:retrieval-augmented-generation",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:hypothetical-questions-for-rag-chunking",
-      "target": "concept:return-on-investment-for-evals",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:hypothetical-questions-for-rag-chunking",
-      "target": "concept:token-as-vocabulary-sweet-spot",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:hypothetical-questions-for-rag-chunking",
-      "target": "concept:verifiable-rewards",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:hypothetical-questions-for-rag-chunking",
+      "source": "concept:rag",
       "target": "concept:what-people-think-vs-what-actually-improves-ai-apps",
       "kind": "shared_language",
       "weight": 1.0,
@@ -20890,14 +20526,14 @@
     },
     {
       "source": "concept:language-modeling-as-encoding-statistical-information",
-      "target": "concept:retrieval-augmented-generation",
+      "target": "concept:rag",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
       "source": "concept:language-modeling-as-encoding-statistical-information",
-      "target": "concept:return-on-investment-for-evals",
+      "target": "concept:evals",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
@@ -20932,14 +20568,14 @@
     },
     {
       "source": "concept:pre-training-vs-post-training-distinction",
-      "target": "concept:retrieval-augmented-generation",
+      "target": "concept:rag",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
       "source": "concept:pre-training-vs-post-training-distinction",
-      "target": "concept:return-on-investment-for-evals",
+      "target": "concept:evals",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
@@ -20967,14 +20603,14 @@
     },
     {
       "source": "concept:reinforcement-learning-from-feedback",
-      "target": "concept:retrieval-augmented-generation",
+      "target": "concept:rag",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
       "source": "concept:reinforcement-learning-from-feedback",
-      "target": "concept:return-on-investment-for-evals",
+      "target": "concept:evals",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
@@ -21001,49 +20637,21 @@
       "meta": {}
     },
     {
-      "source": "concept:retrieval-augmented-generation",
-      "target": "concept:return-on-investment-for-evals",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:retrieval-augmented-generation",
+      "source": "concept:evals",
       "target": "concept:token-as-vocabulary-sweet-spot",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:retrieval-augmented-generation",
+      "source": "concept:evals",
       "target": "concept:verifiable-rewards",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:retrieval-augmented-generation",
-      "target": "concept:what-people-think-vs-what-actually-improves-ai-apps",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:return-on-investment-for-evals",
-      "target": "concept:token-as-vocabulary-sweet-spot",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:return-on-investment-for-evals",
-      "target": "concept:verifiable-rewards",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:return-on-investment-for-evals",
+      "source": "concept:evals",
       "target": "concept:what-people-think-vs-what-actually-improves-ai-apps",
       "kind": "shared_language",
       "weight": 1.0,
@@ -21836,13 +21444,6 @@
     {
       "source": "concept:model-context-protocol",
       "target": "concept:throwaway-code-experimentation",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
-      "source": "concept:model-context-protocol",
-      "target": "concept:vibe-coding",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
@@ -25349,7 +24950,7 @@
     },
     {
       "source": "concept:6x-conversion-rate-lift",
-      "target": "concept:answer-engine-optimization",
+      "target": "concept:aeo",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
@@ -25404,49 +25005,49 @@
       "meta": {}
     },
     {
-      "source": "concept:answer-engine-optimization",
+      "source": "concept:aeo",
       "target": "concept:citations",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:answer-engine-optimization",
+      "source": "concept:aeo",
       "target": "concept:information-gain",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:answer-engine-optimization",
+      "source": "concept:aeo",
       "target": "concept:onsite-and-offsite",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:answer-engine-optimization",
+      "source": "concept:aeo",
       "target": "concept:rag",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:answer-engine-optimization",
+      "source": "concept:aeo",
       "target": "concept:share-of-voice",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:answer-engine-optimization",
+      "source": "concept:aeo",
       "target": "concept:the-head-and-the-tail",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
-      "source": "concept:answer-engine-optimization",
+      "source": "concept:aeo",
       "target": "concept:topics",
       "kind": "shared_language",
       "weight": 1.0,
@@ -26693,7 +26294,7 @@
     },
     {
       "source": "concept:actionably-improve-your-product",
-      "target": "concept:vibe-check",
+      "target": "concept:vibe-checks",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
@@ -26742,7 +26343,7 @@
     },
     {
       "source": "concept:axial-coding",
-      "target": "concept:vibe-check",
+      "target": "concept:vibe-checks",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
@@ -26784,7 +26385,7 @@
     },
     {
       "source": "concept:benevolent-dictator",
-      "target": "concept:vibe-check",
+      "target": "concept:vibe-checks",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
@@ -26819,7 +26420,7 @@
     },
     {
       "source": "concept:error-analysis",
-      "target": "concept:vibe-check",
+      "target": "concept:vibe-checks",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
@@ -26846,13 +26447,6 @@
       "meta": {}
     },
     {
-      "source": "concept:evals",
-      "target": "concept:vibe-check",
-      "kind": "shared_language",
-      "weight": 1.0,
-      "meta": {}
-    },
-    {
       "source": "concept:open-coding",
       "target": "concept:theoretical-saturation",
       "kind": "shared_language",
@@ -26868,7 +26462,7 @@
     },
     {
       "source": "concept:open-coding",
-      "target": "concept:vibe-check",
+      "target": "concept:vibe-checks",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
@@ -26882,14 +26476,14 @@
     },
     {
       "source": "concept:theoretical-saturation",
-      "target": "concept:vibe-check",
+      "target": "concept:vibe-checks",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
     },
     {
       "source": "concept:trace",
-      "target": "concept:vibe-check",
+      "target": "concept:vibe-checks",
       "kind": "shared_language",
       "weight": 1.0,
       "meta": {}
@@ -37525,16 +37119,6 @@
     },
     {
       "source": "person:lenny-rachitsky",
-      "target": "person:colin-matthews",
-      "kind": "trust",
-      "weight": 1.0,
-      "meta": {
-        "artifact_id": "a-guide-to-ai-prototyping-for-product-managers",
-        "quote": "Colin Matthews was a longtime PM and now teaches my favorite AI prototyping course"
-      }
-    },
-    {
-      "source": "person:lenny-rachitsky",
       "target": "person:andrej-karpathy",
       "kind": "trust",
       "weight": 1.0,
@@ -37571,26 +37155,6 @@
       "meta": {
         "artifact_id": "an-ai-glossary",
         "quote": "Thank you to Dennis Yang, Hilary Gridley, and Aman Khan for feedback on this post."
-      }
-    },
-    {
-      "source": "person:lenny-rachitsky",
-      "target": "person:aman-khan",
-      "kind": "trust",
-      "weight": 1.0,
-      "meta": {
-        "artifact_id": "an-ai-glossary",
-        "quote": "Thank you to Dennis Yang, Hilary Gridley, and Aman Khan for feedback on this post."
-      }
-    },
-    {
-      "source": "person:lenny-rachitsky",
-      "target": "person:aman-khan",
-      "kind": "trust",
-      "weight": 1.0,
-      "meta": {
-        "artifact_id": "beyond-vibe-checks-a-pms-complete-guide-to-evals",
-        "quote": "this post is so damn good, and so damn timely"
       }
     },
     {
@@ -37795,16 +37359,6 @@
     },
     {
       "source": "person:lenny-rachitsky",
-      "target": "person:dan-shipper",
-      "kind": "trust",
-      "weight": 1.0,
-      "meta": {
-        "artifact_id": "aishwarya-naresh-reganti--kiriti-badam",
-        "quote": "I had Dan Shipper on the podcast and they work with a bunch of companies helping them adopt AI. And he said that's the number one predictor of success."
-      }
-    },
-    {
-      "source": "person:lenny-rachitsky",
       "target": "person:noah-smith",
       "kind": "trust",
       "weight": 1.0,
@@ -37841,16 +37395,6 @@
       "meta": {
         "artifact_id": "albert-cheng",
         "quote": "he is quite well known in the chess circles. He's releasing a memoir called Dark Squares... it is just this unbelievable story"
-      }
-    },
-    {
-      "source": "person:lenny-rachitsky",
-      "target": "person:jorge-mazal",
-      "kind": "trust",
-      "weight": 1.0,
-      "meta": {
-        "artifact_id": "albert-cheng",
-        "quote": "Jorge Mazal, who is famous in my world for writing, what was for the longest time, the most popular newsletter post on my newsletter"
       }
     },
     {
@@ -38214,16 +37758,6 @@
       }
     },
     {
-      "source": "person:lenny-rachitsky",
-      "target": "person:ben-mann",
-      "kind": "trust",
-      "weight": 1.0,
-      "meta": {
-        "artifact_id": "cat-wu",
-        "quote": "I forget who said this, maybe Ben Mann, that this is the most normal the world will ever be."
-      }
-    },
-    {
       "source": "person:chip-huyen",
       "target": "person:claude-shannon",
       "kind": "trust",
@@ -38494,26 +38028,6 @@
       }
     },
     {
-      "source": "person:lenny-rachitsky",
-      "target": "person:ethan-smith",
-      "kind": "trust",
-      "weight": 1.0,
-      "meta": {
-        "artifact_id": "ethan-smith",
-        "quote": "The advice that Ethan shares in this conversation is incredibly tactical and worth a lot of money."
-      }
-    },
-    {
-      "source": "person:lenny-rachitsky",
-      "target": "person:ethan-smith",
-      "kind": "trust",
-      "weight": 1.0,
-      "meta": {
-        "artifact_id": "ethan-smith",
-        "quote": "We did a podcast episode just over two and a half years ago. I think of it as the definitive guide on how to win at SEO."
-      }
-    },
-    {
       "source": "person:evan-spiegel",
       "target": "person:safi-bahcall",
       "kind": "trust",
@@ -38621,16 +38135,6 @@
       "meta": {
         "artifact_id": "jason-cohen",
         "quote": "I've been a huge fan of Jason's from afar for so long and it was such a treat to have him on the podcast."
-      }
-    },
-    {
-      "source": "person:lenny-rachitsky",
-      "target": "person:jason-cohen",
-      "kind": "trust",
-      "weight": 1.0,
-      "meta": {
-        "artifact_id": "jason-cohen",
-        "quote": "You are both an incredible builder and a founder, and you are such a great communicator."
       }
     },
     {
@@ -38805,16 +38309,6 @@
     },
     {
       "source": "person:lenny-rachitsky",
-      "target": "person:boris",
-      "kind": "trust",
-      "weight": 1.0,
-      "meta": {
-        "artifact_id": "jenny-wen",
-        "quote": "Boris on the podcast recently was saying Claude Code is now helping him come up with ideas."
-      }
-    },
-    {
-      "source": "person:lenny-rachitsky",
       "target": "person:kevin-wheel",
       "kind": "trust",
       "weight": 1.0,
@@ -38964,16 +38458,6 @@
       }
     },
     {
-      "source": "person:keith-rabois",
-      "target": "person:peter-thiel",
-      "kind": "trust",
-      "weight": 1.0,
-      "meta": {
-        "artifact_id": "keith-rabois",
-        "quote": "Peter taught me this literally the first week of my job at PayPal, that the way to build a company...you've got to find these undiscovered talent."
-      }
-    },
-    {
       "source": "person:lazar-jovanovic",
       "target": "person:lenny-rachitsky",
       "kind": "trust",
@@ -39001,16 +38485,6 @@
       "meta": {
         "artifact_id": "lazar-jovanovic",
         "quote": "I had Elena Verna on the podcast. She's head of growth at Lovable. She mentioned that she works with a professional vibe coder, you."
-      }
-    },
-    {
-      "source": "person:lenny-rachitsky",
-      "target": "person:marc-andreessen",
-      "kind": "trust",
-      "weight": 1.0,
-      "meta": {
-        "artifact_id": "marc-andreessen",
-        "quote": "you've been right so many times about where the world is heading...you were right about the Web and web browsers becoming important."
       }
     },
     {
@@ -39111,16 +38585,6 @@
       "meta": {
         "artifact_id": "matt-macinnis",
         "quote": "I saw the same thing actually at Airbnb with Brian Chesky. It always felt like things were going great and maybe we could take a break"
-      }
-    },
-    {
-      "source": "person:lenny-rachitsky",
-      "target": "person:brian-chesky",
-      "kind": "trust",
-      "weight": 1.0,
-      "meta": {
-        "artifact_id": "melanie-perkins",
-        "quote": "This is exactly the way actually Brian Chesky thought. I worked at Airbnb for a long time and it was always just, 'Think about the world, the dream and then work backwards from that.'"
       }
     },
     {
@@ -39275,16 +38739,6 @@
     },
     {
       "source": "person:lenny-rachitsky",
-      "target": "person:amol",
-      "kind": "trust",
-      "weight": 1.0,
-      "meta": {
-        "artifact_id": "nikhyl-singhal-2",
-        "quote": "This came from a chat I just had with Amol, a Head of Growth at Anthropic...he had this really interesting point."
-      }
-    },
-    {
-      "source": "person:lenny-rachitsky",
       "target": "person:rachel-lockett",
       "kind": "trust",
       "weight": 1.0,
@@ -39385,16 +38839,6 @@
     },
     {
       "source": "person:lenny-rachitsky",
-      "target": "person:sam-lessin",
-      "kind": "trust",
-      "weight": 1.0,
-      "meta": {
-        "artifact_id": "sam-lessin",
-        "quote": "Sam is also hilarious and so fun. And I hope you enjoy this very unique episode."
-      }
-    },
-    {
-      "source": "person:lenny-rachitsky",
       "target": "person:tyler-cowen",
       "kind": "trust",
       "weight": 1.0,
@@ -39471,36 +38915,6 @@
       "meta": {
         "artifact_id": "simon-willison",
         "quote": "Simon, in my opinion, is one of the most important and useful voices right now on how AI is changing the way that we build software"
-      }
-    },
-    {
-      "source": "person:lenny-rachitsky",
-      "target": "person:simon-willison",
-      "kind": "trust",
-      "weight": 1.0,
-      "meta": {
-        "artifact_id": "simon-willison",
-        "quote": "he co-created Django, the web framework that powers Instagram, Pinterest, Spotify, and thousands of other platforms"
-      }
-    },
-    {
-      "source": "person:lenny-rachitsky",
-      "target": "person:simon-willison",
-      "kind": "trust",
-      "weight": 1.0,
-      "meta": {
-        "artifact_id": "simon-willison",
-        "quote": "he coined the term prompt injection, popularized the ideas of AI slop and agentic engineering"
-      }
-    },
-    {
-      "source": "person:lenny-rachitsky",
-      "target": "person:simon-willison",
-      "kind": "trust",
-      "weight": 1.0,
-      "meta": {
-        "artifact_id": "simon-willison",
-        "quote": "I've been such a fan of yours from afar for so long, I've learned so much from your blog"
       }
     },
     {
@@ -39621,26 +39035,6 @@
       "meta": {
         "artifact_id": "tomer-cohen",
         "quote": "LinkedIn has a great process called vision to values that started from our former CEO, Jeff Winner."
-      }
-    },
-    {
-      "source": "person:lenny-rachitsky",
-      "target": "person:tal-raviv",
-      "kind": "trust",
-      "weight": 1.0,
-      "meta": {
-        "artifact_id": "zevi-arnovitz",
-        "quote": "one of the most AI forward product managers that I know I've learned a ton from him"
-      }
-    },
-    {
-      "source": "person:lenny-rachitsky",
-      "target": "person:tal-raviv",
-      "kind": "trust",
-      "weight": 1.0,
-      "meta": {
-        "artifact_id": "zevi-arnovitz",
-        "quote": "A huge thank you to Tal Raviv for encouraging me to meet Zevi"
       }
     },
     {

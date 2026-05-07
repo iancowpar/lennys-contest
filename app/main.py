@@ -19,7 +19,7 @@ import json
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException
-from fastapi.responses import JSONResponse
+from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
@@ -79,6 +79,14 @@ def post_lookup(req: LookupRequest) -> JSONResponse:
 @app.post("/api/briefing")
 def post_briefing(req: BriefingRequest) -> JSONResponse:
     return JSONResponse(run_briefing(req.artifact))
+
+
+@app.get("/")
+def root() -> FileResponse:
+    return FileResponse(
+        str(APP_DIR / "static" / "index.html"),
+        headers={"Cache-Control": "no-store"},
+    )
 
 
 # Mount the SPA last so API routes win.
