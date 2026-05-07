@@ -43,3 +43,9 @@ waitForPort = 5000
 
 [agent]
 expertMode = true
+
+[userenv]
+
+[userenv.shared]
+LENNYSDATA_CLIENT_ID = "DCuE8fAPOgDi1RPhxRlizEMQ"
+LENNYSDATA_REFRESH_TOKEN = "Sf7n_eU46Y8d0XxAlDISsEcVpBznE7-vVVIyfBGl0M8"

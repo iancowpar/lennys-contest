@@ -12,7 +12,8 @@ from pathlib import Path
 
 from anthropic import Anthropic
 
-_DEFAULT_MODEL = "claude-sonnet-4-6"
+_DEFAULT_MODEL = "claude-haiku-4-5"
+_MAX_BODY_CHARS = 40_000  # ~10k tokens; plenty for concept + trust extraction
 _PROMPTS_DIR = Path(__file__).resolve().parent.parent / "prompts"
 
 
@@ -37,13 +38,18 @@ def extract_json(
     client = Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
     system_prompt = _load_prompt(prompt_name)
 
+    # Truncate very long transcripts — 40k chars is plenty for extraction
+    body = artifact_text
+    if len(body) > _MAX_BODY_CHARS:
+        body = body[:_MAX_BODY_CHARS] + "\n\n[transcript truncated for extraction]"
+
     meta_block = json.dumps(artifact_meta, indent=2)
     user_content = (
         "<artifact_meta>\n"
         f"{meta_block}\n"
         "</artifact_meta>\n\n"
         "<artifact_text>\n"
-        f"{artifact_text}\n"
+        f"{body}\n"
         "</artifact_text>"
     )
 
@@ -66,6 +72,7 @@ def extract_json(
 
 def _parse_json(text: str) -> dict:
     """Be forgiving about model output that wraps JSON in code fences."""
+    import re as _re
 
     stripped = text.strip()
     if stripped.startswith("```"):
@@ -73,4 +80,15 @@ def _parse_json(text: str) -> dict:
         if stripped.startswith("json"):
             stripped = stripped[4:]
         stripped = stripped.strip()
-    return json.loads(stripped)
+
+    try:
+        return json.loads(stripped)
+    except json.JSONDecodeError:
+        # Try to extract the outermost JSON object/array
+        m = _re.search(r"\{.*\}", stripped, _re.DOTALL)
+        if m:
+            try:
+                return json.loads(m.group())
+            except json.JSONDecodeError:
+                pass
+        return {}
