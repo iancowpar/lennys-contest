@@ -27,6 +27,20 @@ _MODEL = "claude-sonnet-4-6"
 _MAX_TOKENS = 1500
 
 
+class LLMError(Exception):
+    """Raised when an LLM call was attempted but failed in a user-visible way.
+
+    Distinct from "stub mode" (no API key, SDK missing) which is silent and
+    expected. LLMError surfaces so the frontend can show a real error instead
+    of a misleading stub banner.
+    """
+
+    def __init__(self, kind: str, detail: str):
+        self.kind = kind
+        self.detail = detail
+        super().__init__(f"{kind}: {detail}")
+
+
 @lru_cache(maxsize=1)
 def _load_graph() -> dict:
     return json.loads(GRAPH_PATH.read_text())
@@ -151,11 +165,11 @@ def _stub_response(situation: str) -> dict:
 
 
 def _try_real_call(situation: str) -> dict | None:
-    """Call Claude. Return None if anthropic is unavailable or the call fails.
+    """Call Claude. Return None if not configured (stub fallback is correct).
 
-    Failure modes we handle quietly: no API key, anthropic SDK not installed,
-    transient network/API error, model returning non-JSON. The caller will
-    fall back to the stub so the UI never breaks.
+    Raises LLMError if the call was attempted but failed (Anthropic exception,
+    non-JSON response). The caller turns LLMError into a structured error
+    response so the frontend can distinguish "not configured" from "broken."
     """
 
     if not os.environ.get("ANTHROPIC_API_KEY"):
@@ -186,8 +200,8 @@ def _try_real_call(situation: str) -> dict | None:
             ],
             messages=[{"role": "user", "content": user_content}],
         )
-    except Exception:
-        return None
+    except Exception as exc:
+        raise LLMError("anthropic_error", str(exc)[:300]) from exc
 
     text = "".join(block.text for block in response.content if block.type == "text").strip()
     if text.startswith("```"):
@@ -198,8 +212,8 @@ def _try_real_call(situation: str) -> dict | None:
 
     try:
         return json.loads(text)
-    except json.JSONDecodeError:
-        return None
+    except json.JSONDecodeError as exc:
+        raise LLMError("invalid_json", text[:300]) from exc
 
 
 def lookup(situation: str) -> dict:
@@ -215,7 +229,21 @@ def lookup(situation: str) -> dict:
             "stub": True,
         }
 
-    real = _try_real_call(situation)
+    try:
+        real = _try_real_call(situation)
+    except LLMError as exc:
+        return {
+            "matched_concepts": [],
+            "contrasting_takes": [],
+            "political_capital_tradeoff": (
+                f"Lookup failed ({exc.kind}). The graph and prompt loaded but the model "
+                "call could not produce a structured result. See error detail below."
+            ),
+            "draft_move": "",
+            "stub": False,
+            "error": {"kind": exc.kind, "detail": exc.detail},
+        }
+
     if real is not None:
         real.setdefault("stub", False)
         return real

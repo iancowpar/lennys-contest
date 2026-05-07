@@ -73,12 +73,17 @@
       ? `<div class="stub-banner">Stub mode. Add <code>ANTHROPIC_API_KEY</code> in Replit secrets and restart the workflow for a real briefing.</div>`
       : "";
 
+    const errorBanner = result.error
+      ? `<div class="error-banner"><strong>Briefing failed:</strong> ${escapeHtml(result.error.kind)}<pre class="error-detail">${escapeHtml(result.error.detail || "")}</pre></div>`
+      : "";
+
     const priorities = (result.priorities || []).map(renderPriority).join("");
     const questions = (result.questions_to_ask || [])
       .map((q) => `<li>${escapeHtml(q)}</li>`)
       .join("");
 
     response.innerHTML = `
+      ${errorBanner}
       ${stubBanner}
       ${
         result.summary
@@ -104,6 +109,8 @@
     status.textContent = busy ? "Reading the artifact against the graph. Usually 10 to 25 seconds." : "";
   }
 
+  const REQUEST_TIMEOUT_MS = 60000;
+
   form.addEventListener("submit", async (event) => {
     event.preventDefault();
     const artifact = textarea.value.trim();
@@ -112,11 +119,15 @@
     setBusy(true);
     response.innerHTML = "";
 
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+
     try {
       const res = await fetch("/api/briefing", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ artifact }),
+        signal: controller.signal,
       });
       if (!res.ok) {
         const detail = await res.text();
@@ -125,8 +136,12 @@
       const data = await res.json();
       render(data);
     } catch (err) {
-      response.innerHTML = `<p class="error">Briefing failed: ${escapeHtml(err.message)}</p>`;
+      const msg = err.name === "AbortError"
+        ? `Request timed out after ${REQUEST_TIMEOUT_MS / 1000} seconds.`
+        : err.message;
+      response.innerHTML = `<p class="error">Briefing failed: ${escapeHtml(msg)}</p>`;
     } finally {
+      clearTimeout(timeoutId);
       setBusy(false);
     }
   });

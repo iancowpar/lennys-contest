@@ -4,13 +4,13 @@ Punch list, not fixes. Ranked by user-visible impact.
 
 ## High
 
-1. **Silent stub fallback on malformed JSON.** `app/briefing.py:106` catches `json.JSONDecodeError` and returns `None`, which makes `briefing()` return the stub. The frontend then shows "Stub mode" even when `ANTHROPIC_API_KEY` is set and the call succeeded — but the model returned non-JSON. Misleading. Should surface "model returned non-JSON" as a distinct error state, not the stub.
+1. ~~Silent stub fallback on malformed JSON.~~ **FIXED.** `app/briefing.py` and `app/lookup.py` now raise `LLMError("invalid_json", ...)` when the model returns non-JSON. The public `briefing()` / `lookup()` functions catch `LLMError` and return a structured error response with `result.error.{kind, detail}`. Frontend renders an error banner via `.error-banner` (`app/static/style.css`).
 
-2. **Silent stub fallback on Anthropic exception.** `app/briefing.py:96` `except Exception: return None`. Same problem: 429s, network errors, timeouts all collapse into "Stub mode." User has no way to distinguish "missing key" from "Anthropic threw a 500."
+2. ~~Silent stub fallback on Anthropic exception.~~ **FIXED.** Same change. `LLMError("anthropic_error", str(exc)[:300])` is raised and surfaced to the frontend.
 
-3. **No request timeout.** `app/static/briefing.js:116` `fetch` has no `AbortController`. Hung backend = "Reading..." forever. Add a 60s client timeout with a clear error message.
+3. ~~No request timeout.~~ **FIXED.** `app/static/briefing.js` and `app/static/lookup.js` now wrap `fetch` with a 60s `AbortController`. `AbortError` renders as "Request timed out after 60 seconds."
 
-4. **`fullGraph` race in `nodeLabel`.** `app/static/briefing.js:27` reads `window.fullGraph`, which is populated by `graph.js` after an async fetch. If the user clicks Briefing first and submits before Atlas loads, evidence cards lose the artifact title (fall through to id-as-label). Either preload the graph on app start, or `await` it inside `nodeLabel`.
+4. **`fullGraph` race in `nodeLabel`.** `app/static/briefing.js:27` reads `window.fullGraph`, which is populated by `graph.js` after an async fetch. If the user clicks Briefing first and submits before Atlas loads, evidence cards lose the artifact title (fall through to id-as-label). In practice the graph fetch resolves in <500ms on init and the user has to paste a long artifact first, so this is rare. Defer until it actually shows up. Fix path: preload the graph on app start, or `await` it inside `nodeLabel`.
 
 ## Medium
 

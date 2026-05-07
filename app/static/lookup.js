@@ -55,10 +55,15 @@
       ? `<div class="stub-banner">Stub mode. Add <code>ANTHROPIC_API_KEY</code> in Replit secrets and restart the workflow for a real read.</div>`
       : "";
 
+    const errorBanner = result.error
+      ? `<div class="error-banner"><strong>Lookup failed:</strong> ${escapeHtml(result.error.kind)}<pre class="error-detail">${escapeHtml(result.error.detail || "")}</pre></div>`
+      : "";
+
     const concepts = (result.matched_concepts || []).map(renderConcept).join("");
     const takes = (result.contrasting_takes || []).map(renderTake).join("");
 
     response.innerHTML = `
+      ${errorBanner}
       ${stubBanner}
       ${
         concepts
@@ -89,6 +94,8 @@
     status.textContent = busy ? "Thinking. This usually takes 5 to 15 seconds." : "";
   }
 
+  const REQUEST_TIMEOUT_MS = 60000;
+
   form.addEventListener("submit", async (event) => {
     event.preventDefault();
     const situation = textarea.value.trim();
@@ -97,11 +104,15 @@
     setBusy(true);
     response.innerHTML = "";
 
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+
     try {
       const res = await fetch("/api/lookup", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ situation }),
+        signal: controller.signal,
       });
       if (!res.ok) {
         const detail = await res.text();
@@ -110,8 +121,12 @@
       const data = await res.json();
       render(data);
     } catch (err) {
-      response.innerHTML = `<p class="error">Lookup failed: ${escapeHtml(err.message)}</p>`;
+      const msg = err.name === "AbortError"
+        ? `Request timed out after ${REQUEST_TIMEOUT_MS / 1000} seconds.`
+        : err.message;
+      response.innerHTML = `<p class="error">Lookup failed: ${escapeHtml(msg)}</p>`;
     } finally {
+      clearTimeout(timeoutId);
       setBusy(false);
     }
   });
