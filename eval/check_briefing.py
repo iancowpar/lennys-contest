@@ -80,7 +80,12 @@ def run_checks(artifact: str, brief: dict) -> list[tuple[str, str]]:
     findings: list[tuple[str, str]] = []  # (severity, message)
 
     if brief.get("stub"):
-        findings.append(("warn", "Response is from the stub (ANTHROPIC_API_KEY not set or call failed)."))
+        findings.append(("warn", "Response is from the stub (ANTHROPIC_API_KEY not set or SDK missing)."))
+        return findings
+
+    if brief.get("error"):
+        err = brief["error"]
+        findings.append(("warn", f"Response is an error ({err.get('kind')}): {err.get('detail', '')[:200]}"))
         return findings
 
     artifact_norm = _normalize(artifact)
