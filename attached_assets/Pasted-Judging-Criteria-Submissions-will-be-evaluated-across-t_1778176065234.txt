@@ -1,0 +1,91 @@
+Judging Criteria
+Submissions will be evaluated across the following dimensions. Judges will assess each area to determine the overall strength of your entry.
+
+Creative Use of the Dataset
+How inventively does your project use Lenny's newsletter and podcast content? We're looking for surprising, delightful, and novel approaches that go beyond the obvious.
+
+Getting Started
+•
+Uses only a small fraction of the dataset
+•
+Surface-level use of the content (e.g. simple keyword search)
+•
+Doesn't transform or reinterpret the data in a meaningful way
+Standing Out
+✓
+Novel idea or unique angle on the data
+✓
+Combines multiple data types (transcripts, posts, guest info)
+✓
+Transforms the content into something genuinely new
+✓
+Makes unexpected connections across the dataset
+Usefulness
+Does your project solve a real problem or provide genuine value? Could Lenny's subscribers, product managers, or founders actually use this?
+
+Getting Started
+•
+Interesting concept but limited practical value
+•
+Solves a problem that doesn't really exist
+•
+Hard to imagine someone using it regularly
+Standing Out
+✓
+Addresses a clear need or pain point
+✓
+Delivers real, tangible value to users
+✓
+Something Lenny's audience would actually want to use
+✓
+Saves time, provides insight, or enables discovery
+Execution & Polish
+How well is your project built and designed? Shipped and polished beats ambitious and broken. We value apps that work reliably with thoughtful design.
+
+Getting Started
+•
+App crashes or has major bugs
+•
+Core features don't work as expected
+•
+Confusing navigation or poor visual design
+•
+Incomplete functionality
+Standing Out
+✓
+Stable, reliable, and fully functional
+✓
+Intuitive navigation and smooth user flow
+✓
+Attractive, cohesive design with professional polish
+✓
+Thoughtful error handling and edge cases
+Use of Replit
+How effectively did you leverage the Replit platform? We're looking for smart use of Replit's tools and features to build, iterate, and deploy your project.
+
+Getting Started
+•
+Used Replit to build, test, and deploy the application
+Standing Out
+✓
+Leveraged Replit Agent to accelerate development
+✓
+Uses Replit integrations such as AI, database, or object storage
+✓
+Deployed and publicly accessible via Replit
+Community Engagement
+How are you sharing your journey? Builders who share their progress, engage with the community, and help others will stand out.
+
+Getting Started
+•
+Made a single post on a social platform (LinkedIn, X, YouTube, Instagram, TikTok)
+Standing Out
+✓
+Built in public and shared progress along the way
+✓
+Continually posted updates and learnings
+✓
+Provided guidance to other community members
+✓
+Answered questions and helped others in the buildathon
+Note: Judging criteria may be adjusted at Replit's discretion. Focus on building the best project you can while engaging with the community throughout your journey.

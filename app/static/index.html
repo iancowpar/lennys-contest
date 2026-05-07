@@ -35,11 +35,24 @@
   </nav>
 
   <section id="atlas-surface" class="surface active">
-    <nav id="filters">
-      <button data-edge="shared_language" class="active">Shared language</button>
-      <button data-edge="trust">Trust</button>
-      <button data-edge="all">All</button>
-    </nav>
+    <div id="atlas-toolbar">
+      <nav id="filters">
+        <button data-edge="top" class="active">Top themes</button>
+        <button data-edge="shared_language">Shared language</button>
+        <button data-edge="trust">Trust</button>
+        <button data-edge="all">All</button>
+      </nav>
+      <div id="search-wrap">
+        <input
+          id="graph-search"
+          type="search"
+          placeholder="Search nodes…"
+          autocomplete="off"
+          aria-label="Search graph nodes"
+        />
+        <div id="graph-search-dropdown" hidden role="listbox"></div>
+      </div>
+    </div>
 
     <main>
       <div id="graph" aria-label="Network graph"></div>

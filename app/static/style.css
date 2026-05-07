@@ -72,12 +72,94 @@ section.surface.active {
   display: block;
 }
 
+#atlas-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 10px 32px;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+}
+
+#search-wrap {
+  position: relative;
+  flex-shrink: 0;
+}
+
+#graph-search {
+  background: var(--bg);
+  color: var(--fg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 13px;
+  width: 220px;
+  font-family: inherit;
+}
+
+#graph-search:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+  border-color: transparent;
+}
+
+#graph-search-dropdown {
+  position: absolute;
+  top: calc(100% + 4px);
+  right: 0;
+  width: 320px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+  z-index: 100;
+  overflow: hidden;
+}
+
+.search-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  background: transparent;
+  color: var(--fg);
+  border: none;
+  border-bottom: 1px solid var(--border);
+  padding: 9px 14px;
+  font-size: 13px;
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.search-item:last-child {
+  border-bottom: none;
+}
+
+.search-item:hover,
+.search-item.active {
+  background: rgba(255,255,255,0.06);
+}
+
+.search-kind {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.search-kind-concept { background: var(--concept); }
+.search-kind-person  { background: var(--person); border-radius: 50%; }
+.search-kind-artifact { background: var(--artifact); border-radius: 50%; }
+
 nav#filters {
   display: flex;
   gap: 8px;
-  padding: 12px 32px;
-  border-bottom: 1px solid var(--border);
-  background: var(--surface);
 }
 
 nav#filters button {
