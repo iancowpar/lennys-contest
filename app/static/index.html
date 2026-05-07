@@ -24,15 +24,16 @@
 </head>
 <body>
   <header>
-    <h1>Beneath the Org Chart</h1>
-    <p class="subtitle">A concept network built from 60+ Lenny episodes. Explore the Atlas, read your situation against the archive, or brief any external artifact against the corpus.</p>
+    <div id="brand">
+      <span class="brand-mark"></span>
+      <span class="brand-name">Beneath the Org Chart</span>
+    </div>
+    <nav id="surfaces">
+      <button data-surface="atlas" class="active">Atlas</button>
+      <button data-surface="lookup">Lookup</button>
+      <button data-surface="briefing">Briefing</button>
+    </nav>
   </header>
-
-  <nav id="surfaces">
-    <button data-surface="atlas" class="active">Atlas</button>
-    <button data-surface="lookup">Lookup</button>
-    <button data-surface="briefing">Briefing</button>
-  </nav>
 
   <section id="atlas-surface" class="surface active">
     <div id="atlas-toolbar">
