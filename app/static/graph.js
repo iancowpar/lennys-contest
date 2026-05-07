@@ -201,8 +201,9 @@ function showNodeDetail(node) {
       .filter(Boolean);
 
     if (appearances.length) {
+      const count = appearances.length;
       html += `<div class="appears-in-section">`;
-      html += `<div class="appears-in-header">Appears in ${appearances.length} source${appearances.length !== 1 ? "s" : ""}</div>`;
+      html += `<div class="appears-in-header">Came up in ${count} ${count === 1 ? "episode or post" : "episodes and posts"}</div>`;
       for (const { artifact, quote } of appearances) {
         const artifactMeta = artifact.meta || {};
         const url = artifactMeta.source_url;
@@ -212,7 +213,7 @@ function showNodeDetail(node) {
           ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(artifact.label)}</a>`
           : escapeHtml(artifact.label);
         html += `</div>`;
-        if (quote) html += `<blockquote>${escapeHtml(quote)}</blockquote>`;
+        if (quote) html += `<blockquote>&ldquo;${escapeHtml(quote)}&rdquo;</blockquote>`;
         html += `</div>`;
       }
       html += `</div>`;
@@ -230,7 +231,7 @@ function showNodeDetail(node) {
     );
     if (speakerEdge) {
       const person = fullGraph.nodes.find((n) => n.id === speakerEdge.target);
-      if (person) html += `<p class="source">Guest: <strong>${escapeHtml(person.label)}</strong></p>`;
+      if (person) html += `<p class="source detail-guest">with <strong>${escapeHtml(person.label)}</strong></p>`;
     }
     // Concepts extracted from this artifact
     const concepts = fullGraph.edges
@@ -240,7 +241,7 @@ function showNodeDetail(node) {
 
     if (concepts.length) {
       html += `<div class="appears-in-section">`;
-      html += `<div class="appears-in-header">${concepts.length} concepts extracted</div>`;
+      html += `<div class="appears-in-header">${concepts.length} ${concepts.length === 1 ? "idea" : "ideas"} surfaced in this one</div>`;
       html += `<div class="concept-list">`;
       for (const c of concepts) {
         html += `<button class="concept-tag" data-node-id="${escapeHtml(c.id)}">${escapeHtml(c.label)}</button>`;
@@ -270,18 +271,18 @@ function showNodeDetail(node) {
     if (vouchesFor.length || vouchedBy.length) {
       html += `<div class="trust-section">`;
       if (vouchedBy.length) {
-        html += `<div class="trust-header">Vouched for by</div>`;
+        html += `<div class="trust-header">People who trust them</div>`;
         for (const { person, quote } of vouchedBy) {
           html += `<div class="trust-item"><div class="trust-person">${escapeHtml(person.label)}</div>`;
-          if (quote) html += `<blockquote>${escapeHtml(quote)}</blockquote>`;
+          if (quote) html += `<blockquote>&ldquo;${escapeHtml(quote)}&rdquo;</blockquote>`;
           html += `</div>`;
         }
       }
       if (vouchesFor.length) {
-        html += `<div class="trust-header">Vouches for</div>`;
+        html += `<div class="trust-header">People they trust</div>`;
         for (const { person, quote } of vouchesFor) {
           html += `<div class="trust-item"><div class="trust-person">${escapeHtml(person.label)}</div>`;
-          if (quote) html += `<blockquote>${escapeHtml(quote)}</blockquote>`;
+          if (quote) html += `<blockquote>&ldquo;${escapeHtml(quote)}&rdquo;</blockquote>`;
           html += `</div>`;
         }
       }
@@ -303,10 +304,22 @@ function showEdgeDetail(edge, visNodes) {
   const toNode = visNodes.get(edge.to);
   const fromLabel = (fromNode && (fromNode._fullLabel || fromNode.label)) || edge.from;
   const toLabel = (toNode && (toNode._fullLabel || toNode.label)) || edge.to;
-  let html = `<h2>${escapeHtml(fromLabel)} &rarr; ${escapeHtml(toLabel)}</h2>`;
-  html += `<div class="kind">${escapeHtml(EDGE_LABELS[edge.kind] || edge.kind)}</div>`;
+  const fromKind = fromNode && fromNode.kind;
+  const toKind = toNode && toNode.kind;
+
+  const connectionNote = {
+    shared_language: "These two share a common language — they reach for the same words.",
+    trust: "There's a trust relationship here. One vouched for the other.",
+    authored_by: "This episode or post features this person.",
+    appears_in: "This idea surfaces in that episode or post.",
+  }[edge.kind] || "";
+
+  let html = `<p class="edge-connection-note">${escapeHtml(connectionNote)}</p>`;
+  html += `<h2 class="edge-title">${escapeHtml(fromLabel)}</h2>`;
+  html += `<div class="edge-arrow-row"><span class="edge-arrow">↓</span><span class="kind">${escapeHtml(EDGE_LABELS[edge.kind] || edge.kind)}</span></div>`;
+  html += `<h2 class="edge-title">${escapeHtml(toLabel)}</h2>`;
   if (edge.meta && edge.meta.quote) {
-    html += `<blockquote>${escapeHtml(edge.meta.quote)}</blockquote>`;
+    html += `<blockquote class="edge-quote">&ldquo;${escapeHtml(edge.meta.quote)}&rdquo;</blockquote>`;
   }
   detail.innerHTML = html;
 }

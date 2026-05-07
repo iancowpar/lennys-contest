@@ -523,6 +523,114 @@ aside#detail .source a:hover {
   background: #fde68a;
 }
 
+/* ── Detail panel welcome state ──────────────────────────────────────────── */
+
+.detail-welcome {
+  padding: 4px 0;
+}
+
+.detail-welcome-lead {
+  font-family: 'Lora', Georgia, serif;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--fg);
+  margin: 0 0 8px;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+}
+
+.detail-welcome-body {
+  font-size: 13px;
+  color: var(--fg2);
+  margin: 0;
+  line-height: 1.65;
+}
+
+.detail-welcome-rule {
+  height: 1px;
+  background: var(--border);
+  margin: 16px 0;
+}
+
+.detail-welcome-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.detail-legend-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 12.5px;
+  color: var(--fg2);
+  line-height: 1.5;
+}
+
+.detail-legend-dot {
+  width: 11px;
+  height: 11px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.detail-legend-item strong {
+  color: var(--fg);
+  font-weight: 600;
+}
+
+.detail-welcome-tip {
+  margin: 16px 0 0;
+  font-size: 12px;
+  color: var(--muted);
+  font-style: italic;
+  line-height: 1.5;
+}
+
+/* ── Detail guest line ───────────────────────────────────────────────────── */
+
+.detail-guest {
+  font-style: italic;
+}
+
+/* ── Edge detail ─────────────────────────────────────────────────────────── */
+
+.edge-connection-note {
+  font-size: 12.5px;
+  color: var(--muted);
+  font-style: italic;
+  line-height: 1.55;
+  margin: 0 0 14px;
+}
+
+.edge-title {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 14px !important;
+  font-weight: 600;
+  color: var(--fg);
+  margin: 0 0 6px !important;
+  line-height: 1.4;
+}
+
+.edge-arrow-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 8px;
+}
+
+.edge-arrow {
+  font-size: 16px;
+  color: var(--muted);
+  line-height: 1;
+}
+
+.edge-quote {
+  margin-top: 14px !important;
+  font-style: italic;
+}
+
 /* ── Footer ──────────────────────────────────────────────────────────────── */
 
 footer {
