@@ -16,7 +16,7 @@ Punch list, not fixes. Ranked by user-visible impact.
 
 5. ~~Code-fence stripping is fragile.~~ **FIXED.** Replaced the `text.strip("`")` shim with `extract_json_object()` in `app/lookup.py`, used by both surfaces. Handles fenced (with or without `json` tag), prose-wrapped fenced, prose-wrapped bare object, and naked JSON.
 
-6. **No retry on transient Anthropic errors.** Single attempt, then stub. A simple one-shot retry on `RateLimitError` and `APIConnectionError` would absorb most flakes.
+6. ~~No retry on transient Anthropic errors.~~ **NOT NEEDED.** The Anthropic SDK retries transient errors (429, 5xx, connection errors) automatically with `max_retries=2` by default. Adding our own retry layer on top would be redundant and risk double-billing.
 
 7. **Empty-state handling is implicit.** When `priorities: []` (the rule for thin artifacts), the Priorities section just disappears via the `priorities ? ... : ""` ternary in `briefing.js:88-92`. Same for empty `summary` or `questions_to_ask`. Nothing tells the user "this artifact was too thin." Render the summary even when priorities are empty, since the prompt instructs the model to put the explanation there.
 
@@ -30,7 +30,7 @@ Punch list, not fixes. Ranked by user-visible impact.
 
 11. **No copy-to-clipboard on the rendered brief.** Friction if you want to send the read to someone. Feature, not a bug.
 
-12. **Stub banner copy.** `briefing.js:73` says "restart the workflow" — Replit-specific phrasing. Fine for the contest demo, but if the surface ever runs outside Replit it's wrong.
+12. ~~Stub banner copy.~~ **FIXED.** Replaced the Replit-specific "Add ... in Replit secrets and restart the workflow" with neutral "Set ANTHROPIC_API_KEY and restart the server" in both surface frontends.
 
 ## Not bugs, but worth knowing
 

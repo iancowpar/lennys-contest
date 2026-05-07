@@ -52,7 +52,7 @@
 
   function render(result) {
     const stubBanner = result.stub
-      ? `<div class="stub-banner">Stub mode. Add <code>ANTHROPIC_API_KEY</code> in Replit secrets and restart the workflow for a real read.</div>`
+      ? `<div class="stub-banner">Stub mode. Set <code>ANTHROPIC_API_KEY</code> and restart the server for a real read.</div>`
       : "";
 
     const errorBanner = result.error
