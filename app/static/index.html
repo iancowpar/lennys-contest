@@ -29,13 +29,13 @@
       <span class="brand-name">Beneath the Org Chart</span>
     </div>
     <nav id="surfaces">
-      <button data-surface="atlas" class="active">Atlas</button>
-      <button data-surface="lookup">Lookup</button>
+      <button data-surface="atlas">Atlas</button>
+      <button data-surface="lookup" class="active">Lookup</button>
       <button data-surface="briefing">Briefing</button>
     </nav>
   </header>
 
-  <section id="atlas-surface" class="surface active">
+  <section id="atlas-surface" class="surface">
     <div id="atlas-toolbar">
       <nav id="filters">
         <button data-edge="top" class="active">Top themes</button>
@@ -91,7 +91,11 @@
     </main>
   </section>
 
-  <section id="lookup-surface" class="surface">
+  <section id="lookup-surface" class="surface active">
+    <div class="surface-intro">
+      <h2 class="surface-intro-headline">Read your situation against Lenny's archive</h2>
+      <p class="surface-intro-sub">Describe what you're navigating as a PM or leader. Get two contrasting takes pulled from 60+ episodes, the political-capital tradeoff, and a draft move you can paste into a doc.</p>
+    </div>
     <div class="lookup-grid">
       <form id="lookup-form" class="lookup-form" autocomplete="off">
         <label for="situation">Describe the situation</label>
@@ -122,6 +126,10 @@
   </section>
 
   <section id="briefing-surface" class="surface">
+    <div class="surface-intro">
+      <h2 class="surface-intro-headline">Brief any external artifact against the corpus</h2>
+      <p class="surface-intro-sub">Paste a CPO talk, a PM job description, a board update, or any outside artifact. Get where Lenny's archive agrees, where it pushes back, and the questions you'd want to ask.</p>
+    </div>
     <div class="briefing-grid">
       <form id="briefing-form" class="lookup-form" autocomplete="off">
         <label for="artifact">Paste an external artifact</label>

@@ -531,10 +531,33 @@ footer {
   font-size: 12px;
 }
 
+/* ── Surface intro header ────────────────────────────────────────────────── */
+
+.surface-intro {
+  padding: 28px 24px 0;
+  max-width: 720px;
+}
+
+.surface-intro-headline {
+  margin: 0 0 8px;
+  font-size: 20px;
+  font-weight: 650;
+  letter-spacing: -0.025em;
+  line-height: 1.25;
+  color: var(--fg);
+}
+
+.surface-intro-sub {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--fg2);
+}
+
 /* ── Lookup surface ──────────────────────────────────────────────────────── */
 
 #lookup-surface {
-  padding: 32px 24px;
+  padding: 20px 24px 32px;
   height: calc(100vh - 90px);
   overflow-y: auto;
   min-height: 500px;
@@ -868,7 +891,7 @@ footer {
 /* ── Briefing surface ────────────────────────────────────────────────────── */
 
 #briefing-surface {
-  padding: 32px 24px;
+  padding: 20px 24px 32px;
   height: calc(100vh - 90px);
   overflow-y: auto;
   min-height: 500px;
