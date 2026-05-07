@@ -14,7 +14,7 @@ Punch list, not fixes. Ranked by user-visible impact.
 
 ## Medium
 
-5. **Code-fence stripping is fragile.** `app/briefing.py:100-104` does `text.strip("`")` which strips all leading and trailing backticks indiscriminately. A model response like ` ```json\n{...}\n```text trailing\n``` ` would break. Use a regex that matches a fenced block.
+5. ~~Code-fence stripping is fragile.~~ **FIXED.** Replaced the `text.strip("`")` shim with `extract_json_object()` in `app/lookup.py`, used by both surfaces. Handles fenced (with or without `json` tag), prose-wrapped fenced, prose-wrapped bare object, and naked JSON.
 
 6. **No retry on transient Anthropic errors.** Single attempt, then stub. A simple one-shot retry on `RateLimitError` and `APIConnectionError` would absorb most flakes.
 

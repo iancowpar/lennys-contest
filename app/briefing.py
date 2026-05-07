@@ -15,7 +15,7 @@ import json
 import os
 from pathlib import Path
 
-from .lookup import LLMError, graph_context
+from .lookup import LLMError, extract_json_object, graph_context
 
 PROMPTS_DIR = Path(__file__).resolve().parent.parent / "prompts"
 
@@ -102,12 +102,8 @@ def _try_real_call(artifact: str) -> dict | None:
     except Exception as exc:
         raise LLMError("anthropic_error", str(exc)[:300]) from exc
 
-    text = "".join(block.text for block in response.content if block.type == "text").strip()
-    if text.startswith("```"):
-        text = text.strip("`")
-        if text.startswith("json"):
-            text = text[4:]
-        text = text.strip()
+    text = "".join(block.text for block in response.content if block.type == "text")
+    text = extract_json_object(text)
 
     try:
         return json.loads(text)
