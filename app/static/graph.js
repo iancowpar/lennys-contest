@@ -176,21 +176,122 @@ function showNodeDetail(node) {
   const detail = document.getElementById("detail");
   const meta = node.meta || {};
   const label = node._fullLabel || node.label;
+  const nodeId = node.id;
+
   let html = `<h2>${escapeHtml(label)}</h2>`;
   html += `<div class="kind">${escapeHtml(node.kind)}${meta.kind ? " &middot; " + escapeHtml(meta.kind) : ""}</div>`;
-  if (meta.one_line) {
-    html += `<p>${escapeHtml(meta.one_line)}</p>`;
-  }
+
+  if (meta.one_line) html += `<p>${escapeHtml(meta.one_line)}</p>`;
+
   if (meta.aliases && meta.aliases.length) {
-    html += `<p class="source">Also known as: ${meta.aliases.map(escapeHtml).join(", ")}</p>`;
+    html += `<p class="source">Also: ${meta.aliases.map(escapeHtml).join(", ")}</p>`;
   }
-  if (meta.source_url) {
-    html += `<p class="source"><a href="${meta.source_url}" target="_blank" rel="noopener">Open source</a></p>`;
+
+  // ── Concept: show episodes/posts where this concept appears ────────────────
+  if (node.kind === "concept" && fullGraph) {
+    const appearances = fullGraph.edges
+      .filter((e) => e.kind === "appears_in" && e.source === nodeId)
+      .map((e) => {
+        const artifact = fullGraph.nodes.find((n) => n.id === e.target);
+        return artifact ? { artifact, quote: (e.meta && e.meta.quote) || "" } : null;
+      })
+      .filter(Boolean);
+
+    if (appearances.length) {
+      html += `<div class="appears-in-section">`;
+      html += `<div class="appears-in-header">Appears in ${appearances.length} source${appearances.length !== 1 ? "s" : ""}</div>`;
+      for (const { artifact, quote } of appearances) {
+        const artifactMeta = artifact.meta || {};
+        const url = artifactMeta.source_url;
+        html += `<div class="appears-in-item">`;
+        html += `<div class="appears-in-title">`;
+        html += url
+          ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(artifact.label)}</a>`
+          : escapeHtml(artifact.label);
+        html += `</div>`;
+        if (quote) html += `<blockquote>${escapeHtml(quote)}</blockquote>`;
+        html += `</div>`;
+      }
+      html += `</div>`;
+    }
   }
-  // Show degree
-  const deg = currentDegree[node.id] || 0;
-  html += `<p class="source">${deg} connection${deg !== 1 ? "s" : ""} in current view</p>`;
+
+  // ── Artifact: show speaker + concepts discussed ────────────────────────────
+  if (node.kind === "artifact" && fullGraph) {
+    if (meta.source_url) {
+      html += `<p class="source"><a href="${escapeHtml(meta.source_url)}" target="_blank" rel="noopener">Open source &rarr;</a></p>`;
+    }
+    // Guest speaker
+    const speakerEdge = fullGraph.edges.find(
+      (e) => e.kind === "authored_by" && e.source === nodeId
+    );
+    if (speakerEdge) {
+      const person = fullGraph.nodes.find((n) => n.id === speakerEdge.target);
+      if (person) html += `<p class="source">Guest: <strong>${escapeHtml(person.label)}</strong></p>`;
+    }
+    // Concepts extracted from this artifact
+    const concepts = fullGraph.edges
+      .filter((e) => e.kind === "appears_in" && e.target === nodeId)
+      .map((e) => fullGraph.nodes.find((n) => n.id === e.source))
+      .filter(Boolean);
+
+    if (concepts.length) {
+      html += `<div class="appears-in-section">`;
+      html += `<div class="appears-in-header">${concepts.length} concepts extracted</div>`;
+      html += `<div class="concept-list">`;
+      for (const c of concepts) {
+        html += `<button class="concept-tag" data-node-id="${escapeHtml(c.id)}">${escapeHtml(c.label)}</button>`;
+      }
+      html += `</div></div>`;
+    }
+  }
+
+  // ── Person: trust graph — who they vouch for, who vouches for them ─────────
+  if (node.kind === "person" && fullGraph) {
+    const vouchesFor = fullGraph.edges
+      .filter((e) => e.kind === "trust" && e.source === nodeId)
+      .map((e) => {
+        const person = fullGraph.nodes.find((n) => n.id === e.target);
+        return person ? { person, quote: (e.meta && e.meta.quote) || "" } : null;
+      })
+      .filter(Boolean);
+
+    const vouchedBy = fullGraph.edges
+      .filter((e) => e.kind === "trust" && e.target === nodeId)
+      .map((e) => {
+        const person = fullGraph.nodes.find((n) => n.id === e.source);
+        return person ? { person, quote: (e.meta && e.meta.quote) || "" } : null;
+      })
+      .filter(Boolean);
+
+    if (vouchesFor.length || vouchedBy.length) {
+      html += `<div class="trust-section">`;
+      if (vouchedBy.length) {
+        html += `<div class="trust-header">Vouched for by</div>`;
+        for (const { person, quote } of vouchedBy) {
+          html += `<div class="trust-item"><div class="trust-person">${escapeHtml(person.label)}</div>`;
+          if (quote) html += `<blockquote>${escapeHtml(quote)}</blockquote>`;
+          html += `</div>`;
+        }
+      }
+      if (vouchesFor.length) {
+        html += `<div class="trust-header">Vouches for</div>`;
+        for (const { person, quote } of vouchesFor) {
+          html += `<div class="trust-item"><div class="trust-person">${escapeHtml(person.label)}</div>`;
+          if (quote) html += `<blockquote>${escapeHtml(quote)}</blockquote>`;
+          html += `</div>`;
+        }
+      }
+      html += `</div>`;
+    }
+  }
+
   detail.innerHTML = html;
+
+  // Wire concept-tag clicks to focus that node
+  detail.querySelectorAll(".concept-tag[data-node-id]").forEach((btn) => {
+    btn.addEventListener("click", () => window.btoFocusOnNode(btn.dataset.nodeId));
+  });
 }
 
 function showEdgeDetail(edge, visNodes) {
