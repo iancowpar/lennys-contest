@@ -1,0 +1,5 @@
+I'm the PM on a product we're sunsetting in 18 months. We have around 200 enterprise customers, several of whom have been on the platform for a decade. The migration path to our next-gen product is ready on paper, the engineering work is done, and the commercial incentives are in place.
+
+But customers keep delaying scoping calls, pushing back on timelines, or going quiet. When I dig in, the stated objection is almost always a missing feature. But I suspect the real issue is something harder to name. They've been through past migrations that didn't go well. They don't trust that the new platform understands their workflows the way the old one does. Or they've lost confidence that we'll still care about them after the switch.
+
+My instinct is to slow down and rebuild something before pushing harder on migration timelines. But I'm getting pressure from leadership to accelerate — the old product is expensive to maintain and 18 months isn't much runway. I don't know whether the right move is to lead with empathy and relationship repair, or to make the migration path so frictionless and risk-free that trust becomes a secondary concern. I'm the PM.

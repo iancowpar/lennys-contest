@@ -1,0 +1,18 @@
+CPO Offsite Keynote Notes — Q2 Product Leadership All-Hands
+Shared internally after the April offsite. Lightly edited for distribution.
+
+---
+
+Opening frame: We are entering a phase I'd describe as "post-roadmap product management." The old model — quarterly planning, prioritized backlogs, stakeholder alignment decks — was designed for a world where the cost of being wrong was high and the cost of moving slowly was acceptable. That world is gone.
+
+What's replacing it is not chaos. It's a new kind of discipline. The teams that will win are the ones who can hold two things simultaneously: ruthless speed on the bets they've already committed to, and genuine intellectual honesty about which bets are already dead.
+
+On AI integration: I want to be direct about something that I don't think we've been honest enough about internally. We've been adding AI to features. We haven't been rethinking features from the ground up with AI as a native assumption. Those are very different things. One is lipstick. The other is architecture. Most of what we've shipped this year is lipstick. That's not an insult — it's where most of the industry is. But it's not where we're going to compete.
+
+On talent and team structure: Product managers who are going to matter in the next two years are not the ones who are best at managing backlogs. They're the ones who can operate at the intersection of customer empathy, system thinking, and data fluency. Those three things together. Not one or two of them. The job is changing faster than most people on our teams are acknowledging.
+
+On discovery: We have a discovery problem disguised as a prioritization problem. When I look at what's actually in our backlogs, I see a lot of solutions. I see very few real customer problems that we've stress-tested enough to believe they're worth solving. We ship fast but we don't always ship the right thing. I would rather have teams that take three weeks to validate a real problem than teams that take three days to ship a solution to a problem nobody actually has.
+
+On culture and decision-making: I believe the best product cultures are the ones where disagreement is cheap and reversible decisions are made quickly. Where we get into trouble is when we treat fast decisions as high-stakes decisions. Or when we let hierarchy substitute for judgment. If a junior PM on your team has a better read on the customer than the VP in the room, the VP's job is to get out of the way. We don't always do that well.
+
+Closing: I'll leave you with one question to take back to your teams: What is the thing you are most confidently building right now that you have the least real evidence for? Find that thing. Then decide whether to go validate it faster, or to stop.
