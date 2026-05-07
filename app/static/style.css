@@ -57,19 +57,30 @@ header {
 }
 
 .brand-mark {
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  background: var(--accent-mid);
   flex-shrink: 0;
 }
 
 .brand-name {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  gap: 2px;
+}
+
+.brand-name-above {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 9.5px;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0.06em;
+  color: var(--fg2);
+}
+
+.brand-name-below {
   font-family: 'Lora', Georgia, serif;
   font-size: 15px;
-  font-weight: 600;
-  font-style: italic;
-  letter-spacing: -0.01em;
+  font-weight: 700;
+  letter-spacing: -0.02em;
   color: var(--fg);
 }
 
