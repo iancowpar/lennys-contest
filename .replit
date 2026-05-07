@@ -1,4 +1,4 @@
-modules = ["python-3.11"]
+modules = ["python-3.11", "nodejs-20"]
 run = "uvicorn app.main:app --host 0.0.0.0 --port 8080"
 
 [nix]
@@ -16,6 +16,10 @@ externalPort = 5000
 [[ports]]
 localPort = 8080
 externalPort = 80
+
+[[ports]]
+localPort = 23636
+externalPort = 3000
 
 [workflows]
 runButton = "Project"
