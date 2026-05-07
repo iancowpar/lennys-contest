@@ -10,9 +10,9 @@
 //   - Real-time node search with autocomplete dropdown
 
 const COLORS = {
-  artifact: "#8b9eff",
-  person: "#6ee7b7",
-  concept: "#f3a712",
+  artifact: "#5b5bd6",
+  person: "#16795a",
+  concept: "#c2750a",
 };
 
 const EDGE_LABELS = {
@@ -67,10 +67,10 @@ function nodeOptions(node, degree) {
       group: node.kind,
       color: {
         background: COLORS.concept,
-        border: deg >= TOP_THEMES_DEGREE ? "#c87d00" : "#1a1a1a",
-        highlight: { background: "#ffd166", border: "#c87d00" },
+        border: deg >= TOP_THEMES_DEGREE ? "#7c4a00" : "#d4a055",
+        highlight: { background: "#fde68a", border: "#7c4a00" },
       },
-      font: { color: "#0e1116", size: fontSize },
+      font: { color: "#3d1f00", size: fontSize },
       shape: "box",
       margin: 4,
       meta: node.meta || {},
@@ -85,7 +85,10 @@ function nodeOptions(node, degree) {
   const displayLabel = node.kind === "artifact"
     ? truncate(node.label, ARTIFACT_LABEL_MAX)
     : node.label;
-  const fontColor = "#e6edf3";
+  const isArtifact = node.kind === "artifact";
+  const isPerson = node.kind === "person";
+  const highlightBg = isArtifact ? "#a5b4fc" : isPerson ? "#6ee7b7" : "#fde68a";
+  const borderColor = isArtifact ? "#3730a3" : isPerson ? "#0f5940" : "#7c4a00";
 
   return {
     id: node.id,
@@ -94,10 +97,10 @@ function nodeOptions(node, degree) {
     group: node.kind,
     color: {
       background: COLORS[node.kind] || "#aaa",
-      border: "#1a1a1a",
-      highlight: { background: "#fff", border: "#1a1a1a" },
+      border: borderColor,
+      highlight: { background: highlightBg, border: borderColor },
     },
-    font: { color: fontColor, size: 12 },
+    font: { color: "#ffffff", size: 12 },
     shape: "dot",
     size,
     meta: node.meta || {},
@@ -114,8 +117,8 @@ function edgeOptions(edge) {
     to: edge.target,
     width: Math.min(0.5 + (edge.weight || 1) * 0.4, 5),
     color: {
-      color: isTrust ? "#3a8a6a" : isShared ? "#3a4250" : "#4a5060",
-      opacity: isTrust ? 0.8 : 0.55,
+      color: isTrust ? "#16795a" : isShared ? "#b0a090" : "#c0b8ac",
+      opacity: isTrust ? 0.7 : 0.45,
     },
     smooth: { type: "continuous" },
     meta: edge.meta || {},
