@@ -37,7 +37,7 @@ Lookup and Briefing share `graph_context()` from `app/lookup.py` so the Anthropi
 - `app/static/` — `index.html`, `style.css`, `vis-network.min.js`, plus one JS file per surface.
 - `app/data/graph.json` — pre-built NIL graph. Committed.
 - `prompts/*.txt` — system prompts. `briefing.txt` and `lookup.txt` are runtime; `shared_language.txt` and `trust_signals.txt` are used by the offline extraction pipeline.
-- `extraction/` — offline pipeline that builds `graph.json` from `data/starter-pack/`.
+- `extraction/` — offline pipeline that builds `graph.json` from `data/starter-pack/`. **Note**: `extraction.run` (full LLM pipeline) has never been run end-to-end; the shipped graph comes from `extraction.seed`, a hand-curated `Artifact` / `Concept` / `Mention` / `TrustEdge` list grounded in verbatim quotes from real archive content.
 - `data/starter-pack/{posts,transcripts}/` — markdown sources.
 - `data/extracted/` — gitignored intermediate JSONL.
 - `eval/` — eval harness and audit notes for the runtime surfaces.
@@ -69,9 +69,13 @@ The harness checks: evidence_quote ≤15 words, verbatim from artifact, not dupl
 
 The harness does NOT check the semantic rules: whole-document hedging, signal-rich phrasing preference, broadening test for pushback "why" sentences. Those still need eyeballing.
 
+## Graph
+
+Currently 28 artifacts, 48 concepts, 79 mentions, 17 trust edges → 116 nodes / 209 edges. Source: `seed:starter-pack-curated-28`. Regenerate with `python -m extraction.seed` after editing `extraction/seed.py`.
+
 ## Gotchas
 
-- Always re-run `python -m extraction.run` after touching `data/starter-pack/` to regenerate `app/data/graph.json`.
+- Always re-run `python -m extraction.seed` (or `python -m extraction.run` if/when the LLM pipeline is wired up) after touching the source artifacts to regenerate `app/data/graph.json`.
 - The Anthropic model is hardcoded as `claude-sonnet-4-6` in both `app/briefing.py:23` and `app/lookup.py:26`. If migrating models, update both.
 - `app/briefing.py` imports `graph_context` from `app/lookup.py`. The graph projection lives in lookup.py for historical reasons; if refactoring, both surfaces depend on the same shape.
 - The frontend `nodeLabel()` in `briefing.js` and `lookup.js` reads `window.fullGraph`, populated by `graph.js` on mount. If a user submits before Atlas finishes loading, evidence cards lose the artifact title and fall back to the id. See `eval/briefing_surface_audit.md` item 4.

@@ -228,6 +228,87 @@ ARTIFACTS: list[Artifact] = [
         subtitle="The story behind Duolingo's 350% growth acceleration",
         tags=["growth", "analytics"],
     ),
+    # -- Round 2: gap-filling additions (non-AI / classic SaaS / hiring / pricing) ----
+    Artifact(
+        id="eoghan-mccabe",
+        title="How Intercom rose from the ashes by betting everything on AI",
+        filename="podcasts/eoghan-mccabe.md",
+        type=ArtifactType.PODCAST,
+        date="2025-08-21",
+        word_count=13654,
+        guest="Eoghan McCabe",
+        tags=["pricing", "b2b", "ai", "leadership"],
+    ),
+    Artifact(
+        id="jason-cohen-stalled-growth",
+        title="5 questions to ask when your product stops growing",
+        filename="podcasts/jason-cohen.md",
+        type=ArtifactType.PODCAST,
+        date="2026-01-25",
+        word_count=21677,
+        guest="Jason Cohen",
+        tags=["growth", "pricing", "startups"],
+    ),
+    Artifact(
+        id="grant-lee",
+        title="\"Dumbest idea I've heard\" to $100M ARR: Inside the rise of Gamma",
+        filename="podcasts/grant-lee.md",
+        type=ArtifactType.PODCAST,
+        date="2025-11-13",
+        word_count=24649,
+        guest="Grant Lee",
+        tags=["startups", "growth", "go-to-market"],
+    ),
+    Artifact(
+        id="brian-halligan",
+        title="Sequoia CEO coach: Why it's never been easier to start a company, and never been harder to scale one",
+        filename="podcasts/brian-halligan.md",
+        type=ArtifactType.PODCAST,
+        date="2026-02-15",
+        word_count=14680,
+        guest="Brian Halligan",
+        tags=["leadership", "career", "b2b"],
+    ),
+    Artifact(
+        id="keith-rabois",
+        title="Hard truths about building in the AI era",
+        filename="podcasts/keith-rabois.md",
+        type=ArtifactType.PODCAST,
+        date="2026-04-12",
+        word_count=15807,
+        guest="Keith Rabois",
+        tags=["leadership", "career", "startups"],
+    ),
+    Artifact(
+        id="matt-macinnis",
+        title="10 contrarian leadership truths every leader needs to hear",
+        filename="podcasts/matt-macinnis.md",
+        type=ArtifactType.PODCAST,
+        date="2025-12-28",
+        word_count=18479,
+        guest="Matt MacInnis",
+        tags=["leadership", "startups", "career"],
+    ),
+    Artifact(
+        id="jason-lemkin",
+        title="We replaced our sales team with 20 AI agents - here's what happened",
+        filename="podcasts/jason-m-lemkin.md",
+        type=ArtifactType.PODCAST,
+        date="2026-01-01",
+        word_count=26179,
+        guest="Jason Lemkin",
+        tags=["b2b", "startups", "leadership"],
+    ),
+    Artifact(
+        id="jessica-fain",
+        title="The art of influence: The single most important skill that AI can't replace",
+        filename="podcasts/jessica-fain.md",
+        type=ArtifactType.PODCAST,
+        date="2026-03-22",
+        word_count=17445,
+        guest="Jessica Fain",
+        tags=["leadership", "career", "product-management"],
+    ),
 ]
 
 
@@ -457,6 +538,117 @@ CONCEPTS: dict[str, Concept] = {
             "framework",
             "Every time you hand decision-making to an agentic system, you relinquish control. Build for that explicitly.",
         ),
+        # -- Round 2 additions ---------------------------------------------
+        # Eoghan McCabe / Intercom
+        _c(
+            "outcome-based-pricing",
+            "Outcome-based pricing",
+            "framework",
+            "Charge for the outcome the customer gets, not for seats or messages. Aligns vendor incentive with customer success.",
+        ),
+        _c(
+            "beautifully-simple-pricing",
+            "Beautifully simple pricing",
+            "principle",
+            "Madhavan Ramanujam's frame, used by Eoghan McCabe. Simpler, more predictable, fairer pricing makes customers stick around longer.",
+        ),
+        # Jason Cohen
+        _c(
+            "prices-too-low",
+            "Your prices are too low",
+            "principle",
+            "Founders guess pricing once and never revisit. Raising prices usually does not move signups; the floor is higher than you think.",
+        ),
+        _c(
+            "onboarding-is-the-bet",
+            "Onboarding is the bet",
+            "principle",
+            "When you do not know what to do to fix growth, work on onboarding. Cancellation concentrates in the first 30 to 90 days.",
+        ),
+        # Grant Lee / Gamma
+        _c(
+            "first-30-seconds",
+            "First 30 seconds",
+            "principle",
+            "Make the first 30 seconds of the product feel magical. Onboarding so good that users tell their friends.",
+        ),
+        _c(
+            "hire-painfully-slowly",
+            "Hire painfully slowly",
+            "principle",
+            "Resist the temptation to scale headcount the moment things work. Build a team where every person carries high impact.",
+        ),
+        # Brian Halligan / HubSpot
+        _c(
+            "kids-and-adults-table",
+            "Kids and adults table",
+            "metaphor",
+            "Brian Halligan's frame for CEO maturation. Adults talk exec team and org design; kids do not.",
+        ),
+        _c(
+            "blind-references",
+            "Blind references",
+            "principle",
+            "Stop trusting your interview gut. Find someone you know who worked with the candidate and ask if they would enthusiastically rehire.",
+        ),
+        _c(
+            "hire-slow-fire-fast",
+            "Hire slow, fire fast",
+            "principle",
+            "Most founders do the opposite. Half of C-level hires are gone within 18 months.",
+        ),
+        # Keith Rabois
+        _c(
+            "value-creation-vs-preservation",
+            "Value creation vs preservation",
+            "framework",
+            "Keith Rabois's hiring prism. For value preservation, experience helps. For value creation, it usually does not.",
+        ),
+        _c(
+            "ceo-counterfactual-question",
+            "CEO counterfactual question",
+            "principle",
+            "Ask senior candidates what they would have done differently if they had been CEO of their last company. Tests strategic editing instinct.",
+        ),
+        # Matt MacInnis / Rippling
+        _c(
+            "same-case-study-rubric",
+            "Same case study rubric",
+            "framework",
+            "Give every product candidate at every level the same hard case. The level of the answer reveals seniority better than the resume does.",
+        ),
+        # Jason Lemkin / SaaStr
+        _c(
+            "founder-time-budget",
+            "Founder time budget",
+            "principle",
+            "Spend 20% of your time selling and 20% recruiting. Anything less and your calendar dies on you.",
+        ),
+        _c(
+            "pirates-and-romantics",
+            "Pirates and romantics",
+            "metaphor",
+            "Early sales hires should be pirates and romantics, not enablement-team operators. Find the quirky one with extra IQ points who fell in love with the product.",
+        ),
+        _c(
+            "first-ten-determine-dna",
+            "First 10 determine DNA",
+            "principle",
+            "How your first 10 customers buy sets the company's go-to-market DNA. Self-serve first 10 means a self-serve company; high-touch first 10 means an enterprise one.",
+        ),
+        # Jessica Fain / Webflow
+        _c(
+            "forget-the-skills-with-execs",
+            "Forget the skills with execs",
+            "principle",
+            "PMs lead with curiosity and empathy for users, then drop both the moment they walk into an exec room. The skill is the same; the audience is not.",
+        ),
+        _c(
+            "executive-calendar-as-stream",
+            "Executive's calendar as a stream",
+            "metaphor",
+            "An exec moves through a stroke-light stream of urgent decisions. Your problem has not had the time, energy, or wherewithal to land in their head yet.",
+        ),
     ]
 }
 
@@ -549,6 +741,32 @@ _MENTIONS_RAW: list[tuple[str, str, str]] = [
     # duolingo-growth
     ("concept:growth-model", "duolingo-growth", "rooted in an innovative growth model"),
     ("concept:north-star-metric", "duolingo-growth", "use Duolingo's data to find a North Star metric"),
+    # -- Round 2 mentions -----------------------------------------------------
+    # eoghan-mccabe
+    ("concept:outcome-based-pricing", "eoghan-mccabe", "outcome-based pricing, which is what you're describing here, where you pay for an outcome"),
+    ("concept:beautifully-simple-pricing", "eoghan-mccabe", "beautifully simple pricing is where you want to get to"),
+    # jason-cohen-stalled-growth
+    ("concept:prices-too-low", "jason-cohen-stalled-growth", "Your prices are way too low because you just guessed and you haven't changed them"),
+    ("concept:onboarding-is-the-bet", "jason-cohen-stalled-growth", "if you don't know what to do, onboarding is a good bet"),
+    # grant-lee
+    ("concept:first-30-seconds", "grant-lee", "make the first 30 seconds of the product feel magical"),
+    ("concept:hire-painfully-slowly", "grant-lee", "Hire painfully slowly"),
+    # brian-halligan
+    ("concept:kids-and-adults-table", "brian-halligan", "the adults are spending half their time just recruiting and interviewing"),
+    ("concept:blind-references", "brian-halligan", "everyone dramatically overrates their ability to interview"),
+    ("concept:hire-slow-fire-fast", "brian-halligan", "hire slow and fire fast. People hire fast and fire slow"),
+    # keith-rabois
+    ("concept:value-creation-vs-preservation", "keith-rabois", "are you hiring for value creation or value preservation?"),
+    ("concept:ceo-counterfactual-question", "keith-rabois", "If you were CEO, what would you have done differently?"),
+    # matt-macinnis
+    ("concept:same-case-study-rubric", "matt-macinnis", "every product person at every seniority level is given the same case study"),
+    # jason-lemkin
+    ("concept:founder-time-budget", "jason-lemkin", "20% of your time in sales and 20% of your time in recruiting"),
+    ("concept:pirates-and-romantics", "jason-lemkin", "We're looking for pirates and romantics in the early days"),
+    ("concept:first-ten-determine-dna", "jason-lemkin", "if they were able to find you by putting their credit card and no one had to talk to them, then that's your DNA today"),
+    # jessica-fain
+    ("concept:forget-the-skills-with-execs", "jessica-fain", "the moment that we're talking to an executive, we forget those skills and those talents"),
+    ("concept:executive-calendar-as-stream", "jessica-fain", "Describe an executive's calendar as a stroke light going off"),
 ]
 
 
@@ -645,6 +863,25 @@ TRUST_EDGES: list[TrustEdge] = [
         artifact_id="marc-andreessen",
         quote="he discovered Replit about three months ago, and discovered Vibe coding, and is completely obsessed.",
     ),
+    # -- Round 2 trust edges --------------------------------------------------
+    TrustEdge(
+        source_person="Lenny Rachitsky",
+        target_person="Madhavan Ramanujam",
+        artifact_id="eoghan-mccabe",
+        quote="We just had Madhavan the podcast and the pricing expert, and he has this phrase, beautifully simple pricing is where you want to get to.",
+    ),
+    TrustEdge(
+        source_person="Brian Halligan",
+        target_person="Parker Conrad",
+        artifact_id="brian-halligan",
+        quote="Parker Conrad has a good hack that I liked.",
+    ),
+    TrustEdge(
+        source_person="Keith Rabois",
+        target_person="Delian Asparouhov",
+        artifact_id="keith-rabois",
+        quote="Delian wrote this blog post of lessons he learned from Keith.",
+    ),
 ]
 
 
@@ -669,7 +906,7 @@ def main() -> None:
         concepts_by_artifact=_concepts_by_artifact(),
         mentions=MENTIONS,
         trust_edges=TRUST_EDGES,
-        source="seed:starter-pack-curated-20",
+        source="seed:starter-pack-curated-28",
     )
     write_graph(graph, out_path)
     print(f"Wrote seed graph to {out_path}")
