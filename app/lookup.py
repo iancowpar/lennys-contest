@@ -32,8 +32,8 @@ def _load_graph() -> dict:
     return json.loads(GRAPH_PATH.read_text())
 
 
-@lru_cache(maxsize=1)
 def _system_prompt() -> str:
+    # Read on each request so prompt edits land without a server restart.
     return (PROMPTS_DIR / "lookup.txt").read_text()
 
 
