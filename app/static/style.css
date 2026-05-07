@@ -139,6 +139,47 @@ section.surface.active { display: block; }
   line-height: 1.4;
 }
 
+.pitch-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.pitch-cta {
+  border-radius: 7px;
+  padding: 9px 20px;
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  letter-spacing: -0.01em;
+  transition: opacity 0.12s, box-shadow 0.12s;
+  white-space: nowrap;
+}
+
+.pitch-cta-primary {
+  background: var(--accent);
+  color: #0c0f1a;
+  border: none;
+  box-shadow: 0 0 16px rgba(245, 158, 11, 0.28);
+}
+
+.pitch-cta-primary:hover {
+  opacity: 0.9;
+  box-shadow: 0 0 22px rgba(245, 158, 11, 0.42);
+}
+
+.pitch-cta-secondary {
+  background: transparent;
+  color: var(--fg2);
+  border: 1px solid var(--border);
+}
+
+.pitch-cta-secondary:hover {
+  border-color: var(--fg2);
+  color: var(--fg);
+}
+
 /* ── Atlas toolbar ───────────────────────────────────────────────────────── */
 
 #atlas-toolbar {
@@ -265,7 +306,7 @@ nav#filters button.active {
 main {
   display: grid;
   grid-template-columns: 1fr 360px;
-  height: calc(100vh - 235px);
+  height: calc(100vh - 285px);
   min-height: 500px;
 }
 
