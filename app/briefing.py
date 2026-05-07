@@ -13,7 +13,6 @@ from __future__ import annotations
 
 import json
 import os
-from functools import lru_cache
 from pathlib import Path
 
 from .lookup import graph_context
@@ -24,8 +23,8 @@ _MODEL = "claude-sonnet-4-6"
 _MAX_TOKENS = 2500
 
 
-@lru_cache(maxsize=1)
 def _system_prompt() -> str:
+    # Read on each request so prompt edits land without a server restart.
     return (PROMPTS_DIR / "briefing.txt").read_text()
 
 

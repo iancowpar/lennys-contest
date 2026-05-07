@@ -1,0 +1,72 @@
+{
+  "summary": "HiBob is hiring a PM to own their Payroll product, prioritizing domain depth, execution velocity, and compliance-aware product sense over any AI-native or platform-level thinking. The role is a classic execution-focused PM hire inside a maturing HR SaaS.",
+  "priorities": [
+    {
+      "priority": "Domain depth in payroll and compliance, or a credible fast-learning signal as a substitute.",
+      "evidence_quote": "Direct or indirect payroll experience required. If you haven't built payroll products, we will consider candidates who can demonstrate they are able to learn fast and have working appreciation of the complexities of payroll.",
+      "agrees": [],
+      "pushes_back": [
+        {
+          "speaker": "Amol Avasare",
+          "artifact_id": "amol-avasare",
+          "quote": "50%, 60%, 70% of how you operate in the past, just throw it out the door",
+          "why": "The corpus argues that deep domain expertise in prior operating models may be less durable than HiBob assumes, especially if AI begins to absorb compliance logic into the product layer."
+        }
+      ]
+    },
+    {
+      "priority": "Execution-first PM who will write requirements, manage the SDLC end to end, and ship at scale without being a generalist coordinator.",
+      "evidence_quote": "Roll up your sleeves and get the work done, with complexity and at scale",
+      "agrees": [
+        {
+          "speaker": "Nikhyl Singhal",
+          "artifact_id": "nikhyl-singhal",
+          "quote": "the builders are going to have the time of their lives",
+          "why": "Singhal's framing of the builder-PM as the winning archetype aligns directly with HiBob's explicit bias toward execution over strategy."
+        }
+      ],
+      "pushes_back": [
+        {
+          "speaker": "Nikhyl Singhal",
+          "artifact_id": "nikhyl-singhal",
+          "quote": "PM slop-cannon",
+          "why": "The corpus warns that a PM who defaults to volume of artifacts and process management without genuine product judgment risks becoming the slop-cannon archetype."
+        }
+      ]
+    },
+    {
+      "priority": "Data-driven roadmap prioritization using user research and market trends rather than intuition or top-down mandate.",
+      "evidence_quote": "Leverage data through user research and analyzing market trends to determine prioritization of the product roadmap",
+      "agrees": [
+        {
+          "speaker": "Albert Cheng",
+          "artifact_id": "albert-cheng",
+          "quote": "with growth, you have a growth model, you have metrics, you have experiments",
+          "why": "Cheng's emphasis on a structured growth model with explicit metrics supports HiBob's stated expectation that roadmap decisions be grounded in data, not instinct."
+        }
+      ],
+      "pushes_back": []
+    },
+    {
+      "priority": "Cross-functional partnership with Sales and Customer Success as a retention and new business lever, not just a feedback intake mechanism.",
+      "evidence_quote": "Partner with Sales and Client Success teams to strategise on opportunities for new business development and client retention",
+      "agrees": [
+        {
+          "speaker": "Asha Sharma",
+          "artifact_id": "asha-sharma",
+          "quote": "their big moat is the data that they capture",
+          "why": "In HR and payroll, the stickiness that comes from deep client relationships and proprietary data is precisely where a PM who owns the Sales-CS interface creates compounding moat, consistent with Sharma's framing."
+        }
+      ],
+      "pushes_back": []
+    }
+  ],
+  "questions_to_ask": [
+    "The JD says nothing about AI or evals. Is the Payroll PM expected to leverage AI to accelerate compliance logic or output quality, or is the assumption that payroll is too regulated to touch with AI tooling right now?",
+    "You describe PMF as something you 'recapture every three months' in AI, but payroll is a compliance-heavy domain with long switching cycles. How does HiBob think about the PMF treadmill in a product area where customers cannot easily churn?",
+    "The role covers development QA, UAT, beta, and go live. Is there any expectation that the PM owns evals or structured quality measurement for AI-assisted payroll features, or is quality still gated entirely on traditional QA?",
+    "Distribution is flagged in the corpus as the real moat. HiBob competes with Rippling, Gusto, and Workday. What is the Payroll PM's role in shaping how the product reaches the next cohort of mid-market buyers, beyond supporting Sales post-roadmap?",
+    "The JD asks for 'appreciation of the intersection between compliance and delighting users.' Where has HiBob actually had to make a hard call between regulatory correctness and user experience, and how did that decision get made?"
+  ],
+  "stub": false
+}
