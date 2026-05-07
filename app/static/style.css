@@ -223,6 +223,18 @@ footer {
   cursor: not-allowed;
 }
 
+.lookup-form button.sample-btn {
+  background: transparent;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  font-weight: 500;
+}
+
+.lookup-form button.sample-btn:hover:not(:disabled) {
+  color: var(--fg);
+  border-color: var(--accent);
+}
+
 .muted {
   color: var(--muted);
   font-size: 12px;
