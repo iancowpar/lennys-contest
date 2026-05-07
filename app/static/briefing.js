@@ -29,14 +29,27 @@
     return n ? n.label : id;
   }
 
+  function personIdFromName(name) {
+    if (!name) return null;
+    const slug = name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+    return `person:${slug}`;
+  }
+
   function renderEvidence(entry, lane) {
     const artifactTitle = entry.artifact_id ? nodeLabel(entry.artifact_id) : "";
     const showSource = artifactTitle && artifactTitle !== entry.artifact_id;
+    const speakerId = personIdFromName(entry.speaker);
+    const speakerHtml = entry.speaker
+      ? (speakerId
+          ? `<button type="button" class="atlas-link speaker-link" data-target-id="${escapeHtml(speakerId)}" title="See in Atlas">${escapeHtml(entry.speaker)}</button>`
+          : `<strong>${escapeHtml(entry.speaker)}</strong>`)
+      : "";
+    const sourceHtml = showSource
+      ? `<p class="take-source"><button type="button" class="atlas-link source-link muted" data-target-id="${escapeHtml(entry.artifact_id)}" title="See in Atlas">${escapeHtml(artifactTitle)}</button></p>`
+      : "";
     return `<article class="evidence evidence-${lane}">
-      <header>
-        <strong>${escapeHtml(entry.speaker || "")}</strong>
-      </header>
-      ${showSource ? `<p class="take-source muted">${escapeHtml(artifactTitle)}</p>` : ""}
+      <header>${speakerHtml}</header>
+      ${sourceHtml}
       ${entry.quote ? `<blockquote>${escapeHtml(entry.quote)}</blockquote>` : ""}
       ${entry.why ? `<p class="evidence-why">${escapeHtml(entry.why)}</p>` : ""}
     </article>`;
@@ -108,6 +121,23 @@
     submit.textContent = busy ? "Reading..." : "Read it";
     status.textContent = busy ? "Reading the artifact against the graph. Usually 10 to 25 seconds." : "";
   }
+
+  // Event delegation for the cross-surface links (speaker name, artifact
+   // title) inside evidence cards. Click -> switch to Atlas tab and focus
+   // the corresponding node.
+  response.addEventListener("click", (event) => {
+    const link = event.target.closest(".atlas-link");
+    if (!link) return;
+    event.preventDefault();
+    const targetId = link.dataset.targetId;
+    if (!targetId) return;
+    const atlasBtn = document.querySelector('nav#surfaces button[data-surface="atlas"]');
+    if (atlasBtn) atlasBtn.click();
+    if (typeof window.btoFocusOnNode === "function") {
+      // Surface switch happens synchronously; give the layout a tick before focus.
+      setTimeout(() => window.btoFocusOnNode(targetId), 60);
+    }
+  });
 
   const REQUEST_TIMEOUT_MS = 60000;
 

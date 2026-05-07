@@ -29,10 +29,17 @@
     return n ? n.label : id;
   }
 
+  function personIdFromName(name) {
+    if (!name) return null;
+    const slug = name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+    return `person:${slug}`;
+  }
+
   function renderConcept(c) {
     const label = nodeLabel(c.concept_id);
+    const conceptId = c.concept_id;
     return `<li>
-      <span class="concept-pill">${escapeHtml(label)}</span>
+      <button type="button" class="atlas-link concept-pill" data-target-id="${escapeHtml(conceptId)}" title="See in Atlas">${escapeHtml(label)}</button>
       <span class="concept-why">${escapeHtml(c.why_it_applies || "")}</span>
     </li>`;
   }
@@ -40,11 +47,18 @@
   function renderTake(t) {
     const artifactTitle = t.artifact_id ? nodeLabel(t.artifact_id) : "";
     const showSource = artifactTitle && artifactTitle !== t.artifact_id;
+    const speakerId = personIdFromName(t.speaker);
+    const speakerHtml = t.speaker
+      ? (speakerId
+          ? `<button type="button" class="atlas-link speaker-link" data-target-id="${escapeHtml(speakerId)}" title="See in Atlas">${escapeHtml(t.speaker)}</button>`
+          : `<strong>${escapeHtml(t.speaker)}</strong>`)
+      : "";
+    const sourceHtml = showSource
+      ? `<p class="take-source"><button type="button" class="atlas-link source-link muted" data-target-id="${escapeHtml(t.artifact_id)}" title="See in Atlas">${escapeHtml(artifactTitle)}</button></p>`
+      : "";
     return `<article class="take">
-      <header>
-        <strong>${escapeHtml(t.speaker || "")}</strong>
-      </header>
-      ${showSource ? `<p class="take-source muted">${escapeHtml(artifactTitle)}</p>` : ""}
+      <header>${speakerHtml}</header>
+      ${sourceHtml}
       <p class="position">${escapeHtml(t.position || "")}</p>
       ${t.quote ? `<blockquote>${escapeHtml(t.quote)}</blockquote>` : ""}
     </article>`;
@@ -93,6 +107,21 @@
     submit.textContent = busy ? "Reading..." : "Read it";
     status.textContent = busy ? "Thinking. This usually takes 5 to 15 seconds." : "";
   }
+
+  // Event delegation for cross-surface links inside take cards and concept
+   // pills. Click -> switch to Atlas tab and focus the corresponding node.
+  response.addEventListener("click", (event) => {
+    const link = event.target.closest(".atlas-link");
+    if (!link) return;
+    event.preventDefault();
+    const targetId = link.dataset.targetId;
+    if (!targetId) return;
+    const atlasBtn = document.querySelector('nav#surfaces button[data-surface="atlas"]');
+    if (atlasBtn) atlasBtn.click();
+    if (typeof window.btoFocusOnNode === "function") {
+      setTimeout(() => window.btoFocusOnNode(targetId), 60);
+    }
+  });
 
   const REQUEST_TIMEOUT_MS = 60000;
 
