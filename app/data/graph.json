@@ -408,6 +408,175 @@
       }
     },
     {
+      "id": "eoghan-mccabe",
+      "label": "How Intercom rose from the ashes by betting everything on AI",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-08-21",
+        "tags": [
+          "pricing",
+          "b2b",
+          "ai",
+          "leadership"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:eoghan-mccabe",
+      "label": "Eoghan McCabe",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "jason-cohen-stalled-growth",
+      "label": "5 questions to ask when your product stops growing",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-01-25",
+        "tags": [
+          "growth",
+          "pricing",
+          "startups"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:jason-cohen",
+      "label": "Jason Cohen",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "grant-lee",
+      "label": "\"Dumbest idea I've heard\" to $100M ARR: Inside the rise of Gamma",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-11-13",
+        "tags": [
+          "startups",
+          "growth",
+          "go-to-market"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:grant-lee",
+      "label": "Grant Lee",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "brian-halligan",
+      "label": "Sequoia CEO coach: Why it's never been easier to start a company, and never been harder to scale one",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-02-15",
+        "tags": [
+          "leadership",
+          "career",
+          "b2b"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:brian-halligan",
+      "label": "Brian Halligan",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "keith-rabois",
+      "label": "Hard truths about building in the AI era",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-04-12",
+        "tags": [
+          "leadership",
+          "career",
+          "startups"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:keith-rabois",
+      "label": "Keith Rabois",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "matt-macinnis",
+      "label": "10 contrarian leadership truths every leader needs to hear",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2025-12-28",
+        "tags": [
+          "leadership",
+          "startups",
+          "career"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:matt-macinnis",
+      "label": "Matt MacInnis",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "jason-lemkin",
+      "label": "We replaced our sales team with 20 AI agents - here's what happened",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-01-01",
+        "tags": [
+          "b2b",
+          "startups",
+          "leadership"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:jason-lemkin",
+      "label": "Jason Lemkin",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "jessica-fain",
+      "label": "The art of influence: The single most important skill that AI can't replace",
+      "kind": "artifact",
+      "meta": {
+        "type": "podcast",
+        "date": "2026-03-22",
+        "tags": [
+          "leadership",
+          "career",
+          "product-management"
+        ],
+        "source_url": null
+      }
+    },
+    {
+      "id": "person:jessica-fain",
+      "label": "Jessica Fain",
+      "kind": "person",
+      "meta": {}
+    },
+    {
       "id": "concept:research-preview",
       "label": "Research preview",
       "kind": "concept",
@@ -736,6 +905,176 @@
       }
     },
     {
+      "id": "concept:outcome-based-pricing",
+      "label": "Outcome-based pricing",
+      "kind": "concept",
+      "meta": {
+        "kind": "framework",
+        "one_line": "Charge for the outcome the customer gets, not for seats or messages. Aligns vendor incentive with customer success.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:beautifully-simple-pricing",
+      "label": "Beautifully simple pricing",
+      "kind": "concept",
+      "meta": {
+        "kind": "principle",
+        "one_line": "Madhavan Ramanujam's frame, used by Eoghan McCabe. Simpler, more predictable, fairer pricing makes customers stick around longer.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:prices-too-low",
+      "label": "Your prices are too low",
+      "kind": "concept",
+      "meta": {
+        "kind": "principle",
+        "one_line": "Founders guess pricing once and never revisit. Raising prices usually does not move signups; the floor is higher than you think.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:onboarding-is-the-bet",
+      "label": "Onboarding is the bet",
+      "kind": "concept",
+      "meta": {
+        "kind": "principle",
+        "one_line": "When you do not know what to do to fix growth, work on onboarding. Cancellation concentrates in the first 30 to 90 days.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:first-30-seconds",
+      "label": "First 30 seconds",
+      "kind": "concept",
+      "meta": {
+        "kind": "principle",
+        "one_line": "Make the first 30 seconds of the product feel magical. Onboarding so good that users tell their friends.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:hire-painfully-slowly",
+      "label": "Hire painfully slowly",
+      "kind": "concept",
+      "meta": {
+        "kind": "principle",
+        "one_line": "Resist the temptation to scale headcount the moment things work. Build a team where every person carries high impact.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:kids-and-adults-table",
+      "label": "Kids and adults table",
+      "kind": "concept",
+      "meta": {
+        "kind": "metaphor",
+        "one_line": "Brian Halligan's frame for CEO maturation. Adults talk exec team and org design; kids do not.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:blind-references",
+      "label": "Blind references",
+      "kind": "concept",
+      "meta": {
+        "kind": "principle",
+        "one_line": "Stop trusting your interview gut. Find someone you know who worked with the candidate and ask if they would enthusiastically rehire.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:hire-slow-fire-fast",
+      "label": "Hire slow, fire fast",
+      "kind": "concept",
+      "meta": {
+        "kind": "principle",
+        "one_line": "Most founders do the opposite. Half of C-level hires are gone within 18 months.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:value-creation-vs-preservation",
+      "label": "Value creation vs preservation",
+      "kind": "concept",
+      "meta": {
+        "kind": "framework",
+        "one_line": "Keith Rabois's hiring prism. For value preservation, experience helps. For value creation, it usually does not.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:ceo-counterfactual-question",
+      "label": "CEO counterfactual question",
+      "kind": "concept",
+      "meta": {
+        "kind": "principle",
+        "one_line": "Ask senior candidates what they would have done differently if they had been CEO of their last company. Tests strategic editing instinct.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:same-case-study-rubric",
+      "label": "Same case study rubric",
+      "kind": "concept",
+      "meta": {
+        "kind": "framework",
+        "one_line": "Give every product candidate at every level the same hard case. The level of the answer reveals seniority better than the resume does.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:founder-time-budget",
+      "label": "Founder time budget",
+      "kind": "concept",
+      "meta": {
+        "kind": "principle",
+        "one_line": "Spend 20% of your time selling and 20% recruiting. Anything less and your calendar dies on you.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:pirates-and-romantics",
+      "label": "Pirates and romantics",
+      "kind": "concept",
+      "meta": {
+        "kind": "metaphor",
+        "one_line": "Early sales hires should be pirates and romantics, not enablement-team operators. Find the quirky one with extra IQ points who fell in love with the product.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:first-ten-determine-dna",
+      "label": "First 10 determine DNA",
+      "kind": "concept",
+      "meta": {
+        "kind": "principle",
+        "one_line": "How your first 10 customers buy sets the company's go-to-market DNA. Self-serve first 10 means a self-serve company; high-touch first 10 means an enterprise one.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:forget-the-skills-with-execs",
+      "label": "Forget the skills with execs",
+      "kind": "concept",
+      "meta": {
+        "kind": "principle",
+        "one_line": "PMs lead with curiosity and empathy for users, then drop both the moment they walk into an exec room. The skill is the same; the audience is not.",
+        "aliases": []
+      }
+    },
+    {
+      "id": "concept:executive-calendar-as-stream",
+      "label": "Executive's calendar as a stream",
+      "kind": "concept",
+      "meta": {
+        "kind": "metaphor",
+        "one_line": "An exec moves through a stroke-light stream of urgent decisions. Your problem has not had the time, energy, or wherewithal to land in their head yet.",
+        "aliases": []
+      }
+    },
+    {
       "id": "person:hamel-husain",
       "label": "Hamel Husain",
       "kind": "person",
@@ -792,6 +1131,24 @@
     {
       "id": "person:replit",
       "label": "Replit",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "person:madhavan-ramanujam",
+      "label": "Madhavan Ramanujam",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "person:parker-conrad",
+      "label": "Parker Conrad",
+      "kind": "person",
+      "meta": {}
+    },
+    {
+      "id": "person:delian-asparouhov",
+      "label": "Delian Asparouhov",
       "kind": "person",
       "meta": {}
     }
@@ -933,6 +1290,62 @@
     {
       "source": "duolingo-growth",
       "target": "person:lenny-rachitsky",
+      "kind": "authored_by",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "eoghan-mccabe",
+      "target": "person:eoghan-mccabe",
+      "kind": "authored_by",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "jason-cohen-stalled-growth",
+      "target": "person:jason-cohen",
+      "kind": "authored_by",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "grant-lee",
+      "target": "person:grant-lee",
+      "kind": "authored_by",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "brian-halligan",
+      "target": "person:brian-halligan",
+      "kind": "authored_by",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "keith-rabois",
+      "target": "person:keith-rabois",
+      "kind": "authored_by",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "matt-macinnis",
+      "target": "person:matt-macinnis",
+      "kind": "authored_by",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "jason-lemkin",
+      "target": "person:jason-lemkin",
+      "kind": "authored_by",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "jessica-fain",
+      "target": "person:jessica-fain",
       "kind": "authored_by",
       "weight": 1.0,
       "meta": {}
@@ -1496,6 +1909,159 @@
       }
     },
     {
+      "source": "concept:outcome-based-pricing",
+      "target": "eoghan-mccabe",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "outcome-based pricing, which is what you're describing here, where you pay for an outcome"
+      }
+    },
+    {
+      "source": "concept:beautifully-simple-pricing",
+      "target": "eoghan-mccabe",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "beautifully simple pricing is where you want to get to"
+      }
+    },
+    {
+      "source": "concept:prices-too-low",
+      "target": "jason-cohen-stalled-growth",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "Your prices are way too low because you just guessed and you haven't changed them"
+      }
+    },
+    {
+      "source": "concept:onboarding-is-the-bet",
+      "target": "jason-cohen-stalled-growth",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "if you don't know what to do, onboarding is a good bet"
+      }
+    },
+    {
+      "source": "concept:first-30-seconds",
+      "target": "grant-lee",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "make the first 30 seconds of the product feel magical"
+      }
+    },
+    {
+      "source": "concept:hire-painfully-slowly",
+      "target": "grant-lee",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "Hire painfully slowly"
+      }
+    },
+    {
+      "source": "concept:kids-and-adults-table",
+      "target": "brian-halligan",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "the adults are spending half their time just recruiting and interviewing"
+      }
+    },
+    {
+      "source": "concept:blind-references",
+      "target": "brian-halligan",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "everyone dramatically overrates their ability to interview"
+      }
+    },
+    {
+      "source": "concept:hire-slow-fire-fast",
+      "target": "brian-halligan",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "hire slow and fire fast. People hire fast and fire slow"
+      }
+    },
+    {
+      "source": "concept:value-creation-vs-preservation",
+      "target": "keith-rabois",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "are you hiring for value creation or value preservation?"
+      }
+    },
+    {
+      "source": "concept:ceo-counterfactual-question",
+      "target": "keith-rabois",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "If you were CEO, what would you have done differently?"
+      }
+    },
+    {
+      "source": "concept:same-case-study-rubric",
+      "target": "matt-macinnis",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "every product person at every seniority level is given the same case study"
+      }
+    },
+    {
+      "source": "concept:founder-time-budget",
+      "target": "jason-lemkin",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "20% of your time in sales and 20% of your time in recruiting"
+      }
+    },
+    {
+      "source": "concept:pirates-and-romantics",
+      "target": "jason-lemkin",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "We're looking for pirates and romantics in the early days"
+      }
+    },
+    {
+      "source": "concept:first-ten-determine-dna",
+      "target": "jason-lemkin",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "if they were able to find you by putting their credit card and no one had to talk to them, then that's your DNA today"
+      }
+    },
+    {
+      "source": "concept:forget-the-skills-with-execs",
+      "target": "jessica-fain",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "the moment that we're talking to an executive, we forget those skills and those talents"
+      }
+    },
+    {
+      "source": "concept:executive-calendar-as-stream",
+      "target": "jessica-fain",
+      "kind": "appears_in",
+      "weight": 1.0,
+      "meta": {
+        "quote": "Describe an executive's calendar as a stroke light going off"
+      }
+    },
+    {
       "source": "concept:agentic",
       "target": "concept:ai-native",
       "kind": "shared_language",
@@ -2014,6 +2580,83 @@
       "meta": {}
     },
     {
+      "source": "concept:beautifully-simple-pricing",
+      "target": "concept:outcome-based-pricing",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:onboarding-is-the-bet",
+      "target": "concept:prices-too-low",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:first-30-seconds",
+      "target": "concept:hire-painfully-slowly",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:blind-references",
+      "target": "concept:hire-slow-fire-fast",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:blind-references",
+      "target": "concept:kids-and-adults-table",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:hire-slow-fire-fast",
+      "target": "concept:kids-and-adults-table",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:ceo-counterfactual-question",
+      "target": "concept:value-creation-vs-preservation",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:first-ten-determine-dna",
+      "target": "concept:founder-time-budget",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:first-ten-determine-dna",
+      "target": "concept:pirates-and-romantics",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:founder-time-budget",
+      "target": "concept:pirates-and-romantics",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
+      "source": "concept:executive-calendar-as-stream",
+      "target": "concept:forget-the-skills-with-execs",
+      "kind": "shared_language",
+      "weight": 1.0,
+      "meta": {}
+    },
+    {
       "source": "person:lenny-rachitsky",
       "target": "person:nikhyl-singhal",
       "kind": "trust",
@@ -2152,8 +2795,38 @@
         "artifact_id": "marc-andreessen",
         "quote": "he discovered Replit about three months ago, and discovered Vibe coding, and is completely obsessed."
       }
+    },
+    {
+      "source": "person:lenny-rachitsky",
+      "target": "person:madhavan-ramanujam",
+      "kind": "trust",
+      "weight": 1.0,
+      "meta": {
+        "artifact_id": "eoghan-mccabe",
+        "quote": "We just had Madhavan the podcast and the pricing expert, and he has this phrase, beautifully simple pricing is where you want to get to."
+      }
+    },
+    {
+      "source": "person:brian-halligan",
+      "target": "person:parker-conrad",
+      "kind": "trust",
+      "weight": 1.0,
+      "meta": {
+        "artifact_id": "brian-halligan",
+        "quote": "Parker Conrad has a good hack that I liked."
+      }
+    },
+    {
+      "source": "person:keith-rabois",
+      "target": "person:delian-asparouhov",
+      "kind": "trust",
+      "weight": 1.0,
+      "meta": {
+        "artifact_id": "keith-rabois",
+        "quote": "Delian wrote this blog post of lessons he learned from Keith."
+      }
     }
   ],
-  "generated_at": "2026-05-06T21:08:06.881699+00:00",
-  "source": "seed:starter-pack-curated-20"
+  "generated_at": "2026-05-07T09:50:48.620683+00:00",
+  "source": "seed:starter-pack-curated-28"
 }
