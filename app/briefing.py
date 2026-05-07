@@ -15,7 +15,7 @@ import json
 import os
 from pathlib import Path
 
-from .lookup import graph_context
+from .lookup import LLMError, graph_context
 
 PROMPTS_DIR = Path(__file__).resolve().parent.parent / "prompts"
 
@@ -64,6 +64,13 @@ def _stub_response(artifact: str) -> dict:
 
 
 def _try_real_call(artifact: str) -> dict | None:
+    """Returns the parsed brief on success, None when stub fallback is appropriate.
+
+    Raises LLMError when the call was attempted but failed (Anthropic exception
+    or non-JSON response) so the caller can return a distinct error response
+    instead of silently masquerading as stub mode.
+    """
+
     if not os.environ.get("ANTHROPIC_API_KEY"):
         return None
 
@@ -92,8 +99,8 @@ def _try_real_call(artifact: str) -> dict | None:
             ],
             messages=[{"role": "user", "content": user_content}],
         )
-    except Exception:
-        return None
+    except Exception as exc:
+        raise LLMError("anthropic_error", str(exc)[:300]) from exc
 
     text = "".join(block.text for block in response.content if block.type == "text").strip()
     if text.startswith("```"):
@@ -104,8 +111,8 @@ def _try_real_call(artifact: str) -> dict | None:
 
     try:
         return json.loads(text)
-    except json.JSONDecodeError:
-        return None
+    except json.JSONDecodeError as exc:
+        raise LLMError("invalid_json", text[:300]) from exc
 
 
 def briefing(artifact: str) -> dict:
@@ -120,7 +127,20 @@ def briefing(artifact: str) -> dict:
             "stub": True,
         }
 
-    real = _try_real_call(artifact)
+    try:
+        real = _try_real_call(artifact)
+    except LLMError as exc:
+        return {
+            "summary": (
+                f"Briefing failed ({exc.kind}). The graph and prompt loaded, but the model "
+                "call could not produce a structured result."
+            ),
+            "priorities": [],
+            "questions_to_ask": [],
+            "stub": False,
+            "error": {"kind": exc.kind, "detail": exc.detail},
+        }
+
     if real is not None:
         real.setdefault("stub", False)
         return real

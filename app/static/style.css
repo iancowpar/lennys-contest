@@ -257,6 +257,32 @@ footer {
   margin-bottom: 20px;
 }
 
+.error-banner {
+  background: rgba(248, 113, 113, 0.1);
+  border: 1px solid rgba(248, 113, 113, 0.45);
+  color: #f87171;
+  border-radius: 6px;
+  padding: 10px 14px;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.error-banner strong {
+  color: #fca5a5;
+}
+
+.error-banner .error-detail {
+  margin: 8px 0 0;
+  padding: 8px 10px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 12px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  color: #fda4af;
+}
+
 .lookup-section {
   margin-bottom: 24px;
 }
