@@ -58,7 +58,35 @@
     <main>
       <div id="graph" aria-label="Network graph"></div>
       <aside id="detail" aria-live="polite">
-        <p class="placeholder">Click a node to see how it shows up in the archive.</p>
+        <div class="guide" id="detail-guide">
+          <p class="guide-tagline">834 concepts, people, and episodes from Lenny's podcast — mapped as a network you can query.</p>
+          <div class="guide-rule"></div>
+          <div class="guide-item">
+            <div class="guide-item-header">
+              <span class="guide-dot" style="background:var(--concept)"></span>
+              <span class="guide-item-name">Atlas <span class="guide-here">you are here</span></span>
+            </div>
+            <p class="guide-item-desc">The concept network. Click any node to see which episodes it appears in, what was said, and who is connected.</p>
+          </div>
+          <div class="guide-rule"></div>
+          <div class="guide-item">
+            <div class="guide-item-header">
+              <span class="guide-dot" style="background:var(--person)"></span>
+              <span class="guide-item-name">Lookup</span>
+            </div>
+            <p class="guide-item-desc">Describe a real situation. Get two contrasting takes from the archive, the political-capital tradeoff, and a draft move.</p>
+            <button class="guide-cta" data-goto="lookup">Try an example →</button>
+          </div>
+          <div class="guide-rule"></div>
+          <div class="guide-item">
+            <div class="guide-item-header">
+              <span class="guide-dot" style="background:var(--artifact)"></span>
+              <span class="guide-item-name">Briefing</span>
+            </div>
+            <p class="guide-item-desc">Paste a CPO talk, job description, or board doc. Get where the corpus agrees, where it pushes back, and what to ask.</p>
+            <button class="guide-cta" data-goto="briefing">Try an example →</button>
+          </div>
+        </div>
       </aside>
     </main>
   </section>

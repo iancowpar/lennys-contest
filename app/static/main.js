@@ -30,6 +30,20 @@
     b.addEventListener("click", () => show(b.dataset.surface));
   });
 
+  // Guide CTA buttons (detail panel empty state) — switch surface + load sample.
+  document.querySelectorAll(".guide-cta[data-goto]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const target = btn.dataset.goto;
+      show(target);
+      // Auto-load the first sample chip on the target surface so the user
+      // lands with content already in the textarea, not another empty state.
+      const firstChip = document.querySelector(
+        `#${target}-surface .sample-btn`
+      );
+      if (firstChip) firstChip.click();
+    });
+  });
+
   // Sample-artifact buttons. Fetch the bundled sample text and drop it into
   // the matching textarea so first-time visitors do not have to paste 16KB
   // of content to try the surface.

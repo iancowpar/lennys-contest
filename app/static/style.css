@@ -438,6 +438,90 @@ aside#detail .source a:hover {
   background: rgba(245, 158, 11, 0.22);
 }
 
+/* ── Detail panel guide (empty state) ───────────────────────────────────── */
+
+.guide {
+  padding: 2px 0;
+}
+
+.guide-tagline {
+  margin: 0 0 16px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--fg2);
+}
+
+.guide-rule {
+  height: 1px;
+  background: var(--border);
+  margin: 14px 0;
+}
+
+.guide-item {
+  padding: 2px 0;
+}
+
+.guide-item-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.guide-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.guide-item-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--fg);
+  letter-spacing: -0.01em;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.guide-here {
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--muted);
+  background: rgba(255,255,255,0.06);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1px 6px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.guide-item-desc {
+  margin: 0 0 10px;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.guide-cta {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--fg2);
+  border-radius: 6px;
+  padding: 5px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: inherit;
+  transition: border-color 0.12s, color 0.12s;
+}
+
+.guide-cta:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 /* ── Footer ──────────────────────────────────────────────────────────────── */
 
 footer {
