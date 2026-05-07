@@ -185,4 +185,38 @@ window.btoFitGraph = function () {
   if (network) network.fit();
 };
 
+// Focus on a specific node by id. Used by Briefing and Lookup evidence cards
+// to jump from a speaker name or artifact title into the Atlas view. If the
+// current filter would hide the node, switch to "all" first so the focus has
+// something to land on.
+window.btoFocusOnNode = function (nodeId) {
+  if (!fullGraph) return;
+  const target = fullGraph.nodes.find((n) => n.id === nodeId);
+  if (!target) return;
+
+  // Make sure the node is in the rendered set. Easiest path: switch to the
+  // all-edges filter, which renders every node.
+  const allBtn = document.querySelector('nav#filters button[data-edge="all"]');
+  if (allBtn && !allBtn.classList.contains("active")) {
+    allBtn.click();
+  }
+
+  // Give vis-network a tick to rebuild after the filter swap, then focus.
+  setTimeout(() => {
+    if (!network) return;
+    try {
+      network.selectNodes([nodeId]);
+      network.focus(nodeId, {
+        scale: 1.2,
+        animation: { duration: 500, easingFunction: "easeInOutQuad" },
+      });
+    } catch (err) {
+      // Node may not be in the rendered set if rebuild is mid-flight.
+      // Fall back to a fit on the whole graph so the user lands somewhere sensible.
+      if (network.fit) network.fit();
+    }
+    showNodeDetail(target);
+  }, 80);
+};
+
 init();

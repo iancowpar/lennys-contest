@@ -342,6 +342,48 @@ footer {
   flex-shrink: 0;
 }
 
+/* Cross-surface links inside Lookup take cards and Briefing evidence cards.
+   Click a speaker name or artifact title and the Atlas tab opens with that
+   node focused. Reset native button styling so the inline links read as
+   text, not buttons. */
+.atlas-link {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  text-align: left;
+}
+
+.atlas-link:hover,
+.atlas-link:focus-visible {
+  color: var(--concept);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.atlas-link:focus-visible {
+  outline: 1px solid var(--concept);
+  outline-offset: 2px;
+}
+
+.atlas-link.speaker-link {
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.atlas-link.source-link {
+  color: var(--muted);
+  font-size: inherit;
+}
+
+.atlas-link.concept-pill:hover,
+.atlas-link.concept-pill:focus-visible {
+  background: rgba(243, 167, 18, 0.28);
+  text-decoration: none;
+}
+
 .concept-why {
   color: var(--fg);
 }
@@ -367,7 +409,7 @@ footer {
   margin-bottom: 4px;
 }
 
-.take .take-source {
+.take-source {
   margin: 0 0 10px;
   font-size: 12px;
   line-height: 1.4;
