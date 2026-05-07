@@ -181,7 +181,7 @@ nav#filters button.active {
 main {
   display: grid;
   grid-template-columns: 1fr 360px;
-  height: calc(100vh - 120px);
+  height: calc(100vh - 186px);
   min-height: 500px;
 }
 
@@ -230,6 +230,120 @@ aside#detail .source {
   color: var(--muted);
   font-size: 12px;
   margin-top: 4px;
+}
+
+.appears-in-section {
+  margin-top: 16px;
+}
+
+.appears-in-header {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.appears-in-item {
+  margin-bottom: 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+.appears-in-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.appears-in-title {
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+
+.appears-in-title a {
+  color: var(--artifact);
+  text-decoration: none;
+}
+
+.appears-in-title a:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.appears-in-item blockquote {
+  margin: 4px 0 0;
+  padding: 6px 10px;
+  border-left: 2px solid var(--accent);
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.trust-section {
+  margin-top: 16px;
+}
+
+.trust-header {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  font-weight: 600;
+  margin: 12px 0 6px;
+}
+
+.trust-item {
+  font-size: 13px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.trust-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.trust-person {
+  font-weight: 600;
+  color: var(--person);
+  margin-bottom: 3px;
+}
+
+.trust-item blockquote {
+  margin: 4px 0 0;
+  padding: 5px 9px;
+  border-left: 2px solid var(--person);
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.concept-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.concept-tag {
+  background: rgba(243, 167, 18, 0.12);
+  color: var(--concept);
+  font-size: 12px;
+  padding: 3px 9px;
+  border-radius: 999px;
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+
+.concept-tag:hover {
+  background: rgba(243, 167, 18, 0.25);
 }
 
 footer {
