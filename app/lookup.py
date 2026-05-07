@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 from functools import lru_cache
 from pathlib import Path
 
@@ -39,6 +40,30 @@ class LLMError(Exception):
         self.kind = kind
         self.detail = detail
         super().__init__(f"{kind}: {detail}")
+
+
+_FENCED_JSON = re.compile(r"```(?:json)?\s*(\{.*?\})\s*```", re.DOTALL)
+_BARE_JSON_OBJECT = re.compile(r"\{.*\}", re.DOTALL)
+
+
+def extract_json_object(text: str) -> str:
+    """Pull the first JSON object out of a model response.
+
+    Handles three shapes:
+      - Fenced with optional language tag: ```json\\n{...}\\n``` or ```\\n{...}\\n```
+      - Fenced with prose around it: "Here you go: ```json\\n{...}\\n```\\nThanks!"
+      - Bare object with prose around it: "Sure thing! {...} Hope that helps."
+      - Plain JSON with no decoration.
+    """
+
+    text = text.strip()
+    fenced = _FENCED_JSON.search(text)
+    if fenced:
+        return fenced.group(1).strip()
+    bare = _BARE_JSON_OBJECT.search(text)
+    if bare:
+        return bare.group(0).strip()
+    return text
 
 
 @lru_cache(maxsize=1)
@@ -203,12 +228,8 @@ def _try_real_call(situation: str) -> dict | None:
     except Exception as exc:
         raise LLMError("anthropic_error", str(exc)[:300]) from exc
 
-    text = "".join(block.text for block in response.content if block.type == "text").strip()
-    if text.startswith("```"):
-        text = text.strip("`")
-        if text.startswith("json"):
-            text = text[4:]
-        text = text.strip()
+    text = "".join(block.text for block in response.content if block.type == "text")
+    text = extract_json_object(text)
 
     try:
         return json.loads(text)
