@@ -29,13 +29,18 @@
       <span class="brand-name">Beneath the Org Chart</span>
     </div>
     <nav id="surfaces">
-      <button data-surface="atlas">Atlas</button>
-      <button data-surface="lookup" class="active">Lookup</button>
+      <button data-surface="atlas" class="active">Atlas</button>
+      <button data-surface="lookup">Lookup</button>
       <button data-surface="briefing">Briefing</button>
     </nav>
   </header>
+  <section class="page-pitch">
+    <h1 class="pitch-tagline">Read what's underneath, before you respond.</h1>
+    <p class="pitch-sub">Paste a situation or an artifact. Get a structured read on what's being said, what's being implied, and the move to make next.</p>
+    <p class="pitch-trust">Grounded in Lenny Rachitsky's archive of product, growth, leadership, and company-building thinking. 60+ episodes and posts.</p>
+  </section>
 
-  <section id="atlas-surface" class="surface">
+  <section id="atlas-surface" class="surface active">
     <div id="atlas-toolbar">
       <nav id="filters">
         <button data-edge="top" class="active">Top themes</button>
@@ -58,44 +63,12 @@
     <main>
       <div id="graph" aria-label="Network graph"></div>
       <aside id="detail" aria-live="polite">
-        <div class="guide" id="detail-guide">
-          <p class="guide-tagline">834 concepts, people, and episodes from Lenny's podcast — mapped as a network you can query.</p>
-          <div class="guide-rule"></div>
-          <div class="guide-item">
-            <div class="guide-item-header">
-              <span class="guide-dot" style="background:var(--concept)"></span>
-              <span class="guide-item-name">Atlas <span class="guide-here">you are here</span></span>
-            </div>
-            <p class="guide-item-desc">The concept network. Click any node to see which episodes it appears in, what was said, and who is connected.</p>
-          </div>
-          <div class="guide-rule"></div>
-          <div class="guide-item">
-            <div class="guide-item-header">
-              <span class="guide-dot" style="background:var(--person)"></span>
-              <span class="guide-item-name">Lookup</span>
-            </div>
-            <p class="guide-item-desc">Describe a real situation. Get two contrasting takes from the archive, the political-capital tradeoff, and a draft move.</p>
-            <button class="guide-cta" data-goto="lookup">Try an example →</button>
-          </div>
-          <div class="guide-rule"></div>
-          <div class="guide-item">
-            <div class="guide-item-header">
-              <span class="guide-dot" style="background:var(--artifact)"></span>
-              <span class="guide-item-name">Briefing</span>
-            </div>
-            <p class="guide-item-desc">Paste a CPO talk, job description, or board doc. Get where the corpus agrees, where it pushes back, and what to ask.</p>
-            <button class="guide-cta" data-goto="briefing">Try an example →</button>
-          </div>
-        </div>
+        <p class="placeholder">Click a node to see how it shows up in the archive.</p>
       </aside>
     </main>
   </section>
 
-  <section id="lookup-surface" class="surface active">
-    <div class="surface-intro">
-      <h2 class="surface-intro-headline">Read your situation against Lenny's archive</h2>
-      <p class="surface-intro-sub">Describe what you're navigating as a PM or leader. Get two contrasting takes pulled from 60+ episodes, the political-capital tradeoff, and a draft move you can paste into a doc.</p>
-    </div>
+  <section id="lookup-surface" class="surface">
     <div class="lookup-grid">
       <form id="lookup-form" class="lookup-form" autocomplete="off">
         <label for="situation">Describe the situation</label>
@@ -108,14 +81,14 @@
           required
         ></textarea>
         <div class="lookup-form-row">
-          <button type="submit" id="lookup-submit">Read it</button>
+          <button type="submit" id="lookup-submit">Read the room</button>
           <span id="lookup-status" class="muted"></span>
         </div>
         <div class="sample-chips-row">
           <span class="sample-chips-label">Try an example:</span>
-          <button type="button" class="sample-btn sample-chip" data-sample="/samples/lookup-launch-decision.txt" data-target="situation">Launch decision</button>
-          <button type="button" class="sample-btn sample-chip" data-sample="/samples/lookup-migration-trust.txt" data-target="situation">Migration &amp; trust</button>
-          <button type="button" class="sample-btn sample-chip" data-sample="/samples/lookup-ai-roi.txt" data-target="situation">AI adoption ROI</button>
+          <button type="button" class="sample-btn sample-chip" data-sample="/samples/lookup-launch-decision.txt" data-target="situation">A pre-launch debate</button>
+          <button type="button" class="sample-btn sample-chip" data-sample="/samples/lookup-migration-trust.txt" data-target="situation">A migration trust gap</button>
+          <button type="button" class="sample-btn sample-chip" data-sample="/samples/lookup-ai-roi.txt" data-target="situation">An AI ROI ask</button>
         </div>
       </form>
 
@@ -126,10 +99,6 @@
   </section>
 
   <section id="briefing-surface" class="surface">
-    <div class="surface-intro">
-      <h2 class="surface-intro-headline">Brief any external artifact against the corpus</h2>
-      <p class="surface-intro-sub">Paste a CPO talk, a PM job description, a board update, or any outside artifact. Get where Lenny's archive agrees, where it pushes back, and the questions you'd want to ask.</p>
-    </div>
     <div class="briefing-grid">
       <form id="briefing-form" class="lookup-form" autocomplete="off">
         <label for="artifact">Paste an external artifact</label>
@@ -142,13 +111,13 @@
           required
         ></textarea>
         <div class="lookup-form-row">
-          <button type="submit" id="briefing-submit">Read it</button>
+          <button type="submit" id="briefing-submit">Decode the artifact</button>
           <span id="briefing-status" class="muted"></span>
         </div>
         <div class="sample-chips-row">
           <span class="sample-chips-label">Try an example:</span>
-          <button type="button" class="sample-btn sample-chip" data-sample="/samples/briefing-cpo-offsite.txt" data-target="artifact">CPO offsite talk</button>
-          <button type="button" class="sample-btn sample-chip" data-sample="/samples/hibob-pm-payroll.txt" data-target="artifact">PM job description</button>
+          <button type="button" class="sample-btn sample-chip" data-sample="/samples/briefing-cpo-offsite.txt" data-target="artifact">A CPO offsite talk</button>
+          <button type="button" class="sample-btn sample-chip" data-sample="/samples/hibob-pm-payroll.txt" data-target="artifact">A job description I'm considering</button>
         </div>
       </form>
 

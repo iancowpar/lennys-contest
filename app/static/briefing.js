@@ -118,7 +118,7 @@
 
   function setBusy(busy) {
     submit.disabled = busy;
-    submit.textContent = busy ? "Reading..." : "Read it";
+    submit.textContent = busy ? "Decoding..." : "Decode the artifact";
     status.textContent = busy ? "Reading the artifact against the graph. Usually 10 to 25 seconds." : "";
   }
 

@@ -23,3 +23,7 @@ data/extracted/raw_*.json
 
 # Local LLM call traces
 .traces/
+
+# Replit Agent attached assets — never commit these. They include personal
+# context files and pasted research that may contain sensitive information.
+attached_assets/

@@ -104,7 +104,7 @@
 
   function setBusy(busy) {
     submit.disabled = busy;
-    submit.textContent = busy ? "Reading..." : "Read it";
+    submit.textContent = busy ? "Reading..." : "Read the room";
     status.textContent = busy ? "Thinking. This usually takes 5 to 15 seconds." : "";
   }
 
