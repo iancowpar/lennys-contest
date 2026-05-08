@@ -6,3 +6,9 @@ id = "LwLTMPkQfzfX57sSOQxKE"
 uri = "file://app/static/og-image-new.png"
 type = "image"
 title = "generated_image"
+
+[[generated]]
+id = "SRk_zDJis4uRS_fgAio0e"
+uri = "file://app/static/og-image.png"
+type = "image"
+title = "generated_image"
